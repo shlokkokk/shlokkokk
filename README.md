@@ -1,10 +1,6 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     🔥 SHLOKKOKK'S GOD-TIER GITHUB PROFILE README 🔥
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
 <!-- Animated Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=shlokkokk&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full%20Stack%20Dev&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=shlok&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full%20Stack%20Dev&descSize=20&descAlignY=55" />
 </div>
 
 <!-- Typing Animation -->
@@ -36,18 +32,17 @@
 
 ```bash
 ┌─────────────────────────────────────────────────────────────────┐
-│  🧑‍💻 shlok@cybersec:~$ ./get_profile.sh                         │
-│  > Loading profile info...                                       │
-│  > Found: Shlok Shah 🧑‍💻                                         │
-│  > Role: IT Diploma Student | Aspiring Ethical Hacker            │
-│  > Location: Gujarat, India 🇮🇳                                   │
-│  > Status: Breaking things to learn how to protect them 🔓       │
-│  > Focus: Ethical Hacking & System Security                      │
+│  shlok@cybersec:~$ ./get_profile.sh                             │
+│  > Loading profile info...                                      │
+│  > Found: Shlok Shah                                            │
+│  > Role: IT Diploma Student | Aspiring Ethical Hacker           │
+│  > Location: Gujarat, India                                     │
+│  > Status: Breaking things to learn how to protect them         │
+│  > Focus: Ethical Hacking & System Security                     │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🔭_Currently_Working_On-ZeroRisk_Sentinel-00ff88?style=flat-square" />
   <img src="https://img.shields.io/badge/🌱_Learning-Penetration_Testing-00f0ff?style=flat-square" />
   <img src="https://img.shields.io/badge/💬_Ask_Me_About-Cybersecurity-b829dd?style=flat-square" />
   <img src="https://img.shields.io/badge/⚡_Fun_Fact-I_break_stuff_to_protect_it-ff00ff?style=flat-square" />
@@ -285,7 +280,7 @@
 <!-- Hidden Easter Egg -->
 <!-- 
   ╔═══════════════════════════════════════════════════════════════╗
-  ║  Hey there, curious hacker! 👋                                 ║
+  ║  Hey there, curious hacker!                                   ║
   ║  If you're reading this, you know how to inspect element!     ║
   ║  Let's connect and build something awesome together!          ║
   ║  Email: shlokshah412@gmail.com                                ║
