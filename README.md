@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Building+ZeroRisk+Sentinel+%F0%9F%9B%A1%EF%B8%8F;Cyberthon+2026+%F0%9F%A5%87+First+Place;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
 </div>
 
 <br>
