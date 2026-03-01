@@ -1,6 +1,6 @@
 <!-- Animated Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=shlok&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full%20Stack%20Dev&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=Shlok Shah&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full%20Stack%20Dev&descSize=20&descAlignY=55" />
 </div>
 
 <!-- Typing Animation -->
