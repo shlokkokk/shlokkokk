@@ -163,8 +163,8 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/cyberforge-atlas">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=cyberforge-atlas&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
+      <a href="https://github.com/shlokkokk/CyberForge-Atlas">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=CyberForge-Atlas&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
@@ -187,8 +187,8 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/OSINT-Directory">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=OSINT-Directory&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
+      <a href="https://github.com/shlokkokk/mailguard-email-security">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=mailguard-email-security&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
