@@ -143,13 +143,8 @@
 <!-- Featured Projects Section -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45">
-  <span style="color: #ff00ff;">$ ls -la featured_projects/</span>
+  <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace;">$ ls -la featured_projects/ --all-recon</span>
 </h2>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45">
-  <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace; font-size: 1.4em; font-weight: bold;">$ ./list_all.sh --full-recon-v2</span>
-</div>
 
 <br>
 
@@ -165,7 +160,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/zerorisk-sentinel?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Hybrid threat detection platform</b> using YARA scanning, VirusTotal API, and AI-powered heuristics for security analysis.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/zerorisk-sentinel"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/zerorisk-sentinel" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
       <h3 align="center">🎮 SwipeClean</h3>
@@ -174,7 +169,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/SwipeClean?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Gamified desktop file cleanup</b> built with Electron, React, and Framer Motion for high-speed folder reorganization.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/SwipeClean"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
   <!-- Row 2 -->
@@ -186,7 +181,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/CyberForge-Atlas?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Offensive intelligence hub</b> providing a unified, self-contained knowledge matrix for fast offensive security research.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/CyberForge-Atlas"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
       <h3 align="center">⚰️ Port Reaper</h3>
@@ -195,7 +190,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/open-ports-scanner?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Asynchronous 65,535 port scanner</b> featuring service fingerprinting, risk assessment, and one-click PDF reports.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/open-ports-scanner"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
   <!-- Row 3 -->
@@ -207,7 +202,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/ReconMaster?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Unified reconnaissance framework</b> for Kali Linux, chaining 12+ industry-standard tools into a Deep Recon workflow.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/ReconMaster"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
       <h3 align="center">🔒 cyberGuard</h3>
@@ -216,7 +211,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/cyberGuard?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Advanced password security suite</b> with AES-256 encryption, breach detection, and radar-based strength visualization.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/cyberGuard"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/cyberGuard" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
   <!-- Row 4 -->
@@ -228,7 +223,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/mailguard-email-security?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Email security analyzer</b> for phishing detection, SPF/DKIM/DMARC validation, and header security scoring.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/mailguard-email-security"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/mailguard-email-security" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
       <h3 align="center">🤖 AskMeBot</h3>
@@ -237,7 +232,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/discord-AskMeBot?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Smart Discord AI assistant</b> with Slash commands, memory-based replies, and integrated image generation.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/discord-AskMeBot"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
   <!-- Row 5 -->
@@ -249,7 +244,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/osint-academy?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Interactive OSINT platform</b> featuring a real-time dork generator and comprehensive reconnaissance study guides.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/osint-academy"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/osint-academy" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
       <h3 align="center">📂 OSINT-Directory</h3>
@@ -258,7 +253,7 @@
         <img src="https://img.shields.io/github/stars/shlokkokk/OSINT-Directory?style=flat-square&color=00f0ff&label=STARS" />
       </p>
       <p align="center"><b>Curated intelligence toolkit</b> featuring powerful category navigation and searching for security professionals.</p>
-      <p align="center"><a href="https://github.com/shlokkokk/OSINT-Directory"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
 </table>
@@ -270,7 +265,7 @@
 <br>
 
 <div align="center">
-  <a href="https://shlok-shah-portfolio.vercel.app/#projects">
+  <a href="https://shlok-shah-portfolio.vercel.app/#projects" target="_blank">
     <img src="https://img.shields.io/badge/📂_View_All_Projects-00ff88?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </div>
