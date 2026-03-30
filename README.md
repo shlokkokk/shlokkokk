@@ -68,16 +68,20 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=E34F26" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1572B6" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white&labelColor=4EAA25" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=003B57" />
 </p>
 
 <h3 align="center">🛡️ Cybersecurity & Tools</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white&labelColor=557C94" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=1679A7" />
-  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white&labelColor=000000" />
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white&labelColor=FF6633" />
   <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=2596CD" />
   <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white&labelColor=4682B4" />
+  <img src="https://img.shields.io/badge/OSINT-FF0000?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=FF0000" />
+  <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=212C42" />
 </p>
 
 <h3 align="center">🌐 Web Development</h3>
@@ -85,12 +89,14 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=339933" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=009688" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=06B6D4" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=646CFF" />
 </p>
 
 <h3 align="center">⚙️ DevOps & Tools</h3>
 <p align="center">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=FCC624" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=2496ED" />
@@ -141,24 +147,44 @@
 
 <div align="center">
 
-<!-- Project 1: ZeroRisk Sentinel -->
+<!-- Project Row 1 -->
 <a href="https://github.com/shlokkokk/zerorisk-sentinel">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=zerorisk-sentinel&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
 </a>
-
-<!-- Project 2: CyberGuard -->
-<a href="https://github.com/shlokkokk/cyberGuard">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=cyberGuard&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+<a href="https://github.com/shlokkokk/SwipeClean">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=SwipeClean&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
 </a>
 
-<!-- Project 3: Open-Port Reaper -->
+<!-- Project Row 2 -->
+<a href="https://github.com/shlokkokk/cyberforge-atlas">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=cyberforge-atlas&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
 <a href="https://github.com/shlokkokk/open-ports-scanner">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=open-ports-scanner&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
 </a>
 
-<!-- Project 4: ReconMaster -->
+<!-- Project Row 3 -->
 <a href="https://github.com/shlokkokk/ReconMaster">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=ReconMaster&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
+<a href="https://github.com/shlokkokk/cyberGuard">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=cyberGuard&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
+
+<!-- Project Row 4 -->
+<a href="https://github.com/shlokkokk/OSINT-Directory">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=OSINT-Directory&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
+<a href="https://github.com/shlokkokk/discord-AskMeBot">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=discord-AskMeBot&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
+
+<!-- Project Row 5 -->
+<a href="https://github.com/shlokkokk/osint-academy">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=osint-academy&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
+</a>
+<a href="https://github.com/shlokkokk/keylogger">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=keylogger&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" />
 </a>
 
 </div>
