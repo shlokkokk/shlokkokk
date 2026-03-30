@@ -147,11 +147,8 @@
 </h2>
 
 <div align="center">
-
-<!-- Project Intelligence Hub Dashboard -->
-<div align="center">
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45">
-  <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace; font-size: 1.4em; font-weight: bold;">$ ./list_all.sh --rich-dashboard</span>
+  <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace; font-size: 1.4em; font-weight: bold;">$ ./list_all.sh --full-recon-v2</span>
 </div>
 
 <br>
@@ -167,7 +164,7 @@
         <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/zerorisk-sentinel?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Hybrid threat detection with YARA scanning, Python backend, and APK risk analysis.</i></p>
+      <p align="center"><b>Hybrid threat detection platform</b> using YARA scanning, VirusTotal API, and AI-powered heuristics for security analysis.</p>
       <p align="center"><a href="https://github.com/shlokkokk/zerorisk-sentinel"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
@@ -176,7 +173,7 @@
         <img src="https://img.shields.io/badge/STATUS-ACTIVE-b829dd?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/SwipeClean?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Gamified Electron desktop app for rapid file cleanup with smooth React/Framer UI.</i></p>
+      <p align="center"><b>Gamified desktop file cleanup</b> built with Electron, React, and Framer Motion for high-speed folder reorganization.</p>
       <p align="center"><a href="https://github.com/shlokkokk/SwipeClean"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
@@ -188,7 +185,7 @@
         <img src="https://img.shields.io/badge/STATUS-OFFLINE_AVAIL-00f0ff?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/CyberForge-Atlas?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Offensive intelligence hub for fast research and exploit planning in lab environments.</i></p>
+      <p align="center"><b>Offensive intelligence hub</b> providing a unified, self-contained knowledge matrix for fast offensive security research.</p>
       <p align="center"><a href="https://github.com/shlokkokk/CyberForge-Atlas"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
@@ -197,7 +194,7 @@
         <img src="https://img.shields.io/badge/STATUS-HIGH_SPEED-ff0000?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/open-ports-scanner?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Asynchronous 65k port scanner with service identification and PDF reports.</i></p>
+      <p align="center"><b>Asynchronous 65,535 port scanner</b> featuring service fingerprinting, risk assessment, and one-click PDF reports.</p>
       <p align="center"><a href="https://github.com/shlokkokk/open-ports-scanner"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
@@ -209,7 +206,7 @@
         <img src="https://img.shields.io/badge/STATUS-GUIDED_WORKFLOW-ffd700?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/ReconMaster?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Kali Linux recon framework unifying 12+ industry tools for deep bounty hunting.</i></p>
+      <p align="center"><b>Unified reconnaissance framework</b> for Kali Linux, chaining 12+ industry-standard tools into a Deep Recon workflow.</p>
       <p align="center"><a href="https://github.com/shlokkokk/ReconMaster"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
@@ -218,7 +215,7 @@
         <img src="https://img.shields.io/badge/STATUS-SECURE-00ff88?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/cyberGuard?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Webgathon runner-up. AES-256 encrypted password suite with leak detection.</i></p>
+      <p align="center"><b>Advanced password security suite</b> with AES-256 encryption, breach detection, and radar-based strength visualization.</p>
       <p align="center"><a href="https://github.com/shlokkokk/cyberGuard"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
@@ -230,7 +227,7 @@
         <img src="https://img.shields.io/badge/STATUS-PRODUCTION-b829dd?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/mailguard-email-security?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Advanced email security analyzer focusing on phishing and header validation.</i></p>
+      <p align="center"><b>Email security analyzer</b> for phishing detection, SPF/DKIM/DMARC validation, and header security scoring.</p>
       <p align="center"><a href="https://github.com/shlokkokk/mailguard-email-security"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
@@ -239,7 +236,7 @@
         <img src="https://img.shields.io/badge/STATUS-AI_ENABLED-ff00ff?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/discord-AskMeBot?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Discord assistant with AI image generation and memory-based replies.</i></p>
+      <p align="center"><b>Smart Discord AI assistant</b> with Slash commands, memory-based replies, and integrated image generation.</p>
       <p align="center"><a href="https://github.com/shlokkokk/discord-AskMeBot"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
@@ -251,17 +248,17 @@
         <img src="https://img.shields.io/badge/STATUS-EDUCATIONAL-00f0ff?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/osint-academy?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Interactive learning platform for mastering reconnaissance frameworks and dorks.</i></p>
+      <p align="center"><b>Interactive OSINT platform</b> featuring a real-time dork generator and comprehensive reconnaissance study guides.</p>
       <p align="center"><a href="https://github.com/shlokkokk/osint-academy"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <h3 align="center">⌨️ Keylogger</h3>
+      <h3 align="center">📂 OSINT-Directory</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/STATUS-TECHNICAL_DEMO-ff0000?style=flat-square" />
-        <img src="https://img.shields.io/github/stars/shlokkokk/keylogger?style=flat-square&color=00f0ff&label=STARS" />
+        <img src="https://img.shields.io/badge/STATUS-CURATED-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/OSINT-Directory?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="font-size: 0.9em;"><i>Python implementation demonstrating automated logging and email log delivery.</i></p>
-      <p align="center"><a href="https://github.com/shlokkokk/keylogger"><b>[ ACCESS SOURCE ]</b></a></p>
+      <p align="center"><b>Curated intelligence toolkit</b> featuring powerful category navigation and searching for security professionals.</p>
+      <p align="center"><a href="https://github.com/shlokkokk/OSINT-Directory"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
 </table>
@@ -273,7 +270,7 @@
 <br>
 
 <div align="center">
-  <a href="https://github.com/shlokkokk?tab=repositories">
+  <a href="https://shlok-shah-portfolio.vercel.app/#projects">
     <img src="https://img.shields.io/badge/📂_View_All_Projects-00ff88?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </div>
