@@ -148,68 +148,125 @@
 
 <div align="center">
 
+<!-- Project Intelligence Hub Dashboard -->
+<div align="center">
+  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45">
+  <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace; font-size: 1.4em; font-weight: bold;">$ ./list_all.sh --rich-dashboard</span>
+</div>
+
+<br>
+
+<div align="center">
+
 <table width="100%">
+  <!-- Row 1 -->
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/zerorisk-sentinel">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=zerorisk-sentinel&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🛡️ ZeroRisk Sentinel</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/zerorisk-sentinel?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Hybrid threat detection with YARA scanning, Python backend, and APK risk analysis.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/zerorisk-sentinel"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/SwipeClean">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=SwipeClean&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🎮 SwipeClean</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-ACTIVE-b829dd?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/SwipeClean?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Gamified Electron desktop app for rapid file cleanup with smooth React/Framer UI.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/SwipeClean"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
+  <!-- Row 2 -->
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/CyberForge-Atlas">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=CyberForge-Atlas&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🛰️ CyberForge-Atlas</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OFFLINE_AVAIL-00f0ff?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/CyberForge-Atlas?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Offensive intelligence hub for fast research and exploit planning in lab environments.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/CyberForge-Atlas"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/open-ports-scanner">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=open-ports-scanner&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">⚰️ Port Reaper</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-HIGH_SPEED-ff0000?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/open-ports-scanner?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Asynchronous 65k port scanner with service identification and PDF reports.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/open-ports-scanner"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
+  <!-- Row 3 -->
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/ReconMaster">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=ReconMaster&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🔍 ReconMaster</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-GUIDED_WORKFLOW-ffd700?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/ReconMaster?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Kali Linux recon framework unifying 12+ industry tools for deep bounty hunting.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/ReconMaster"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/cyberGuard">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=cyberGuard&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🔒 cyberGuard</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-SECURE-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/cyberGuard?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Webgathon runner-up. AES-256 encrypted password suite with leak detection.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/cyberGuard"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
+  <!-- Row 4 -->
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/mailguard-email-security">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=mailguard-email-security&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">📧 MailGuard</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-PRODUCTION-b829dd?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/mailguard-email-security?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Advanced email security analyzer focusing on phishing and header validation.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/mailguard-email-security"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/discord-AskMeBot">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=discord-AskMeBot&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🤖 AskMeBot</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-AI_ENABLED-ff00ff?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/discord-AskMeBot?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Discord assistant with AI image generation and memory-based replies.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/discord-AskMeBot"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
+  <!-- Row 5 -->
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/osint-academy">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=osint-academy&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">🏫 OSINT Academy</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-EDUCATIONAL-00f0ff?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/osint-academy?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Interactive learning platform for mastering reconnaissance frameworks and dorks.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/osint-academy"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/shlokkokk/keylogger">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=shlokkokk&repo=keylogger&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="100%" />
-      </a>
+      <h3 align="center">⌨️ Keylogger</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-TECHNICAL_DEMO-ff0000?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/keylogger?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="font-size: 0.9em;"><i>Python implementation demonstrating automated logging and email log delivery.</i></p>
+      <p align="center"><a href="https://github.com/shlokkokk/keylogger"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
   </tr>
 </table>
+
+</div>
 
 </div>
 
