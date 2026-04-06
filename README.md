@@ -118,21 +118,33 @@
 </h2>
 
 <div align="center">
-  <!-- GitHub Stats Card -->
-  <img src="https://github-readme-stats-alpha.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" alt="GitHub Stats" />
-  
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" width="49%" alt="GitHub Streak" />
-</div>
+  <!-- Primary Intelligence Row -->
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats-alpha.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" height="195" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" height="195" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
 
-<br>
+  <br>
 
-<div align="center">
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=shlokkokk&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&text_color=ffffff&border_radius=15&langs_count=10" width="49%" alt="Top Languages" />
-  
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy-sigma-one.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="49%" alt="GitHub Trophies" />
+  <!-- Achievement System (Trophies) -->
+  <img src="https://github-profile-trophy-sigma-one.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
+
+  <br><br>
+
+  <!-- High-Frequency Data Visualization (Activity Graph) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
+
+
+  <!-- 
+  <br><br>
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=shlokkokk&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&text_color=ffffff&border_radius=15&langs_count=8" width="100%" alt="Top Languages" />
+  -->
 </div>
 
 <!-- Animated Divider -->
@@ -303,15 +315,7 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- Activity Graph -->
-<h2 align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
-  <span style="color: #00ff88;">$ git log --graph --activity</span>
-</h2>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" alt="Activity Graph" />
-</div>
+<!-- Activity Graph section moved to Command Center -->
 
 <!-- Animated Divider -->
 <div align="center">
