@@ -119,7 +119,7 @@
 
 <div align="center">
   <!-- GitHub Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-alpha.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" width="49%" alt="GitHub Stats" />
   
   <!-- GitHub Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" width="49%" alt="GitHub Streak" />
@@ -129,10 +129,10 @@
 
 <div align="center">
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shlokkokk&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&text_color=ffffff&border_radius=15&langs_count=10" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=shlokkokk&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&text_color=ffffff&border_radius=15&langs_count=10" width="49%" alt="Top Languages" />
   
   <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="49%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-sigma-one.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="49%" alt="GitHub Trophies" />
 </div>
 
 <!-- Animated Divider -->
