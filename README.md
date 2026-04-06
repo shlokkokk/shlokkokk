@@ -374,9 +374,11 @@
 
 <br>
 
-<!-- Matrix Quote -->
+<!-- Tactical Quote: The Ritchie-Shah Paradox -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The%20only%20way%20to%20learn%20a%20new%20programming%20language%20is%20by%20writing%20programs%20in%20it.&author=Dennis%20Ritchie" width="80%" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <br>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=%22The+only+way+to+learn+a+new+programming+language+is+by+writing+programs+in+it.%22%C2%A0%C2%A0%C2%A0%C2%A0%E2%80%94+Dennis+Ritchie&author=%E2%80%94+Shlok+Shah" width="75%" />
 </div>
 
 <!-- Animated Divider -->
