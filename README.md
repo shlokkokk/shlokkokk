@@ -30,6 +30,8 @@
   <span style="color: #00ff88;">$ whoami</span>
 </h2>
 
+<div align="center">
+
 ```bash
 ┌─────────────────────────────────────────────────────────────────┐
 │  shlok@cybersec:~$ ./get_profile.sh                             │
@@ -41,6 +43,8 @@
 │  > Focus: Ethical Hacking & System Security                     │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/🌱_Learning-Penetration_Testing-00f0ff?style=flat-square" />
