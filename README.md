@@ -170,14 +170,26 @@
   <!-- Row 1 -->
   <tr>
     <td width="50%" align="center">
+      <h3 align="center">🚀 ShellStack</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/ShellStack?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>Comprehensive security study hub</b> and offensive workspace with a terminal-first aesthetic and live training modules.</p>
+      <p align="center"><a href="https://github.com/shlokkokk/ShellStack" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
+    </td>
+    <td width="50%" align="center">
       <h3 align="center">🛡️ ZeroRisk Sentinel</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/zerorisk-sentinel?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center"><b>Hybrid threat detection platform</b> using YARA scanning, VirusTotal API, and AI-powered heuristics for security analysis.</p>
+      <p align="center"><b>Hybrid threat detection platform</b> using YARA scanning, <b>Multi-Engine Malware Intelligence</b>, and AI-powered heuristics for security analysis.</p>
       <p align="center"><a href="https://github.com/shlokkokk/zerorisk-sentinel" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+  </tr>
+  <!-- Row 2 -->
+  <tr>
     <td width="50%" align="center">
       <h3 align="center">🎮 SwipeClean</h3>
       <p align="center">
@@ -187,9 +199,6 @@
       <p align="center"><b>Gamified desktop file cleanup</b> built with Electron, React, and Framer Motion for high-speed folder reorganization.</p>
       <p align="center"><a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
-  </tr>
-  <!-- Row 2 -->
-  <tr>
     <td width="50%" align="center">
       <h3 align="center">🛰️ CyberForge-Atlas</h3>
       <p align="center">
@@ -199,6 +208,9 @@
       <p align="center"><b>Offensive intelligence hub</b> providing a unified, self-contained knowledge matrix for fast offensive security research.</p>
       <p align="center"><a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+  </tr>
+  <!-- Row 3 -->
+  <tr>
     <td width="50%" align="center">
       <h3 align="center">⚰️ Port Reaper</h3>
       <p align="center">
@@ -208,9 +220,6 @@
       <p align="center"><b>Asynchronous 65,535 port scanner</b> featuring service fingerprinting, risk assessment, and one-click PDF reports.</p>
       <p align="center"><a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
-  </tr>
-  <!-- Row 3 -->
-  <tr>
     <td width="50%" align="center">
       <h3 align="center">🔍 ReconMaster</h3>
       <p align="center">
@@ -220,6 +229,9 @@
       <p align="center"><b>Unified reconnaissance framework</b> for Kali Linux, chaining 12+ industry-standard tools into a Deep Recon workflow.</p>
       <p align="center"><a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+  </tr>
+  <!-- Row 4 -->
+  <tr>
     <td width="50%" align="center">
       <h3 align="center">🔒 cyberGuard</h3>
       <p align="center">
@@ -229,9 +241,6 @@
       <p align="center"><b>Advanced password security suite</b> with AES-256 encryption, breach detection, and radar-based strength visualization.</p>
       <p align="center"><a href="https://github.com/shlokkokk/cyberGuard" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
-  </tr>
-  <!-- Row 4 -->
-  <tr>
     <td width="50%" align="center">
       <h3 align="center">📧 MailGuard</h3>
       <p align="center">
@@ -241,6 +250,9 @@
       <p align="center"><b>Email security analyzer</b> for phishing detection, SPF/DKIM/DMARC validation, and header security scoring.</p>
       <p align="center"><a href="https://github.com/shlokkokk/mailguard-email-security" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+  </tr>
+  <!-- Row 5 -->
+  <tr>
     <td width="50%" align="center">
       <h3 align="center">🤖 AskMeBot</h3>
       <p align="center">
@@ -250,9 +262,6 @@
       <p align="center"><b>Smart Discord AI assistant</b> with Slash commands, memory-based replies, and integrated image generation.</p>
       <p align="center"><a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
-  </tr>
-  <!-- Row 5 -->
-  <tr>
     <td width="50%" align="center">
       <h3 align="center">🏫 OSINT Academy</h3>
       <p align="center">
@@ -262,6 +271,9 @@
       <p align="center"><b>Interactive OSINT platform</b> featuring a real-time dork generator and comprehensive reconnaissance study guides.</p>
       <p align="center"><a href="https://github.com/shlokkokk/osint-academy" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+  </tr>
+  <!-- Row 6 -->
+  <tr>
     <td width="50%" align="center">
       <h3 align="center">📂 OSINT-Directory</h3>
       <p align="center">
@@ -271,7 +283,17 @@
       <p align="center"><b>Curated intelligence toolkit</b> featuring powerful category navigation and searching for security professionals.</p>
       <p align="center"><a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
     </td>
+    <td width="50%" align="center">
+      <h3 align="center">⌨️ Keylogger</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-EDUCATIONAL-ff0000?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/keylogger?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>Python-based stealth monitor</b> demonstrating event listening and exfiltration via SMTP for ethical hacking research.</p>
+      <p align="center"><a href="https://github.com/shlokkokk/keylogger" target="_blank"><b>[ ACCESS SOURCE ]</b></a></p>
+    </td>
   </tr>
+
 </table>
 
 </div>
