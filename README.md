@@ -7,7 +7,7 @@
 
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Carpe+Diem.+Seize+the+Day.+%F0%9F%94%90;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Carpe+Diem.+Seize+the+Day.;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
 </div>
 
 <br>
@@ -440,7 +440,7 @@
     <img src="https://img.shields.io/badge/Built_with-💚_Passion_and_Pure_Fear-00ff88?style=flat-square" />
     <img src="https://img.shields.io/badge/Made_in-🇮🇳_India-ff9933?style=flat-square" />
   </p>
-  <p><i>"Carpe Diem. Seize the day, boys. Make your lives extraordinary."</i> 🔐</p>
+  <p><i>"Carpe Diem. Seize the day, boys. Make your lives extraordinary."</i></p>
 </div>
 
 <!-- Snake Animation -->
