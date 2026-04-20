@@ -437,12 +437,12 @@
 
 <!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b829dd,50:00f0ff,100:00ff88&height=150&section=footer&text=Thanks%20for%20visiting!&fontSize=30&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:b829dd,50:00f0ff,100:00ff88&height=150&section=footer&text=Thanks%20for%20visiting!&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=65" />
 </div>
 
 <div align="center">
   <p>
-    <img src="https://img.shields.io/badge/Built_with-💚_Passion_and_Pure_Fear-00ff88?style=flat-square" />
+    <img src="https://img.shields.io/badge/Built_with-💚_Passion_and_💻_Code-00ff88?style=flat-square" />
     <img src="https://img.shields.io/badge/Made_in-🇮🇳_India-ff9933?style=flat-square" />
   </p>
   <p><i>"Carpe Diem. Seize the day, boys. Make your lives extraordinary."</i></p>
