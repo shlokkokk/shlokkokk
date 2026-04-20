@@ -399,21 +399,26 @@
 <p align="center"><i>"You miss 100% of the shots you don't take. — Wayne Gretzky"</i> — Michael Scott</p>
 
 <div align="center">
-  <a href="mailto:shlokshah412@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
-  </a>
-  <a href="https://github.com/shlokkokk">
-    <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
-  </a>
-  <a href="https://www.linkedin.com/in/shlok-shah-21851a331/">
-    <img src="https://img.shields.io/badge/🔗_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
-  </a>
-  <a href="https://www.instagram.com/shlokkshahh/">
-    <img src="https://img.shields.io/badge/📷_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" />
-  </a>
-  <a href="https://tryhackme.com/p/shlokkokk">
-    <img src="https://img.shields.io/badge/🎯_TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=212C42" />
-  </a>
+  <p>
+    <a href="mailto:shlokshah412@gmail.com">
+      <img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
+    </a>
+    <a href="https://github.com/shlokkokk">
+      <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
+    </a>
+    <a href="https://www.linkedin.com/in/shlok-shah-21851a331/">
+      <img src="https://img.shields.io/badge/🔗_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
+    </a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/👾_Discord-_shlokkokk-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2" />
+    <a href="https://t.me/shlokok">
+      <img src="https://img.shields.io/badge/✈️_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=2CA5E0" />
+    </a>
+    <a href="https://www.instagram.com/shlokkshahh/">
+      <img src="https://img.shields.io/badge/📷_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" />
+    </a>
+  </p>
 </div>
 
 <br>
