@@ -28,7 +28,7 @@
 
 <!-- About Section -->
 <h2 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="45">&nbsp;
   <span style="color: #00ff88;">$ whoami</span>
 </h2>
 
@@ -360,7 +360,8 @@
 
 <!-- Beyond The Code -->
 <h2 align="center">
-  🍿 <span style="color: #ff6b6b;">$ cat /etc/personality.conf</span>
+  <img src="https://media.giphy.com/media/ui1hpJSyBDWlG/giphy.gif" width="40">&nbsp;
+  <span style="color: #ff6b6b;">$ cat /etc/personality.conf</span>
 </h2>
 
 <div align="center">
@@ -459,31 +460,16 @@
 
 <!-- Hidden Easter Egg -->
 <!--
-  +---------------------------------------------------------+
-  |                                                         |
-  |  POST-CREDITS SCENE                                     |
-  |                                                         |
-  |  Hey there, curious hacker! You found it!               |
-  |                                                         |
-  |  "TELL ME WHY!"                                         |
-  |  "Ain't nothing but a heartache..."                     |
-  |  "TELL ME WHY!"                                         |
-  |  "Ain't nothing but a mistake..."                       |
-  |  "Now number five..."                                   |
-  |  "I never wanna hear you say..."                        |
-  |  "Whooo... I want it that way."                         |
-  |                                                         |
-  |  -- The legendary B99 lineup scene.                     |
-  |                                                         |
-  |  "Would I rather be feared or loved?                    |
-  |   Easy. Both. I want people to be afraid                |
-  |   of how much they love my code."                       |
-  |                                                         |
-  |  If you're reading this, you're basically family.       |
-  |  Let's build something together.                        |
-  |  Email: shlokshah412@gmail.com                          |
-  |                                                         |
-  |  P.S. -- "That's what she said." -- Michael Scott       |
-  |                                                         |
-  +---------------------------------------------------------+
+  shlok@cybersec:~$ cat secret.txt
+  
+  Congrats, curious hacker. You found the source code.
+  You're either a recruiter doing a deep dive, or a fellow dev looking for inspiration.
+  
+  "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love my code."
+  — Michael Scott
+  
+  If you're reading this, let's build something.
+  Email: shlokshah412@gmail.com
+  
+  P.S. -- "That's what she said."
 -->
