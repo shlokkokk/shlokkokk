@@ -139,11 +139,10 @@
   <!-- Achievement System (Trophies) -->
   <img src="https://github-profile-trophy-sigma-one.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
 
-  <br><br>
+<br><br>
 
   <!-- High-Frequency Data Visualization (Activity Graph) -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
-
 
   <!-- 
   <br><br>
@@ -338,18 +337,18 @@
 
 <div align="center">
 
-| 🏆 Achievement | 📅 Date | 🔗 Verify |
-|----------------|---------|-----------|
-| 🥇 **First Prize — Cyberthon 2026** (MSU Baroda) | Feb 2026 | <a href="https://drive.google.com/file/d/190yb8qAw68UhKCgwUrOyhkWLQRnMNdMr/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🏆 **Second Runner-Up — Webgathon 2025** (KISMATI) | Dec 2025 | <a href="https://drive.google.com/file/d/1jmFwJlLT7r44AXrU3GGIhk__sSBG5cTb/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🏆 Achievement                                          | 📅 Date  | 🔗 Verify                                                                                                                                                                                                                                          |
+| ------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🥇 **First Prize — Cyberthon 2026** (MSU Baroda)        | Feb 2026 | <a href="https://drive.google.com/file/d/190yb8qAw68UhKCgwUrOyhkWLQRnMNdMr/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🏆 **Second Runner-Up — Webgathon 2025** (KISMATI)      | Dec 2025 | <a href="https://drive.google.com/file/d/1jmFwJlLT7r44AXrU3GGIhk__sSBG5cTb/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
 | 🎯 **Certified Red Team Operations Management** (CRTOM) | Dec 2025 | <a href="https://drive.google.com/file/d/1KDL_D8uvrSsttFiuppq59Lplf9xV2Qke/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🎄 **Advent of Cyber 2025** (TryHackMe) | Dec 2025 | <a href="https://drive.google.com/file/d/1nFtzPBjKRxcB6wfyO261wCU2z5DxfA3S/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🛡️ **Certified API Hacking Expert** (CAPIE) | Dec 2025 | <a href="https://drive.google.com/file/d/1S9xb7dus2DJpb1BcrBmv4B9OHnAYEBkL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🐧 **Kali Linux Masterclass** (Cyber Mind Space) | Oct 2025 | <a href="https://drive.google.com/file/d/1C9ycz6SP5F4N_j2uc811_tDORFpmy--n/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 📱 **Android Hacking Masterclass** (Cyber Mind Space) | Oct 2025 | <a href="https://drive.google.com/file/d/1fxwD35qy7IISTyxyWPSixLws-1GXgYX2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🎓 **Cisco Ethical Hacker** (Cisco Networking Academy) | Ongoing | <a href="https://www.netacad.com/courses/ethical-hacker" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| 🏅 **Full Web Development Certification** (Web X) | 2025 | <a href="https://drive.google.com/file/d/18J5CqMBzFhzTfD0lGID3o7AFCKZxQCQS/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
-| </> **Git & GitHub Essentials** (WsCube Tech) | Dec 2025 | <a href="https://drive.google.com/file/d/17hOZHkx_rFgBnLcH5l2o7TJ3nlCY-pNk/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🎄 **Advent of Cyber 2025** (TryHackMe)                 | Dec 2025 | <a href="https://drive.google.com/file/d/1nFtzPBjKRxcB6wfyO261wCU2z5DxfA3S/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🛡️ **Certified API Hacking Expert** (CAPIE)             | Dec 2025 | <a href="https://drive.google.com/file/d/1S9xb7dus2DJpb1BcrBmv4B9OHnAYEBkL/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🐧 **Kali Linux Masterclass** (Cyber Mind Space)        | Oct 2025 | <a href="https://drive.google.com/file/d/1C9ycz6SP5F4N_j2uc811_tDORFpmy--n/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 📱 **Android Hacking Masterclass** (Cyber Mind Space)   | Oct 2025 | <a href="https://drive.google.com/file/d/1fxwD35qy7IISTyxyWPSixLws-1GXgYX2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🎓 **Cisco Ethical Hacker** (Cisco Networking Academy)  | Ongoing  | <a href="https://www.netacad.com/courses/ethical-hacker" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a>                                     |
+| 🏅 **Full Web Development Certification** (Web X)       | 2025     | <a href="https://drive.google.com/file/d/18J5CqMBzFhzTfD0lGID3o7AFCKZxQCQS/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| </> **Git & GitHub Essentials** (WsCube Tech)           | Dec 2025 | <a href="https://drive.google.com/file/d/17hOZHkx_rFgBnLcH5l2o7TJ3nlCY-pNk/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
 
 </div>
 
@@ -426,7 +425,7 @@
 </div>
 
 <!-- Hidden Easter Egg -->
-<!-- 
+<!--
   ╔═══════════════════════════════════════════════════════════════╗
   ║  Hey there, curious hacker!                                   ║
   ║  If you're reading this, you know how to inspect element!     ║
