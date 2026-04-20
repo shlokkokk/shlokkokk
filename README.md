@@ -1,3 +1,5 @@
+<!-- "Carpe Diem. Seize the day, boys. Make your lives extraordinary." -->
+
 <!-- Animated Header Banner -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=Shlok&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full-Stack%20Engineering%20in%20Progress&descSize=20&descAlignY=55" />
@@ -5,7 +7,7 @@
 
 <!-- Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Carpe+Diem.+Seize+the+Day.+%F0%9F%94%90;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
 </div>
 
 <br>
@@ -32,16 +34,17 @@
 
 <div align="center">
 
-```bash
-┌─────────────────────────────────────────────────────────────────┐
-│  shlok@cybersec:~$ ./get_profile.sh                             │
-│  > Loading profile info...                                      │
-│  > Found: Shlok Shah                                            │
-│  > Role: IT Diploma Student | Aspiring Ethical Hacker           │
-│  > Location: Gujarat, India                                     │
-│  > Status: Breaking things to learn how to protect them         │
-│  > Focus: Ethical Hacking & System Security                     │
-└─────────────────────────────────────────────────────────────────┘
+```
++-----------------------------------------------------------------+
+|  shlok@cybersec:~$ ./get_profile.sh                             |
+|  > Loading profile info...                                      |
+|  > Found: Shlok Shah                                            |
+|  > Role: IT Diploma Student | Aspiring Ethical Hacker           |
+|  > Location: Gujarat, India                                     |
+|  > Status: Breaking things to learn how to protect them         |
+|  > Focus: Ethical Hacking & System Security                     |
+|  > Motto: "Cool cool cool. No doubt no doubt."                  |
++-----------------------------------------------------------------+
 ```
 
 </div>
@@ -141,13 +144,9 @@
 
 <br><br>
 
-  <!-- High-Frequency Data Visualization (Activity Graph) -->
+  <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
 
-  <!-- 
-  <br><br>
-  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=shlokkokk&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&text_color=ffffff&border_radius=15&langs_count=8" width="100%" alt="Top Languages" />
-  -->
 </div>
 
 <!-- Animated Divider -->
@@ -160,6 +159,8 @@
   <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="45">
   <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace;">$ ls -la featured_projects/ --all-recon</span>
 </h2>
+
+<p align="center"><i>"People will never be replaced by machines. In the end, life and business are about human connections. And computers are about trying to murder you in a lake. And to me the choice is easy."</i> — Michael Scott</p>
 
 <br>
 
@@ -357,7 +358,32 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-<!-- Activity Graph section moved to Command Center -->
+<!-- Beyond The Code -->
+<h2 align="center">
+  🍿 <span style="color: #ff6b6b;">$ cat /etc/personality.conf</span>
+</h2>
+
+<div align="center">
+
+```
++-----------------------------------------------------------------+
+|  shlok@life:~$ neofetch --vibes                                 |
+|                                                                 |
+|  Shows ............. Brooklyn 99, The Office                    |
+|  Film .............. Dead Poets Society                         |
+|  Universes ......... Star Wars, MCU                             |
+|  Music ............. Everything from 1D to The Beatles          |
+|                      to John Denver and beyond                  |
+|  Fuel .............. Pure fear of failure (it never sleeps)     |
+|  Currently ......... Probably debugging at 2am                  |
+|                                                                 |
+|  shlok@life:~$ fortune | cowsay                                 |
+|  "Cool motive. Still murder." -- Jake Peralta                   |
+|  (me reviewing someone's spaghetti code)                        |
++-----------------------------------------------------------------+
+```
+
+</div>
 
 <!-- Animated Divider -->
 <div align="center">
@@ -369,6 +395,8 @@
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
   <span style="color: #00f0ff;">$ ping -c 4 social_links</span>
 </h2>
+
+<p align="center"><i>"You miss 100% of the shots you don't take. — Wayne Gretzky"</i> — Michael Scott</p>
 
 <div align="center">
   <a href="mailto:shlokshah412@gmail.com">
@@ -409,10 +437,10 @@
 
 <div align="center">
   <p>
-    <img src="https://img.shields.io/badge/Built_with-☕_Coffee_and_💚_Passion-00ff88?style=flat-square" />
+    <img src="https://img.shields.io/badge/Built_with-💚_Passion_and_Pure_Fear-00ff88?style=flat-square" />
     <img src="https://img.shields.io/badge/Made_in-🇮🇳_India-ff9933?style=flat-square" />
   </p>
-  <p><i>"Learning to Hack. Hacking to Learn."</i> 🔐</p>
+  <p><i>"Carpe Diem. Seize the day, boys. Make your lives extraordinary."</i> 🔐</p>
 </div>
 
 <!-- Snake Animation -->
@@ -426,10 +454,31 @@
 
 <!-- Hidden Easter Egg -->
 <!--
-  ╔═══════════════════════════════════════════════════════════════╗
-  ║  Hey there, curious hacker!                                   ║
-  ║  If you're reading this, you know how to inspect element!     ║
-  ║  Let's connect and build something awesome together!          ║
-  ║  Email: shlokshah412@gmail.com                                ║
-  ╚═══════════════════════════════════════════════════════════════╝
+  +---------------------------------------------------------+
+  |                                                         |
+  |  POST-CREDITS SCENE                                     |
+  |                                                         |
+  |  Hey there, curious hacker! You found it!               |
+  |                                                         |
+  |  "TELL ME WHY!"                                         |
+  |  "Ain't nothing but a heartache..."                     |
+  |  "TELL ME WHY!"                                         |
+  |  "Ain't nothing but a mistake..."                       |
+  |  "Now number five..."                                   |
+  |  "I never wanna hear you say..."                        |
+  |  "Whooo... I want it that way."                         |
+  |                                                         |
+  |  -- The legendary B99 lineup scene.                     |
+  |                                                         |
+  |  "Would I rather be feared or loved?                    |
+  |   Easy. Both. I want people to be afraid                |
+  |   of how much they love my code."                       |
+  |                                                         |
+  |  If you're reading this, you're basically family.       |
+  |  Let's build something together.                        |
+  |  Email: shlokshah412@gmail.com                          |
+  |                                                         |
+  |  P.S. -- "That's what she said." -- Michael Scott       |
+  |                                                         |
+  +---------------------------------------------------------+
 -->
