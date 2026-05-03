@@ -167,6 +167,25 @@
 <div align="center">
 
 <table width="100%">
+  <!-- Row 0: Kavach -->
+  <tr>
+    <td width="50%" align="center">
+      <h3 align="center">🛡️ KAVACH</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/kavach?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>Multi-modal cyber defense platform</b> neutralizing modern fraud chains via <span style="color: #00ff88;">Deepfake Audio Detection</span>, <span style="color: #00ff88;">Fake Job Scans</span>, and <b>SIM Swap Monitoring</b>.</p>
+    </td>
+    <td width="50%" align="center">
+      <!-- Reserved for future top-tier project -->
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shlokkokk/kavach" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
+    <td align="center"></td>
+  </tr>
+  
   <!-- Row 1 -->
   <tr>
     <td width="50%" align="center">
