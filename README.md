@@ -140,7 +140,7 @@
   <br>
 
   <!-- Achievement System (Trophies) -->
-  <img src="https://github-profile-trophy-sigma-one.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
 
 <br><br>
 
@@ -167,7 +167,7 @@
 <div align="center">
 
 <table width="100%">
-  <!-- Row 0: Kavach -->
+  <!-- Row 0: Kavach & PRAXIS -->
   <tr>
     <td width="50%" align="center">
       <h3 align="center">🛡️ KAVACH</h3>
@@ -178,12 +178,17 @@
       <p align="center"><b>Multi-modal cyber defense platform</b> neutralizing modern fraud chains via <span style="color: #00ff88;">Deepfake Audio Detection</span>, <span style="color: #00ff88;">Fake Job Scans</span>, and <b>SIM Swap Monitoring</b>.</p>
     </td>
     <td width="50%" align="center">
-      <!-- Reserved for future top-tier project -->
+      <h3 align="center">🌌 PRAXIS</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/PRAXIS?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>AI-native financial simulator</b> where you build a <span style="color: #00f0ff;">Financial Twin</span> to practice real-world wealth decisions, featuring a <span style="color: #f59e0b;">Multi-Agent AI Council</span> that actively debates your choices.</p>
     </td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/shlokkokk/kavach" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
-    <td align="center"></td>
+    <td align="center"><a href="https://github.com/shlokkokk/PRAXIS" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
   </tr>
   
   <!-- Row 1 -->
