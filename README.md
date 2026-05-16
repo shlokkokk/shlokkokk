@@ -12,6 +12,14 @@
 
 <br>
 
+<!-- Portfolio Link -->
+<div align="center">
+  <a href="https://shlok-shah-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Interactive_Portfolio-View_Site-0a0a0f?style=for-the-badge&logo=vercel&logoColor=black&labelColor=00ff88&color=0a0a0f" alt="View Portfolio" />
+  </a>
+</div>
+
+<br>
 <!-- Profile Views Counter -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=shlokkokk&color=00ff88&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
@@ -445,6 +453,9 @@
   <p>
     <a href="mailto:shlokshah412@gmail.com">
       <img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
+    </a>
+    <a href="https://shlok-shah-portfolio.vercel.app/">
+      <img src="https://img.shields.io/badge/🌐_Portfolio-00ff88?style=for-the-badge&logo=vercel&logoColor=black&labelColor=00ff88&color=0a0a0f" />
     </a>
     <a href="https://github.com/shlokkokk">
       <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" />
