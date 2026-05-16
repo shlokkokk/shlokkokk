@@ -224,7 +224,7 @@
         <img src="https://img.shields.io/badge/STATUS-FULL_SPECTRUM-00ff88?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/Oculus?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Advanced Python recon orchestrator</b> for Kali-style workflows, chaining <span style="color: #00ff88;">29 industry-standard modules</span> into a <span style="color: #00f0ff;">concurrent Full Spectrum Scan</span>. Features intelligent state management, automated reporting, custom exploitation probes, and a sleek, <span style="color: #00ff88;">Real-Time Operator Web Cockpit</span> powered by React & FastAPI.</p>
+      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Advanced Python recon orchestrator</b> for Kali-style workflows, chaining <span style="color: #00ff88;">29 industry-standard modules</span> into a <span style="color: #00f0ff;">concurrent Full Spectrum Scan</span>. Features intelligent state management, automated reporting, custom exploitation probes, and a sleek <span style="color: #00ff88;">Web Interface</span> allowing you to run and monitor scans entirely from your browser.</p>
       <br>
       <a href="https://github.com/shlokkokk/Oculus" target="_blank"><b>[ ACCESS SOURCE ]</b></a>
       <br>
