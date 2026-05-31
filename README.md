@@ -232,7 +232,7 @@
         <img src="https://img.shields.io/badge/STATUS-FULL_SPECTRUM-00ff88?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/Oculus?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Automated attack surface mapping and vulnerability orchestration engine</b>, chaining <span style="color: #00ff88;">37 integrated tools</span>—including Subfinder, Amass, dnsx, httpx, Naabu, Nmap, Katana, gau, WhatWaf, Nuclei, Jaeles, ParamSpider, Arjun, LinkFinder, ffuf, Kiterunner, subzy, massdns, whatweb, sqlmap, Dalfox, smuggler, Cariddi, Tplmap, CRLFuzz, TLSX, nomore403, and Nikto. Spans the entire penetration testing lifecycle from active/passive discovery through targeted vulnerability exploitation, managed via a graphical FastAPI + React dashboard or local CLI.</p>
+      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Automated attack surface mapping and vulnerability orchestration engine</b>. Oculus chains 37 specialized security tools into a concurrent, multi-phase execution pipeline, spanning the entire penetration testing lifecycle from active/passive discovery and infrastructure mapping to parameter discovery, vulnerability scanning, and targeted exploitation. Managed entirely via a graphical FastAPI + React web dashboard or a local CLI dashboard, it features persistent session checkpointing, dynamic resource and timeout scaling, and integrated push alert status notifications.</p>
       <br>
       <a href="https://github.com/shlokkokk/Oculus" target="_blank"><b>[ ACCESS SOURCE ]</b></a>
       <br>
