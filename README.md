@@ -410,6 +410,22 @@
       <br>
     </td>
   </tr>
+  
+  <!-- Featured Project: Interceptor -->
+  <tr>
+    <td colspan="2" align="center">
+      <br>
+      <h3 align="center">📲 Interceptor</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/Interceptor?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Android notification vault with biometric locking &amp; security rules</b>. Interceptor suppresses target system notifications and logs them to a local cryptographic database. Utilizes system KeyStores and hardware-backed AES encryption to protect privacy, locking access behind biometric and credential verification checks. Features rule builders to filter suppression based on active foreground packages and temporal window schedules.</p>
+      <br>
+      <a href="https://github.com/shlokkokk/Interceptor" target="_blank"><b>[ ACCESS SOURCE ]</b></a>
+      <br>
+    </td>
+  </tr>
 
 </table>
 
