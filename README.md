@@ -176,6 +176,22 @@
 <div align="center">
 
 <table width="100%">
+  <!-- Featured Project: Sentinel -->
+  <tr>
+    <td colspan="2" align="center">
+      <br>
+      <h3 align="center">🚨 Sentinel</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/Sentinel?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>AI-driven incident response and operational reliability monorepo</b>. Sentinel is an incident intelligence platform containing a web dashboard, API backend, client daemon, and a chaos sandbox simulating outages. It groups system logs via signature-based deduplication algorithms, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states (CPU load, memory metrics, listener ports, and local container health).</p>
+      <br>
+      <a href="https://github.com/shlokkokk/Sentinel" target="_blank"><b>[ ACCESS SOURCE ]</b></a>
+      <br>
+    </td>
+  </tr>
+
   <!-- Row 1: Kavach & PRAXIS -->
   <tr>
     <td width="50%" align="center">
@@ -304,7 +320,7 @@
         <img src="https://img.shields.io/badge/STATUS-PRODUCTION-b829dd?style=flat-square" />
         <img src="https://img.shields.io/github/stars/shlokkokk/mailguard-email-security?style=flat-square&color=00f0ff&label=STARS" />
       </p>
-      <p align="center"><b>Email security analyzer</b> for phishing detection, <span style="color: #b829dd;">SPF/DKIM/DMARC validation</span>, and <b>header security scoring</b>.</p>
+      <p align="center"><b>Deterministic email security and spam scanner</b> running on a custom backend service. Conducts rule-based scans mapping urgencies, financial fraud terms, dangerous extensions, and blacklisted domains, persisting configuration settings locally.</p>
     </td>
   </tr>
   <tr>
@@ -355,9 +371,44 @@
       <p align="center"><b>Python-based stealth monitor</b> demonstrating <span style="color: #ff0000;">event listening</span> and <span style="color: #ff0000;">exfiltration via SMTP</span> for ethical hacking research.</p>
     </td>
   </tr>
+  <!-- Row 10: Periscope & VitaLink -->
   <tr>
-    <td align="center"><a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
-    <td align="center"><a href="https://github.com/shlokkokk/keylogger" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
+    <td width="50%" align="center">
+      <h3 align="center">📡 Periscope</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/Periscope?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>Local socket monitoring and security analytics tool</b> built with a desktop GUI. Captures active connections using system information libraries, schedules background worker threads to verify digital certifications without blocking, and streams real-time connection security assessments.</p>
+    </td>
+    <td width="50%" align="center">
+      <h3 align="center">💚 VitaLink</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/VitaLink?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center"><b>Empathetic chronic care companion web application</b> built on modern frontend frameworks. Utilizes custom completion endpoints secured in local storage to guide patient routines, featuring offline fallback engines mapping keyword responses in English, Hindi, and Spanish, daily treatment checklists, and caregiver safety logs.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shlokkokk/Periscope" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
+    <td align="center"><a href="https://github.com/shlokkokk/VitaLink" target="_blank"><b>[ ACCESS SOURCE ]</b></a></td>
+  </tr>
+
+  <!-- Featured Project: Cura AI -->
+  <tr>
+    <td colspan="2" align="center">
+      <br>
+      <h3 align="center">🩺 Cura AI</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/shlokkokk/cura-ai?style=flat-square&color=00f0ff&label=STARS" />
+      </p>
+      <p align="center" style="max-width: 85%; margin: 0 auto;"><b>Interactive patient simulation and clinical grading platform</b> built with React and a frameworkless backend server. Dynamically queries multi-model endpoints to generate patient replies constrained by custom diagnostic prompts. Employs keyword mapping for offline fallback dialogue, logs evaluations via database adapters, and manages user credentials via cryptographic hashing.</p>
+      <br>
+      <a href="https://github.com/shlokkokk/cura-ai" target="_blank"><b>[ ACCESS SOURCE ]</b></a>
+      <br>
+    </td>
   </tr>
 
 </table>
