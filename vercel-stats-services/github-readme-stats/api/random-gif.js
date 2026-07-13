@@ -1,4 +1,4 @@
-module.exports = (req, res) => {
+export default async (req, res) => {
   const gifs = [
     // Brooklyn Nine-Nine
     "https://media1.tenor.com/m/iPRTgyLU3vYAAAAC/jake-perralta-brooklyn99.gif", // Jake Chills
