@@ -15,6 +15,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
+      - name: Generate 3D Contribution City
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: shlokkokk
+
+      - name: Move 3D City output to dist
+        run: |
+          mkdir -p dist
+          mv profile-3d-contrib dist/profile-3d-contrib
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
