@@ -580,7 +580,7 @@
 
 <!-- 3D Contribution City -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/output/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution City" />
+  <img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution City" />
 </div>
 
 <!-- Snake Animation -->
