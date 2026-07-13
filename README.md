@@ -149,6 +149,11 @@
 
   <br>
 
+  <!-- Spotify Live Status -->
+  <img src="https://lastfm-recently-played.vercel.app/api?user=Shlok-Shah&count=1&bg_color=0a0a0f&width=400" alt="Spotify Status" />
+
+  <br><br>
+
   <!-- Achievement System (Trophies) -->
   <!-- Self-hosted: <img src="https://shlok-trophies.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" /> -->
   <img src="https://shlok-trophies.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
