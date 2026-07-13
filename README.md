@@ -42,18 +42,33 @@
 
 <div align="center">
 
-```
-+-----------------------------------------------------------------+
-|  shlok@cybersec:~$ ./get_profile.sh                             |
-|  > Loading profile info...                                      |
-|  > Found: Shlok Shah                                            |
-|  > Role: IT Diploma Student | Aspiring Ethical Hacker           |
-|  > Location: Gujarat, India                                     |
-|  > Status: Breaking things to learn how to protect them         |
-|  > Focus: Ethical Hacking & System Security                     |
-|  > Motto: "Cool cool cool. No doubt no doubt."                  |
-+-----------------------------------------------------------------+
-```
+  <table width="600" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-radius: 10px; overflow: hidden; border: 1px solid #1e1e24; font-family: 'Courier New', Courier, monospace; background-color: #0a0a0f;">
+    <!-- Terminal Header -->
+    <tr bgcolor="#16161a" style="height: 35px;">
+      <td colspan="2" style="padding-left: 12px; vertical-align: middle;">
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #00ff88; margin-right: 4px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #00f0ff; margin-right: 4px;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #b829dd; margin-right: 4px;"></span>
+      </td>
+    </tr>
+    <!-- Terminal Body -->
+    <tr>
+      <!-- Text Column (left) -->
+      <td style="padding: 20px; color: #ffffff; line-height: 1.6; font-size: 14px; width: 70%;" align="left" valign="top">
+        <span style="color: #00ff88;">shlok@cybersec:~$</span> ./get_profile.sh<br>
+        <span style="color: #888888;">> Loading profile info...</span><br>
+        <span style="color: #00f0ff;">[+] User:</span> Shlok Shah<br>
+        <span style="color: #00f0ff;">[+] Role:</span> IT Diploma Student | Aspiring Ethical Hacker<br>
+        <span style="color: #00f0ff;">[+] Loc:</span> Gujarat, India<br>
+        <span style="color: #00f0ff;">[+] Status:</span> Breaking things to learn system defense<br>
+        <span style="color: #00f0ff;">[+] Focus:</span> Ethical Hacking & System Security
+      </td>
+      <!-- GIF Column (right) -->
+      <td style="padding: 20px 20px 20px 0; width: 30%;" align="center" valign="middle">
+        <img src="https://shlok-readme-stats.vercel.app/api/random-gif" width="120" style="border-radius: 8px; border: 1px solid #1e1e24;" alt="Jake Peralta" />
+      </td>
+    </tr>
+  </table>
 
 </div>
 
