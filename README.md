@@ -57,6 +57,13 @@
 
 </div>
 
+<!-- Spotify Live Status -->
+<div align="center">
+  <img src="https://lastfm-recently-played.vercel.app/api?user=Shlok-Shah&count=1&bg_color=0a0a0f&width=400&header_style=none" alt="Spotify Status" />
+</div>
+
+<br>
+
 <p align="center">
   <img src="https://img.shields.io/badge/🌱_Learning-Penetration_Testing-00f0ff?style=flat-square" />
   <img src="https://img.shields.io/badge/💬_Ask_Me_About-Cybersecurity-b829dd?style=flat-square" />
@@ -126,13 +133,6 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
-
-<!-- Spotify Live Status -->
-<div align="center">
-  <img src="https://lastfm-recently-played.vercel.app/api?user=Shlok-Shah&count=1&bg_color=0a0a0f&width=400&header_style=none" alt="Spotify Status" />
-</div>
-
-<br>
 
 <!-- GitHub Stats Section -->
 <h2 align="center">
