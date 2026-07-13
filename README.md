@@ -127,6 +127,13 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+<!-- Spotify Live Status -->
+<div align="center">
+  <img src="https://lastfm-recently-played.vercel.app/api?user=Shlok-Shah&count=1&bg_color=0a0a0f&width=400&header_style=none" alt="Spotify Status" />
+</div>
+
+<br>
+
 <!-- GitHub Stats Section -->
 <h2 align="center">
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35">
@@ -148,11 +155,6 @@
   </table>
 
   <br>
-
-  <!-- Spotify Live Status -->
-  <img src="https://lastfm-recently-played.vercel.app/api?user=Shlok-Shah&count=1&bg_color=0a0a0f&width=400" alt="Spotify Status" />
-
-  <br><br>
 
   <!-- Achievement System (Trophies) -->
   <!-- Self-hosted: <img src="https://shlok-trophies.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" /> -->
