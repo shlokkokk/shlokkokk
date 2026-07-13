@@ -45,10 +45,8 @@
   <table width="600" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-radius: 10px; overflow: hidden; border: 1px solid #1e1e24; font-family: 'Courier New', Courier, monospace; background-color: #0a0a0f;">
     <!-- Terminal Header -->
     <tr bgcolor="#16161a" style="height: 35px;">
-      <td colspan="2" style="padding-left: 12px; vertical-align: middle;">
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #00ff88; margin-right: 4px;"></span>
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #00f0ff; margin-right: 4px;"></span>
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius: 50%; background-color: #b829dd; margin-right: 4px;"></span>
+      <td colspan="2" style="padding-left: 12px; vertical-align: middle; font-size: 10px; letter-spacing: 2px;">
+        🟢&nbsp;🔵&nbsp;🟣
       </td>
     </tr>
     <!-- Terminal Body -->
