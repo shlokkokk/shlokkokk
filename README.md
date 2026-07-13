@@ -138,7 +138,7 @@
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://shlok-readme-stats.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" height="195" alt="GitHub Stats" />
+        <img src="https://shlok-readme-stats.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15&include_all_commits=true" height="195" alt="GitHub Stats" />
       </td>
       <td align="center">
         <img src="https://shlok-streak-stats.vercel.app/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" height="195" alt="GitHub Streak" />
