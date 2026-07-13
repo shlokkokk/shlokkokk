@@ -138,10 +138,10 @@
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats-alpha.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" height="195" alt="GitHub Stats" />
+        <img src="https://shlok-readme-stats.vercel.app/api?username=shlokkokk&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ff88&icon_color=00f0ff&text_color=ffffff&border_radius=15" height="195" alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" height="195" alt="GitHub Streak" />
+        <img src="https://shlok-streak-stats.vercel.app/?user=shlokkokk&theme=radical&hide_border=true&background=0a0a0f&stroke=00ff88&ring=00f0ff&fire=b829dd&currStreakNum=ffffff&sideNums=00ff88&currStreakLabel=00f0ff&sideLabels=b829dd&dates=808080&border_radius=15" height="195" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
@@ -154,7 +154,7 @@
 <br><br>
 
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
+  <img src="https://shlok-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
 
 </div>
 
