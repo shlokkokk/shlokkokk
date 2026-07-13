@@ -43,7 +43,7 @@ export class Fetcher {
             url: 'https://api.github.com/graphql',
             method: 'POST',
             headers: {
-                Authorization: `bearer ${process.env.TOKEN}`,
+                Authorization: `bearer ${process.env.TOKEN || process.env.GITHUB_TOKEN1}`,
             },
             data: graphQLQuery,
         });

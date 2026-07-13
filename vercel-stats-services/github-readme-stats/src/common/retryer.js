@@ -3,6 +3,11 @@
 import { CustomError } from "./error.js";
 import { logger } from "./log.js";
 
+// Add fallback to GITHUB_TOKEN1 for easier self-hosting.
+if (process.env.GITHUB_TOKEN1 && !process.env.PAT_1) {
+  process.env.PAT_1 = process.env.GITHUB_TOKEN1;
+}
+
 // Script variables.
 
 // Count the number of GitHub API tokens available.

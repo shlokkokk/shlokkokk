@@ -2,6 +2,11 @@
 
 declare(strict_types=1);
 
+// Add fallback to GITHUB_TOKEN1 for easier self-hosting.
+if (!isset($_SERVER["TOKEN"]) && isset($_SERVER["GITHUB_TOKEN1"])) {
+    $_SERVER["TOKEN"] = $_SERVER["GITHUB_TOKEN1"];
+}
+
 // load functions
 require_once "../vendor/autoload.php";
 require_once "stats.php";
