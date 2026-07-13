@@ -150,8 +150,8 @@
   <br>
 
   <!-- Achievement System (Trophies) -->
-  <!-- Self-hosted: <img src="https://github-profile-trophy-winning.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" /> -->
-  <img src="https://github-profile-trophy-winning.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
+  <!-- Self-hosted: <img src="https://shlok-trophies.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" /> -->
+  <img src="https://shlok-trophies.vercel.app/?username=shlokkokk&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" alt="GitHub Trophies" />
 
 <br><br>
 
