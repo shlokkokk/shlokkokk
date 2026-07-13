@@ -65,7 +65,7 @@
       </td>
       <!-- GIF Column (right) -->
       <td style="padding: 20px 20px 20px 0; width: 30%;" align="center" valign="middle">
-        <img src="https://shlok-readme-stats.vercel.app/api/random-gif" width="120" style="border-radius: 8px; border: 1px solid #1e1e24;" alt="Jake Peralta" />
+        <img src="https://shlok-readme-stats.vercel.app/api/random-gif" width="120" style="border-radius: 8px; border: 1px solid #1e1e24;" alt="GIF" />
       </td>
     </tr>
   </table>
