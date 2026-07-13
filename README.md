@@ -157,12 +157,6 @@
 
   <!-- Activity Graph -->
   <img src="https://shlok-activity-graph.vercel.app/graph?username=shlokkokk&bg_color=0a0a0f&color=00ff88&line=00f0ff&point=b829dd&area=true&hide_border=true&custom_title=Operational%20Activity%20Timeline" width="100%" alt="Activity Graph" />
-
-  <br><br>
-
-  <!-- 3D Contribution City -->
-  <img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution City" />
-
 </div>
 
 <!-- Animated Divider -->
@@ -582,6 +576,11 @@
     <img src="https://img.shields.io/badge/Made_in-🇮🇳_India-ff9933?style=flat-square" />
   </p>
   <p><i>"Carpe Diem. Seize the day, boys. Make your lives extraordinary."</i></p>
+</div>
+
+<!-- 3D Contribution City -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/output/profile-3d-contrib/profile-night-rainbow-animate.svg" width="100%" alt="3D Contribution City" />
 </div>
 
 <!-- Snake Animation -->
