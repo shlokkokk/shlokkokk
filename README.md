@@ -191,6 +191,11 @@
   <span style="color: #ff00ff; font-family: 'Courier New', Courier, monospace;">$ ls -la projects/ --verbose</span>
 </h2>
 
+<p align="center">
+  <a href="#all-projects">
+    <img src="https://img.shields.io/badge/⏭️_Skip_Projects-00ff88?style=flat-square&logo=fastly&logoColor=black" alt="Skip Projects" />
+  </a>
+</p>
 
 <p align="center"><i>"People will never be replaced by machines. In the end, life and business are about human connections. And computers are about trying to murder you in a lake. And to me the choice is easy."</i> — Michael Scott</p>
 
@@ -326,7 +331,7 @@
 
 <br>
 
-<div align="center">
+<div align="center" id="all-projects">
   <a href="https://shlok-shah-portfolio.vercel.app/#projects" target="_blank">
     <img src="https://img.shields.io/badge/📂_View_All_Projects-00ff88?style=for-the-badge&logo=github&logoColor=black" />
   </a>
