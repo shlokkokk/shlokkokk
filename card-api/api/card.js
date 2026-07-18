@@ -62,16 +62,49 @@ function escapeXml(str) {
     .replace(/\u2013/g, '&#x2013;');
 }
 
+function generateButton(project, type) {
+  const { name, accent } = project;
+  const width = 135;
+  const height = 28;
+  const safeName = escapeXml(name);
+  const isDemo = type === 'demo';
+  const label = isDemo ? 'LIVE DEMO' : 'VIEW CODE';
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+  <defs>
+    <filter id="glow-${safeName}-${type}" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="6" fill="#0c0d12" stroke="${accent}" stroke-width="0.75" stroke-opacity="0.3"/>
+  <rect x="2" y="2" width="${width - 4}" height="${height - 4}" rx="4" fill="${accent}" fill-opacity="0.02" />
+
+  <!-- Corner tech accents -->
+  <path d="M 5,4 L 2,4 L 2,7" stroke="${accent}" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M ${width - 5},4 L ${width - 2},4 L ${width - 2},7" stroke="${accent}" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 5,${height - 4} L 2,${height - 4} L 2,${height - 7}" stroke="${accent}" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M ${width - 5},${height - 4} L ${width - 2},${height - 4} L ${width - 2},${height - 7}" stroke="${accent}" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <circle cx="15" cy="14" r="2" fill="${accent}" filter="url(#glow-${safeName}-${type})" opacity="0.8"/>
+  <text x="${width / 2 + 7}" y="17.5" text-anchor="middle" font-family="'Courier New', 'Segoe UI', monospace" font-size="8.5" font-weight="900" fill="#f1f5f9" letter-spacing="1.2" opacity="0.85">${label}</text>
+</svg>`;
+}
+
 function generateCard(project, width = 800) {
-  const { name, accent, status, statusColor, description, tech, repo, icon, iconColor } = project;
+  const { name, accent, status, statusColor, description, tech, repo, icon, iconColor, category } = project;
 
   const PAD = 28;
   const height = 200;
-  const CHARS_PER_LINE = Math.floor((width - PAD * 2 - 20) / 7.4);
+  const CHARS_PER_LINE = Math.floor((width - PAD * 2 - 20) / 7.2);
   const MAX_LINES = 4;
   const descLines = wrapText(description, CHARS_PER_LINE, MAX_LINES);
   const lineHeight = 19;
-  const descStartY = 76;
+  const descStartY = 79;
 
   const maxTags = 6;
   const displayTech = tech.slice(0, maxTags);
@@ -80,7 +113,7 @@ function generateCard(project, width = 800) {
   const iconPath = ICON_PATHS[icon];
   const iconSize = 15;
   const iconGroup = iconPath
-    ? `<g transform="translate(${PAD}, 25) scale(${iconSize / 24})"><path d="${iconPath}" fill="${iconColor}" opacity="0.85"/></g>`
+    ? `<g transform="translate(${PAD}, 28) scale(${iconSize / 24})"><path d="${iconPath}" fill="${iconColor}" opacity="0.85"/></g>`
     : '';
   const nameX = iconPath ? PAD + iconSize + 8 : PAD;
 
@@ -88,70 +121,87 @@ function generateCard(project, width = 800) {
   const statusCharW = 6.5;
   const badgeWidth = status.length * statusCharW + 34;
   const badgeX = width - PAD - badgeWidth;
-  const badgeMidY = 31;
+  const badgeMidY = 34;
 
   const safeName = escapeXml(name);
+  const safeCategory = escapeXml(category || 'PROJECT');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <defs>
+    <!-- Dot pattern for tech background -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1e293b" opacity="0.35" />
+    </pattern>
     <linearGradient id="bg-${safeName}" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="${accent}" stop-opacity="0.09"/>
+      <stop offset="0%" stop-color="${accent}" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0d0d14" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow-${safeName}" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip-${safeName}">
-      <rect width="${width}" height="${height}" rx="12" ry="12"/>
-    </clipPath>
   </defs>
 
-  <!-- Base -->
-  <rect width="${width}" height="${height}" rx="12" ry="12" fill="#0d0d14"/>
+  <!-- Base dark layer -->
+  <rect width="${width}" height="${height}" rx="12" ry="12" fill="#090a0f"/>
+
+  <!-- Tech dot grid background pattern -->
+  <rect width="${width}" height="${height}" rx="12" ry="12" fill="url(#dot-grid)"/>
+
+  <!-- Left accent linear gradient glow -->
   <rect width="${width}" height="${height}" rx="12" ry="12" fill="url(#bg-${safeName})"/>
 
-  <!-- Border -->
-  <rect width="${width}" height="${height}" rx="12" ry="12" fill="none" stroke="${accent}" stroke-width="0.75" stroke-opacity="0.2"/>
+  <!-- Tech corner brackets for absolute stunning cyber-look -->
+  <path d="M 12,20 L 12,12 L 20,12" stroke="${accent}" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M ${width - 20},12 L ${width - 12},12 L ${width - 12},20" stroke="${accent}" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 12,${height - 20} L 12,${height - 12} L 20,${height - 12}" stroke="${accent}" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M ${width - 20},${height - 12} L ${width - 12},${height - 12} L ${width - 12},${height - 20}" stroke="${accent}" stroke-width="1.2" fill="none" opacity="0.4"/>
 
-  <!-- Left accent stripe -->
-  <rect x="0" y="10" width="3" height="${height - 20}" rx="1.5" fill="${accent}" opacity="0.95" filter="url(#glow-${safeName})"/>
+  <!-- Border -->
+  <rect width="${width}" height="${height}" rx="12" ry="12" fill="none" stroke="${accent}" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- Left accent stripe with heavy blur glow -->
+  <rect x="0" y="14" width="3" height="${height - 28}" rx="1.5" fill="${accent}" opacity="0.9" filter="url(#glow-${safeName})"/>
+
+  <!-- Category metadata tag above the title -->
+  <text x="${nameX}" y="22" font-family="'Courier New', monospace" font-size="8.5" font-weight="900" fill="${accent}" letter-spacing="1.8" opacity="0.6">// ${safeCategory.toUpperCase()}</text>
 
   <!-- Tech icon -->
   ${iconGroup}
 
-  <!-- Name -->
-  <text x="${nameX}" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">${safeName}</text>
+  <!-- Project Name -->
+  <text x="${nameX}" y="44" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="17" font-weight="800" fill="#f8fafc" letter-spacing="0.4">${safeName}</text>
 
   <!-- Status badge -->
-  <rect x="${badgeX}" y="${badgeMidY - 11}" width="${badgeWidth}" height="22" rx="11" fill="${statusColor}" fill-opacity="0.12" stroke="${statusColor}" stroke-width="0.75" stroke-opacity="0.45"/>
+  <rect x="${badgeX}" y="${badgeMidY - 11}" width="${badgeWidth}" height="22" rx="11" fill="${statusColor}" fill-opacity="0.12" stroke="${statusColor}" stroke-width="0.75" stroke-opacity="0.4"/>
   <circle cx="${badgeX + 12}" cy="${badgeMidY}" r="2.8" fill="${statusColor}" filter="url(#glow-${safeName})"/>
   <text x="${badgeX + 22}" y="${badgeMidY + 3.5}" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="${statusColor}" letter-spacing="1.1">${escapeXml(status)}</text>
 
   <!-- Description -->
-  ${descLines.map((line, i) => `<text x="${PAD}" y="${descStartY + i * lineHeight}" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">${escapeXml(line)}</text>`).join('\n  ')}
+  ${descLines.map((line, i) => `<text x="${PAD}" y="${descStartY + i * lineHeight}" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">${escapeXml(line)}</text>`).join('\n  ')}
 
   <!-- Divider -->
-  <line x1="${PAD}" y1="${height - 46}" x2="${width - PAD}" y2="${height - 46}" stroke="#1e2433" stroke-width="0.75"/>
+  <line x1="${PAD}" y1="${height - 46}" x2="${width - PAD}" y2="${height - 46}" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
 
   <!-- Tech tags -->
   ${displayTech.map((tag, i) => {
     const tw = tag.length * 6.6 + 14;
     const px = displayTech.slice(0, i).reduce((a, t) => a + t.length * 6.6 + 14 + 6, 0);
-    return `<g><rect x="${PAD + px}" y="${height - 37}" width="${tw}" height="17" rx="8.5" fill="${accent}" fill-opacity="0.08" stroke="${accent}" stroke-width="0.5" stroke-opacity="0.35"/><text x="${PAD + px + tw / 2}" y="${height - 25}" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="${accent}" letter-spacing="0.5" font-weight="500">${escapeXml(tag)}</text></g>`;
+    return `<g><rect x="${PAD + px}" y="${height - 37}" width="${tw}" height="17" rx="8.5" fill="${accent}" fill-opacity="0.08" stroke="${accent}" stroke-width="0.5" stroke-opacity="0.35"/><text x="${PAD + px + tw / 2}" y="${height - 25}" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="${accent}" letter-spacing="0.5" font-weight="600">${escapeXml(tag)}</text></g>`;
   }).join('\n  ')}
 
-  <!-- Source link -->
-  <text x="${width - PAD}" y="${height - 25}" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="${accent}" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
-  <text x="${width - PAD}" y="${height - 9}" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/${escapeXml(repo)}</text>
+  <!-- Source repo name at bottom right -->
+  <text x="${width - PAD}" y="${height - 26}" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="${accent}" letter-spacing="0.5" font-weight="700" opacity="0.8">${escapeXml(repo.toUpperCase())}</text>
+  <text x="${width - PAD}" y="${height - 10}" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
 </svg>`;
 }
-
 
 // Vercel serverless handler
 module.exports = (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const slug = url.searchParams.get('project');
+  const type = url.searchParams.get('type') || 'card';
   const width = parseInt(url.searchParams.get('width') || '800');
 
   res.setHeader('Content-Type', 'image/svg+xml');
@@ -159,21 +209,8 @@ module.exports = (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
 
   if (!slug) {
-    // Return all projects as a gallery SVG
-    const allProjects = projects;
-    const cardH = 200;
-    const gap = 12;
-    const cols = 1;
-    const totalH = allProjects.length * (cardH + gap) + gap;
-    const cards = allProjects.map((p, i) =>
-      `<g transform="translate(0, ${i * (cardH + gap)})">${generateCard(p, width)}</g>`
-    ).join('\n');
-    
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${totalH}" viewBox="0 0 ${width} ${totalH}">
-  <rect width="${width}" height="${totalH}" fill="#0a0a0f"/>
-  ${cards}
-</svg>`;
-    res.end(svg);
+    res.statusCode = 400;
+    res.end(`<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60"><rect width="400" height="60" fill="#0d0d14" rx="8"/><text x="200" y="35" text-anchor="middle" font-family="monospace" fill="#ff4444" font-size="14">Missing project query parameter</text></svg>`);
     return;
   }
 
@@ -184,5 +221,16 @@ module.exports = (req, res) => {
     return;
   }
 
-  res.end(generateCard(project, width));
+  if (type === 'code') {
+    res.end(generateButton(project, 'code'));
+  } else if (type === 'demo') {
+    if (!project.liveUrl) {
+      res.statusCode = 404;
+      res.end(`<svg xmlns="http://www.w3.org/2000/svg" width="100" height="30"><rect width="100" height="30" fill="#000"/><text x="50" y="20" fill="#f00">No Demo</text></svg>`);
+    } else {
+      res.end(generateButton(project, 'demo'));
+    }
+  } else {
+    res.end(generateCard(project, width));
+  }
 };

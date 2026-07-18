@@ -1,56 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
+    <!-- Dot pattern for tech background -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1e293b" opacity="0.35" />
+    </pattern>
     <linearGradient id="bg-Periscope" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.09"/>
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0d0d14" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow-Periscope" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip-Periscope">
-      <rect width="800" height="200" rx="12" ry="12"/>
-    </clipPath>
   </defs>
 
-  <!-- Base -->
-  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <!-- Base dark layer -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#090a0f"/>
+
+  <!-- Tech dot grid background pattern -->
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#dot-grid)"/>
+
+  <!-- Left accent linear gradient glow -->
   <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-Periscope)"/>
 
-  <!-- Border -->
-  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.2"/>
+  <!-- Tech corner brackets for absolute stunning cyber-look -->
+  <path d="M 12,20 L 12,12 L 20,12" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,12 L 788,12 L 788,20" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 12,180 L 12,188 L 20,188" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,188 L 788,188 L 788,180" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
 
-  <!-- Left accent stripe -->
-  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#00ff88" opacity="0.95" filter="url(#glow-Periscope)"/>
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- Left accent stripe with heavy blur glow -->
+  <rect x="0" y="14" width="3" height="172" rx="1.5" fill="#00ff88" opacity="0.9" filter="url(#glow-Periscope)"/>
+
+  <!-- Category metadata tag above the title -->
+  <text x="51" y="22" font-family="'Courier New', monospace" font-size="8.5" font-weight="900" fill="#00ff88" letter-spacing="1.8" opacity="0.6">// NETWORK MONITOR</text>
 
   <!-- Tech icon -->
-  <g transform="translate(28, 25) scale(0.625)"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.26-.02H10.7l.7-.05.64-.16.55-.25.48-.3.41-.35.35-.38.28-.42.23-.44.16-.46.1-.47.07-.48.03-.47-.03-.46-.08-.46-.13-.44-.17-.41-.23-.39-.29-.36-.35-.32-.42-.28-.51-.22-.59-.16-.66-.1-.72-.04h-4.6l-.88.07-.8.18-.71.28-.62.37-.55.44-.47.51-.38.59-.3.65-.2.72-.12.77-.04.81v3.68H3.17l-.21.04-.28.08-.32.13-.35.18-.36.27-.36.37-.34.47-.32.6-.28.73-.21.88-.13 1.06-.05 1.23.06 1.22.16 1.04.25.87.32.71.36.56.4.45.42.32.42.24.4.16.36.1.32.06.26.01h3.79z" fill="#3776AB" opacity="0.85"/></g>
+  <g transform="translate(28, 28) scale(0.625)"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.26-.02H10.7l.7-.05.64-.16.55-.25.48-.3.41-.35.35-.38.28-.42.23-.44.16-.46.1-.47.07-.48.03-.47-.03-.46-.08-.46-.13-.44-.17-.41-.23-.39-.29-.36-.35-.32-.42-.28-.51-.22-.59-.16-.66-.1-.72-.04h-4.6l-.88.07-.8.18-.71.28-.62.37-.55.44-.47.51-.38.59-.3.65-.2.72-.12.77-.04.81v3.68H3.17l-.21.04-.28.08-.32.13-.35.18-.36.27-.36.37-.34.47-.32.6-.28.73-.21.88-.13 1.06-.05 1.23.06 1.22.16 1.04.25.87.32.71.36.56.4.45.42.32.42.24.4.16.36.1.32.06.26.01h3.79z" fill="#3776AB" opacity="0.85"/></g>
 
-  <!-- Name -->
-  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">Periscope</text>
+  <!-- Project Name -->
+  <text x="51" y="44" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="17" font-weight="800" fill="#f8fafc" letter-spacing="0.4">Periscope</text>
 
   <!-- Status badge -->
-  <rect x="666.5" y="20" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.45"/>
-  <circle cx="678.5" cy="31" r="2.8" fill="#00ff88" filter="url(#glow-Periscope)"/>
-  <text x="688.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
+  <rect x="666.5" y="23" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.4"/>
+  <circle cx="678.5" cy="34" r="2.8" fill="#00ff88" filter="url(#glow-Periscope)"/>
+  <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Local network socket monitor and AI cyber-diagnostics desktop utility for Windows. Scans active</text>
-  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">TCP/UDP connections, applies local risk heuristics to flag suspicious processes, resolves digital</text>
-  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">signatures asynchronously via a background PowerShell Authenticode worker, maps WHOIS geolocation</text>
-  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">for external IPs, and streams token-by-token Groq AI analysis inline in the GUI. Compiles to a</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Local network socket monitor and AI cyber-diagnostics desktop utility for Windows. Scans active</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">TCP/UDP connections, applies local risk heuristics to flag suspicious processes, resolves digital</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">signatures asynchronously via a background PowerShell Authenticode worker, maps WHOIS geolocation</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">for external IPs, and streams token-by-token Groq AI analysis inline in the GUI. Compiles to a</text>
 
   <!-- Divider -->
-  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
 
   <!-- Tech tags -->
-  <g><rect x="28" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="54.8" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">Python</text></g>
-  <g><rect x="87.6" y="163" width="99.8" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="137.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">CustomTkinter</text></g>
-  <g><rect x="193.39999999999998" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="220.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">psutil</text></g>
-  <g><rect x="252.99999999999997" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="273.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">Groq</text></g>
-  <g><rect x="299.4" y="163" width="86.6" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="342.7" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">PyInstaller</text></g>
+  <g><rect x="28" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="54.8" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Python</text></g>
+  <g><rect x="87.6" y="163" width="99.8" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="137.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">CustomTkinter</text></g>
+  <g><rect x="193.39999999999998" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="220.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">psutil</text></g>
+  <g><rect x="252.99999999999997" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="273.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Groq</text></g>
+  <g><rect x="299.4" y="163" width="86.6" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="342.7" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">PyInstaller</text></g>
 
-  <!-- Source link -->
-  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#00ff88" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
-  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/Periscope</text>
+  <!-- Source repo name at bottom right -->
+  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/PERISCOPE</text>
+  <text x="772" y="190" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
 </svg>

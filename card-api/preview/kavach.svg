@@ -1,57 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
+    <!-- Dot pattern for tech background -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1e293b" opacity="0.35" />
+    </pattern>
     <linearGradient id="bg-KAVACH" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.09"/>
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0d0d14" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow-KAVACH" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip-KAVACH">
-      <rect width="800" height="200" rx="12" ry="12"/>
-    </clipPath>
   </defs>
 
-  <!-- Base -->
-  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <!-- Base dark layer -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#090a0f"/>
+
+  <!-- Tech dot grid background pattern -->
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#dot-grid)"/>
+
+  <!-- Left accent linear gradient glow -->
   <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-KAVACH)"/>
 
-  <!-- Border -->
-  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.2"/>
+  <!-- Tech corner brackets for absolute stunning cyber-look -->
+  <path d="M 12,20 L 12,12 L 20,12" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,12 L 788,12 L 788,20" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 12,180 L 12,188 L 20,188" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,188 L 788,188 L 788,180" stroke="#00ff88" stroke-width="1.2" fill="none" opacity="0.4"/>
 
-  <!-- Left accent stripe -->
-  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#00ff88" opacity="0.95" filter="url(#glow-KAVACH)"/>
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- Left accent stripe with heavy blur glow -->
+  <rect x="0" y="14" width="3" height="172" rx="1.5" fill="#00ff88" opacity="0.9" filter="url(#glow-KAVACH)"/>
+
+  <!-- Category metadata tag above the title -->
+  <text x="51" y="22" font-family="'Courier New', monospace" font-size="8.5" font-weight="900" fill="#00ff88" letter-spacing="1.8" opacity="0.6">// CYBER DEFENSE</text>
 
   <!-- Tech icon -->
-  <g transform="translate(28, 25) scale(0.625)"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.292zM5.117 20.025c-.668-.386-.957-1.835-.73-3.704.052-.459.139-.944.247-1.44.962.238 2.01.417 3.109.534.66.905 1.345 1.727 2.035 2.446-1.592 1.48-3.087 2.29-4.105 2.29-.219-.002-.406-.047-.556-.126zm.02-8.022c.35-.012.7-.017 1.05-.017.524 0 1.043.024 1.553.07.172.506.328 1.028.467 1.56-.14.534-.295 1.056-.469 1.56-1.033.097-2.017.275-2.93.527-.163-.535-.295-1.07-.395-1.596.198-.525.388-1.057.554-1.59zm1.553-3.07c.29-.012.576-.018.862-.018.524 0 1.044.019 1.554.057-.08.38-.168.754-.256 1.118-.5.074-1 .158-1.495.256-.04-.47-.08-.94-.13-1.413zm.85 3.07c.45.015.9.022 1.348.022.445 0 .894-.007 1.342-.022-.14.525-.29 1.046-.455 1.555-.29-.012-.576-.018-.862-.018-.524 0-1.044.019-1.554.057-.165-.509-.315-1.03-.455-1.555zm2.714-2.622c.5.074 1 .158 1.495.257.04.47.08.94.13 1.413-.29.012-.576.018-.862.018-.524 0-1.044-.019-1.554-.057.08-.38.168-.754.256-1.118.168-.168.353-.336.535-.513zM12 5.688c.48.548.955 1.15 1.414 1.8-.47-.017-.942-.026-1.414-.026-.473 0-.944.009-1.414.025.46-.65.934-1.252 1.414-1.8z" fill="#61DAFB" opacity="0.85"/></g>
+  <g transform="translate(28, 28) scale(0.625)"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.292zM5.117 20.025c-.668-.386-.957-1.835-.73-3.704.052-.459.139-.944.247-1.44.962.238 2.01.417 3.109.534.66.905 1.345 1.727 2.035 2.446-1.592 1.48-3.087 2.29-4.105 2.29-.219-.002-.406-.047-.556-.126zm.02-8.022c.35-.012.7-.017 1.05-.017.524 0 1.043.024 1.553.07.172.506.328 1.028.467 1.56-.14.534-.295 1.056-.469 1.56-1.033.097-2.017.275-2.93.527-.163-.535-.295-1.07-.395-1.596.198-.525.388-1.057.554-1.59zm1.553-3.07c.29-.012.576-.018.862-.018.524 0 1.044.019 1.554.057-.08.38-.168.754-.256 1.118-.5.074-1 .158-1.495.256-.04-.47-.08-.94-.13-1.413zm.85 3.07c.45.015.9.022 1.348.022.445 0 .894-.007 1.342-.022-.14.525-.29 1.046-.455 1.555-.29-.012-.576-.018-.862-.018-.524 0-1.044.019-1.554.057-.165-.509-.315-1.03-.455-1.555zm2.714-2.622c.5.074 1 .158 1.495.257.04.47.08.94.13 1.413-.29.012-.576.018-.862.018-.524 0-1.044-.019-1.554-.057.08-.38.168-.754.256-1.118.168-.168.353-.336.535-.513zM12 5.688c.48.548.955 1.15 1.414 1.8-.47-.017-.942-.026-1.414-.026-.473 0-.944.009-1.414.025.46-.65.934-1.252 1.414-1.8z" fill="#61DAFB" opacity="0.85"/></g>
 
-  <!-- Name -->
-  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">KAVACH</text>
+  <!-- Project Name -->
+  <text x="51" y="44" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="17" font-weight="800" fill="#f8fafc" letter-spacing="0.4">KAVACH</text>
 
   <!-- Status badge -->
-  <rect x="666.5" y="20" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.45"/>
-  <circle cx="678.5" cy="31" r="2.8" fill="#00ff88" filter="url(#glow-KAVACH)"/>
-  <text x="688.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
+  <rect x="666.5" y="23" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.4"/>
+  <circle cx="678.5" cy="34" r="2.8" fill="#00ff88" filter="url(#glow-KAVACH)"/>
+  <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Multi-modal cyber fraud defense platform that breaks the modern attack chain at every stage</text>
-  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">simultaneously. Three real-time AI shields: Voice Shield analyzes 9 scientific spectral features</text>
-  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">via librosa to detect deepfake audio in live mic recordings; SIM Guard streams live WebSocket</text>
-  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">carrier telemetry via IPQualityScore to detect SIM-swap fraud and OTP hijacking; Job Shield</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Multi-modal cyber fraud defense platform that breaks the modern attack chain at every stage</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">simultaneously. Three real-time AI shields: Voice Shield analyzes 9 spectral features via librosa to</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">detect deepfake audio; SIM Guard streams live WebSocket carrier telemetry via IPQualityScore to</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">detect SIM-swap fraud; Job Shield runs a multi-layer forensic pipeline querying VirusTotal 75+</text>
 
   <!-- Divider -->
-  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
 
   <!-- Tech tags -->
-  <g><rect x="28" y="163" width="66.8" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="61.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">React 19</text></g>
-  <g><rect x="100.8" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="130.9" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">Node.js</text></g>
-  <g><rect x="167" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="197.1" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">FastAPI</text></g>
-  <g><rect x="233.2" y="163" width="80" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="273.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">NVIDIA NIM</text></g>
-  <g><rect x="319.2" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="339.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">Groq</text></g>
-  <g><rect x="365.59999999999997" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="395.7" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="500">librosa</text></g>
+  <g><rect x="28" y="163" width="66.8" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="61.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">React 19</text></g>
+  <g><rect x="100.8" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="130.9" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Node.js</text></g>
+  <g><rect x="167" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="197.1" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">FastAPI</text></g>
+  <g><rect x="233.2" y="163" width="80" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="273.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">NVIDIA NIM</text></g>
+  <g><rect x="319.2" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="339.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Groq</text></g>
+  <g><rect x="365.59999999999997" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="395.7" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">librosa</text></g>
 
-  <!-- Source link -->
-  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#00ff88" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
-  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/kavach</text>
+  <!-- Source repo name at bottom right -->
+  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/KAVACH</text>
+  <text x="772" y="190" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
 </svg>

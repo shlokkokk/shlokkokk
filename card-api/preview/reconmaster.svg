@@ -1,52 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
+    <!-- Dot pattern for tech background -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1e293b" opacity="0.35" />
+    </pattern>
     <linearGradient id="bg-ReconMaster" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.09"/>
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0d0d14" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow-ReconMaster" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="clip-ReconMaster">
-      <rect width="800" height="200" rx="12" ry="12"/>
-    </clipPath>
   </defs>
 
-  <!-- Base -->
-  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <!-- Base dark layer -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#090a0f"/>
+
+  <!-- Tech dot grid background pattern -->
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#dot-grid)"/>
+
+  <!-- Left accent linear gradient glow -->
   <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-ReconMaster)"/>
 
-  <!-- Border -->
-  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#ffd700" stroke-width="0.75" stroke-opacity="0.2"/>
+  <!-- Tech corner brackets for absolute stunning cyber-look -->
+  <path d="M 12,20 L 12,12 L 20,12" stroke="#ffd700" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,12 L 788,12 L 788,20" stroke="#ffd700" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 12,180 L 12,188 L 20,188" stroke="#ffd700" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,188 L 788,188 L 788,180" stroke="#ffd700" stroke-width="1.2" fill="none" opacity="0.4"/>
 
-  <!-- Left accent stripe -->
-  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#ffd700" opacity="0.95" filter="url(#glow-ReconMaster)"/>
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#ffd700" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- Left accent stripe with heavy blur glow -->
+  <rect x="0" y="14" width="3" height="172" rx="1.5" fill="#ffd700" opacity="0.9" filter="url(#glow-ReconMaster)"/>
+
+  <!-- Category metadata tag above the title -->
+  <text x="51" y="22" font-family="'Courier New', monospace" font-size="8.5" font-weight="900" fill="#ffd700" letter-spacing="1.8" opacity="0.6">// RECON</text>
 
   <!-- Tech icon -->
-  <g transform="translate(28, 25) scale(0.625)"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm.267 4.5l3.266 6.5H8.467l3.8-6.5zm-7.8 7.5h15l-7.5 7.5-7.5-7.5z" fill="#557C94" opacity="0.85"/></g>
+  <g transform="translate(28, 28) scale(0.625)"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm.267 4.5l3.266 6.5H8.467l3.8-6.5zm-7.8 7.5h15l-7.5 7.5-7.5-7.5z" fill="#557C94" opacity="0.85"/></g>
 
-  <!-- Name -->
-  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">ReconMaster</text>
+  <!-- Project Name -->
+  <text x="51" y="44" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="17" font-weight="800" fill="#f8fafc" letter-spacing="0.4">ReconMaster</text>
 
   <!-- Status badge -->
-  <rect x="640.5" y="20" width="131.5" height="22" rx="11" fill="#ffd700" fill-opacity="0.12" stroke="#ffd700" stroke-width="0.75" stroke-opacity="0.45"/>
-  <circle cx="652.5" cy="31" r="2.8" fill="#ffd700" filter="url(#glow-ReconMaster)"/>
-  <text x="662.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#ffd700" letter-spacing="1.1">GUIDED WORKFLOW</text>
+  <rect x="640.5" y="23" width="131.5" height="22" rx="11" fill="#ffd700" fill-opacity="0.12" stroke="#ffd700" stroke-width="0.75" stroke-opacity="0.4"/>
+  <circle cx="652.5" cy="34" r="2.8" fill="#ffd700" filter="url(#glow-ReconMaster)"/>
+  <text x="662.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#ffd700" letter-spacing="1.1">GUIDED WORKFLOW</text>
 
   <!-- Description -->
-  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Unified reconnaissance framework for Kali Linux, chaining 12+ industry-standard tools into a deep</text>
-  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">recon workflow with guided menu navigation.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Unified reconnaissance framework for Kali Linux, chaining 12+ industry-standard tools into a deep</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">recon workflow with guided menu navigation.</text>
 
   <!-- Divider -->
-  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
 
   <!-- Tech tags -->
-  <g><rect x="28" y="163" width="40.4" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="48.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="500">Bash</text></g>
-  <g><rect x="74.4" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="101.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="500">Python</text></g>
-  <g><rect x="134" y="163" width="80" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="174" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="500">Kali Linux</text></g>
+  <g><rect x="28" y="163" width="40.4" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="48.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="600">Bash</text></g>
+  <g><rect x="74.4" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="101.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="600">Python</text></g>
+  <g><rect x="134" y="163" width="80" height="17" rx="8.5" fill="#ffd700" fill-opacity="0.08" stroke="#ffd700" stroke-width="0.5" stroke-opacity="0.35"/><text x="174" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="600">Kali Linux</text></g>
 
-  <!-- Source link -->
-  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#ffd700" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
-  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/ReconMaster</text>
+  <!-- Source repo name at bottom right -->
+  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#ffd700" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/RECONMASTER</text>
+  <text x="772" y="190" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
 </svg>
