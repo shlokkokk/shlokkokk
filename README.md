@@ -1,4 +1,5 @@
 <!-- "Carpe Diem. Seize the day, boys. Make your lives extraordinary." -->
+<!-- SNAPSHOT: pre-project-redesign -->
 
 <!-- Animated Header Banner -->
 <div align="center">
