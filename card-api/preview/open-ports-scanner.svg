@@ -51,8 +51,10 @@
   <text x="695" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#ff0000" letter-spacing="1.1">HIGH SPEED</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Asynchronous 65,535-port scanner with service fingerprinting, risk assessment scoring, custom HTML5</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">dashboard UI, and one-click PDF report export.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">High-speed asynchronous network scanner and security auditor built with Python, Flask, and Docker.</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Performs full-range TCP/UDP scans (1-65535) utilizing an async execution loop for maximum</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">throughput. Gathers service banners to identify server versions, calculates vulnerability risk</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">scores (Low to Critical) for exposed ports, and renders findings in a cyberpunk terminal dashboard</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

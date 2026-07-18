@@ -51,8 +51,10 @@
   <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#ff0000" letter-spacing="1.1">EDUCATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Python-based stealth keyboard monitor demonstrating event-listening patterns and SMTP-based log</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">exfiltration for ethical hacking research and security awareness.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Stealthy educational keyboard listener developed in Python for cybersecurity awareness and research.</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Captures hardware keystrokes and system key events utilizing the `pynput` listener. Aggregates data</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">in a background thread and uses SMTP protocol wrappers to exfiltrate logs securely via scheduled SSL</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">email transmissions to a configured recipient.</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

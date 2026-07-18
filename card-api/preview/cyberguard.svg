@@ -51,8 +51,10 @@
   <text x="721" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">SECURE</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Advanced password security suite with AES-256 encryption, HaveIBeenPwned breach detection, and a</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">radar-based strength visualization interface.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Award-winning client-side password security and encryption workspace (Webgathon 2025 Second</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Runner-Up). Implements real-time password strength scoring, crack-time estimations, and leak</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">verification using a client-side blacklist of 5,000+ breached passwords. Features a local password</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">manager vault using AES-256 encryption, custom obfuscations, data export utilities, and a</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

@@ -51,10 +51,10 @@
   <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">AI-driven incident response and operational memory platform. Groups system logs via signature-based</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">deduplication, indexes resolutions using conversational context mapping, queries vector databases</text>
-  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">for historical outage postmortems, and monitors active host states including CPU load, memory</text>
-  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">metrics, listener ports, and local container health.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">AI-native incident response and operational memory platform built for automated alert lifecycle</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">management. Groups raw production system logs via signature-based deduplication algorithms, indexes</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">incident resolutions using conversational context mapping, queries vector databases for historical</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">outage postmortems, and monitors active host telemetry including CPU load, memory metrics, listening</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

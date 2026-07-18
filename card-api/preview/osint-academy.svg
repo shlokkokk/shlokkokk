@@ -51,8 +51,10 @@
   <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00f0ff" letter-spacing="1.1">EDUCATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Interactive OSINT learning platform with a real-time Google dork generator, comprehensive</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">reconnaissance study guides, and categorized tool references.</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">A cyber-themed educational platform and reconnaissance toolkit. Features an interactive Google Dork</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Generator that automatically structures search filters to locate leaked documents, email</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">credentials, social profiles, and phone numbers. Includes a comprehensive OSINT study guide covering</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">social media intelligence, network recon, and dark web monitoring, styled with responsive custom</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

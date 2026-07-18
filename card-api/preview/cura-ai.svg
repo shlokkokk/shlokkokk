@@ -51,10 +51,10 @@
   <text x="688.5" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
 
   <!-- Description -->
-  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Interactive patient simulation and clinical grading platform. The frameworkless Node.js backend</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">routes through a multi-model AI waterfall &#x2014; Gemini, Groq, OpenAI, NVIDIA, Ollama &#x2014; with</text>
-  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">scrypt-hashed credential management and optional Supabase persistence. Evaluates diagnosis</text>
-  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">submissions against a structured rubric with keyword-mapped offline fallback dialogue and faculty</text>
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">AI-native virtual patient simulator built for clinical training. Implements a frameworkless Node.js</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">backend routing conversations through a multi-model AI waterfall (Gemini, Groq, OpenAI, NVIDIA NIM)</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">with secure scrypt-hashed user authentication and Supabase persistence. Evaluates student diagnostic</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">reasoning, history-taking, and check-ups against structured medical rubrics, featuring a</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

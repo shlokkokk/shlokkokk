@@ -71,7 +71,7 @@
     "featured": false,
     "repo": "shlokkokk/Chronicle",
     "liveUrl": "https://chronicle-io.vercel.app",
-    "description": "AI-driven incident response and operational memory platform. Groups system logs via signature-based deduplication, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states including CPU load, memory metrics, listener ports, and local container health.",
+    "description": "AI-native incident response and operational memory platform built for automated alert lifecycle management. Groups raw production system logs via signature-based deduplication algorithms, indexes incident resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host telemetry including CPU load, memory metrics, listening ports, and local container health.",
     "tech": ["Next.js 14", "TypeScript", "Express", "Supabase", "pgvector", "Groq"]
   },
   {
@@ -86,7 +86,7 @@
     "featured": false,
     "repo": "shlokkokk/zerorisk-sentinel",
     "liveUrl": "https://zerorisk-sentinel.vercel.app/",
-    "description": "Hybrid threat detection platform with a terminal-inspired frontend and Python Flask backend. Drop files, paste URLs, or upload APKs to get YARA scanning, multi-engine malware intelligence, APK permission forensics, and AI-powered threat explanations via Groq. Ships ECharts visualizations and HTML reports.",
+    "description": "AI-powered hybrid security platform that orchestrates real-time threat intelligence and vulnerability analysis. Features a high-speed Python Flask backend that runs static binary inspection, APK Android permission forensics, and signature-based YARA scanning. Integrates Llama 3.3 70B via Groq to translate dense forensic reports into plain-English explanations. Includes interactive cybersecurity data visualizations using ECharts and automated HTML report generation.",
     "tech": ["JavaScript", "HTML5", "Python", "Flask", "YARA", "Groq", "ECharts"]
   },
   {
@@ -101,7 +101,7 @@
     "featured": false,
     "repo": "shlokkokk/SwipeClean",
     "liveUrl": "https://swipeclean.vercel.app/",
-    "description": "Gamified desktop cleanup engine built on Electron and React 19. Features a Tinder-style swipe interface for rapid folder triage, a Live Stack HUD tracking decisions in real time, a physics-based Safe-Undo buffer, PDF thumbnail previews via pdf2pic, and a SQLite-backed session database.",
+    "description": "A gamified file management and desktop organization engine built on React 19, TypeScript, and Electron. Features an interactive Tinder-style card swiping UI for rapid folder triage, a real-time Live Stack HUD for tracking pending actions, a physics-based Safe-Undo cache to prevent accidental deletions, and automated PDF/image thumbnail extraction via pdf2pic. Persists operations locally with a SQLite session database.",
     "tech": ["Electron", "React 19", "TypeScript", "SQLite", "Framer Motion"]
   },
   {
@@ -116,7 +116,7 @@
     "featured": false,
     "repo": "shlokkokk/Periscope",
     "liveUrl": null,
-    "description": "Local network socket monitor and AI cyber-diagnostics desktop utility for Windows. Scans active TCP/UDP connections, applies local risk heuristics to flag suspicious processes, resolves digital signatures asynchronously via a background PowerShell Authenticode worker, maps WHOIS geolocation for external IPs, and streams token-by-token Groq AI analysis inline in the GUI. Compiles to a single 25MB standalone exe.",
+    "description": "Advanced local port telemetry and network security diagnostics client for Windows. Monitors active TCP/UDP connections in real time, flags newly opened sockets, and applies local heuristics to detect suspicious process behavior. Runs asynchronous digital signature verification of binaries using a background PowerShell Authenticode worker, resolves external remote IPs to WHOIS geolocation maps, and streams Groq Llama 3.3 token diagnostics directly into a CustomTkinter GUI. Bundles into a standalone 25MB executable.",
     "tech": ["Python", "CustomTkinter", "psutil", "Groq", "PyInstaller"]
   },
   {
@@ -131,7 +131,7 @@
     "featured": false,
     "repo": "shlokkokk/cura-ai",
     "liveUrl": null,
-    "description": "Interactive patient simulation and clinical grading platform. The frameworkless Node.js backend routes through a multi-model AI waterfall — Gemini, Groq, OpenAI, NVIDIA, Ollama — with scrypt-hashed credential management and optional Supabase persistence. Evaluates diagnosis submissions against a structured rubric with keyword-mapped offline fallback dialogue and faculty analytics endpoints.",
+    "description": "AI-native virtual patient simulator built for clinical training. Implements a frameworkless Node.js backend routing conversations through a multi-model AI waterfall (Gemini, Groq, OpenAI, NVIDIA NIM) with secure scrypt-hashed user authentication and Supabase persistence. Evaluates student diagnostic reasoning, history-taking, and check-ups against structured medical rubrics, featuring a local keyword-mapped dialogue backup and faculty performance analytics dashboards.",
     "tech": ["Node.js", "React", "Gemini", "Groq", "Supabase", "scrypt"]
   },
   {
@@ -146,7 +146,7 @@
     "featured": false,
     "repo": "shlokkokk/VitaLink",
     "liveUrl": null,
-    "description": "Empathetic chronic care companion web app. Guides patient routines via AI completion endpoints secured in local storage, with an offline fallback keyword-response engine supporting English, Hindi, and Spanish. Features daily treatment checklists and caregiver safety logs.",
+    "description": "An empathetic AI chronic care companion designed around UN SDG 3 (Good Health). Combines a premium obsidian glassmorphism UI with local state management for treatment logs and caregiver alerts. Implements multi-language localization (English, Hindi, Spanish) and interfaces with custom OpenAI-compatible endpoints secured via in-memory encryption, falling back to a local rule-based clinical response engine during network drops.",
     "tech": ["React", "Vite", "JavaScript", "AI APIs"]
   },
   {
@@ -161,7 +161,7 @@
     "featured": false,
     "repo": "shlokkokk/ShellStack",
     "liveUrl": "https://shell-stack.vercel.app/",
-    "description": "Massive offensive security hub unifying hundreds of tools and 570+ tactical commands for CEH v13 mastery across 20+ integrated modules with an immersive terminal-first interface.",
+    "description": "Immersive, terminal-inspired cybersecurity encyclopedia and offensive security workspace built with React, TypeScript, and Tailwind CSS. Unifies 280+ Kali Linux tools, 1,000+ commands, and 800+ flag references into interactive, parameterized command builders that generate live terminal strings. Features a complete study module covering 20 CEH v13 topics and a dense command cheat sheet console.",
     "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "CEH v13"]
   },
   {
@@ -176,7 +176,7 @@
     "featured": false,
     "repo": "shlokkokk/CyberForge-Atlas",
     "liveUrl": null,
-    "description": "Unified, self-contained offensive intelligence knowledge matrix for fast offensive security research and tool reference.",
+    "description": "A high-performance offensive intelligence matrix designed for air-gapped or restricted security environments. Aggregates and indices data from popular security repositories (such as PayloadsAllTheThings) into a lightning-fast offline search vault. Uses a custom React incremental rendering engine to ensure 0ms latency when browsing hundreds of credential-fingerprinting commands, SaaS exploitation vectors, and cloud escalation techniques.",
     "tech": ["Markdown", "Web", "JavaScript"]
   },
   {
@@ -191,7 +191,7 @@
     "featured": false,
     "repo": "shlokkokk/open-ports-scanner",
     "liveUrl": null,
-    "description": "Asynchronous 65,535-port scanner with service fingerprinting, risk assessment scoring, custom HTML5 dashboard UI, and one-click PDF report export.",
+    "description": "High-speed asynchronous network scanner and security auditor built with Python, Flask, and Docker. Performs full-range TCP/UDP scans (1-65535) utilizing an async execution loop for maximum throughput. Gathers service banners to identify server versions, calculates vulnerability risk scores (Low to Critical) for exposed ports, and renders findings in a cyberpunk terminal dashboard with automated PDF report generation.",
     "tech": ["Python", "Flask", "HTML5", "asyncio", "Docker"]
   },
   {
@@ -206,7 +206,7 @@
     "featured": false,
     "repo": "shlokkokk/ReconMaster",
     "liveUrl": null,
-    "description": "Unified reconnaissance framework for Kali Linux, chaining 12+ industry-standard tools into a deep recon workflow with guided menu navigation.",
+    "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools — including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei — into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
     "tech": ["Bash", "Python", "Kali Linux"]
   },
   {
@@ -221,7 +221,7 @@
     "featured": false,
     "repo": "shlokkokk/cyberGuard",
     "liveUrl": "https://shlokkokk.github.io/cyberGuard/",
-    "description": "Advanced password security suite with AES-256 encryption, HaveIBeenPwned breach detection, and a radar-based strength visualization interface.",
+    "description": "Award-winning client-side password security and encryption workspace (Webgathon 2025 Second Runner-Up). Implements real-time password strength scoring, crack-time estimations, and leak verification using a client-side blacklist of 5,000+ breached passwords. Features a local password manager vault using AES-256 encryption, custom obfuscations, data export utilities, and a cybersecurity dashboard styled in responsive cyberpunk neon glassmorphism.",
     "tech": ["HTML5", "CSS3", "JavaScript", "ECharts", "Web Crypto API"]
   },
   {
@@ -236,7 +236,7 @@
     "featured": false,
     "repo": "shlokkokk/mailguard-email-security",
     "liveUrl": null,
-    "description": "Deterministic email security and spam scanner running on a custom backend service. Rule-based scans map urgencies, financial fraud terms, dangerous extensions, and blacklisted domains with locally persisted configuration.",
+    "description": "An explainable, rule-based email forensics and threat-detection dashboard. Analyzes raw email body content to calculate threat scores across multiple attack vectors: phishing links, financial scam keywords, spam characteristics, and social engineering urgency cues. Built on a modular, ML-ready architecture featuring locally persisted sensitivity controls and detailed visual threat-intelligence statistics.",
     "tech": ["Node.js", "JavaScript", "HTML5"]
   },
   {
@@ -251,7 +251,7 @@
     "featured": false,
     "repo": "shlokkokk/discord-AskMeBot",
     "liveUrl": null,
-    "description": "Smart Discord AI assistant with slash commands, memory-based conversation context, and integrated image generation capabilities.",
+    "description": "Lightweight, feature-rich Discord assistant bot built with Python and Discord.py. Interfaces with OpenRouter AI models to enable conversational memory across the last 5 interactions. Implements native slash commands (including `/ask`, `/joke`, `/write`, `/fact`) for custom response generation, `/image` to trigger AI image synthesis, and `/meme` to pull popular reddit media feeds directly into servers.",
     "tech": ["Python", "Discord.py", "AI APIs"]
   },
   {
@@ -266,7 +266,7 @@
     "featured": false,
     "repo": "shlokkokk/osint-academy",
     "liveUrl": "https://shlokkokk.github.io/osint-academy/",
-    "description": "Interactive OSINT learning platform with a real-time Google dork generator, comprehensive reconnaissance study guides, and categorized tool references.",
+    "description": "A cyber-themed educational platform and reconnaissance toolkit. Features an interactive Google Dork Generator that automatically structures search filters to locate leaked documents, email credentials, social profiles, and phone numbers. Includes a comprehensive OSINT study guide covering social media intelligence, network recon, and dark web monitoring, styled with responsive custom cursor animations.",
     "tech": ["HTML5", "CSS3", "JavaScript"]
   },
   {
@@ -281,7 +281,7 @@
     "featured": false,
     "repo": "shlokkokk/OSINT-Directory",
     "liveUrl": null,
-    "description": "Curated intelligence toolkit with powerful category navigation and keyword search for security professionals and researchers.",
+    "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
     "tech": ["React", "TypeScript", "Tailwind CSS", "Vite"]
   },
   {
@@ -296,7 +296,7 @@
     "featured": false,
     "repo": "shlokkokk/keylogger",
     "liveUrl": null,
-    "description": "Python-based stealth keyboard monitor demonstrating event-listening patterns and SMTP-based log exfiltration for ethical hacking research and security awareness.",
+    "description": "Stealthy educational keyboard listener developed in Python for cybersecurity awareness and research. Captures hardware keystrokes and system key events utilizing the `pynput` listener. Aggregates data in a background thread and uses SMTP protocol wrappers to exfiltrate logs securely via scheduled SSL email transmissions to a configured recipient.",
     "tech": ["Python", "pynput", "SMTP"]
   }
 ]
