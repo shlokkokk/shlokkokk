@@ -40,7 +40,7 @@
     "category": "AI Simulator",
     "featured": true,
     "repo": "shlokkokk/PRAXIS",
-    "liveUrl": "https://praxis-finance.vercel.app",
+    "liveUrl": "https://praxis-hub.vercel.app",
     "description": "AI-native financial simulator where you build a Financial Twin and navigate real-world crossroads. At every decision node, a Multi-Agent AI Council of three specialized agents — The Conservator, The Grower, The Behaviorist — independently analyze your scenario then debate each other across three phases: independent analysis, cross-examination, and synthesis with a confidence score. Every choice cascades through a 10-year projection and a 3D Financial Galaxy in Three.js with orbital physics tied to real-world asset volatility.",
     "tech": ["React 19", "TypeScript", "Vite", "Three.js", "Groq", "Llama 3.3"]
   },
@@ -62,17 +62,17 @@
   {
     "slug": "sentinel",
     "name": "Sentinel",
-    "icon": "python",
-    "iconColor": "#3776AB",
+    "icon": "typescript",
+    "iconColor": "#3178C6",
     "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "AI Ops",
+    "category": "AI Incident Response",
     "featured": false,
     "repo": "shlokkokk/Sentinel",
-    "liveUrl": null,
-    "description": "AI-driven incident response and operational reliability monorepo. Groups system logs via signature-based deduplication, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states including CPU load, memory metrics, listener ports, and local container health.",
-    "tech": ["Python", "React", "FastAPI", "Vector DB"]
+    "liveUrl": "https://hack-baorda-web.vercel.app",
+    "description": "AI-driven incident response and operational memory platform. Groups system logs via signature-based deduplication, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states including CPU load, memory metrics, listener ports, and local container health.",
+    "tech": ["Next.js 14", "TypeScript", "Express", "Supabase", "pgvector", "Groq"]
   },
   {
     "slug": "zerorisk-sentinel",
@@ -85,7 +85,7 @@
     "category": "Threat Intel",
     "featured": false,
     "repo": "shlokkokk/zerorisk-sentinel",
-    "liveUrl": null,
+    "liveUrl": "https://zerorisk-sentinel.vercel.app/",
     "description": "Hybrid threat detection platform with a terminal-inspired frontend and Python Flask backend. Drop files, paste URLs, or upload APKs to get YARA scanning, multi-engine malware intelligence, APK permission forensics, and AI-powered threat explanations via Groq. Ships ECharts visualizations and HTML reports.",
     "tech": ["JavaScript", "HTML5", "Python", "Flask", "YARA", "Groq", "ECharts"]
   },
@@ -100,7 +100,7 @@
     "category": "Desktop App",
     "featured": false,
     "repo": "shlokkokk/SwipeClean",
-    "liveUrl": null,
+    "liveUrl": "https://swipeclean.vercel.app/",
     "description": "Gamified desktop cleanup engine built on Electron and React 19. Features a Tinder-style swipe interface for rapid folder triage, a Live Stack HUD tracking decisions in real time, a physics-based Safe-Undo buffer, PDF thumbnail previews via pdf2pic, and a SQLite-backed session database.",
     "tech": ["Electron", "React 19", "TypeScript", "SQLite", "Framer Motion"]
   },
@@ -152,17 +152,17 @@
   {
     "slug": "shellstack",
     "name": "ShellStack",
-    "icon": "linux",
-    "iconColor": "#FCC624",
+    "icon": "react",
+    "iconColor": "#61DAFB",
     "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
     "category": "Offensive Toolkit",
     "featured": false,
     "repo": "shlokkokk/ShellStack",
-    "liveUrl": null,
+    "liveUrl": "https://shell-stack.vercel.app/",
     "description": "Massive offensive security hub unifying hundreds of tools and 570+ tactical commands for CEH v13 mastery across 20+ integrated modules with an immersive terminal-first interface.",
-    "tech": ["Bash", "Kali Linux", "Python"]
+    "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "CEH v13"]
   },
   {
     "slug": "cyberforge-atlas",
@@ -191,8 +191,8 @@
     "featured": false,
     "repo": "shlokkokk/open-ports-scanner",
     "liveUrl": null,
-    "description": "Asynchronous 65,535-port scanner with service fingerprinting, risk assessment scoring, and one-click PDF report export.",
-    "tech": ["Python", "asyncio"]
+    "description": "Asynchronous 65,535-port scanner with service fingerprinting, risk assessment scoring, custom HTML5 dashboard UI, and one-click PDF report export.",
+    "tech": ["Python", "Flask", "HTML5", "asyncio", "Docker"]
   },
   {
     "slug": "reconmaster",
@@ -212,17 +212,17 @@
   {
     "slug": "cyberguard",
     "name": "cyberGuard",
-    "icon": "python",
-    "iconColor": "#3776AB",
+    "icon": "javascript",
+    "iconColor": "#F7DF1E",
     "accent": "#00ff88",
     "status": "SECURE",
     "statusColor": "#00ff88",
-    "category": "Security Tool",
+    "category": "Cyber Security App",
     "featured": false,
     "repo": "shlokkokk/cyberGuard",
-    "liveUrl": null,
+    "liveUrl": "https://shlokkokk.github.io/cyberGuard/",
     "description": "Advanced password security suite with AES-256 encryption, HaveIBeenPwned breach detection, and a radar-based strength visualization interface.",
-    "tech": ["Python", "AES-256", "Tkinter"]
+    "tech": ["HTML5", "CSS3", "JavaScript", "ECharts", "Web Crypto API"]
   },
   {
     "slug": "mailguard",
@@ -265,7 +265,7 @@
     "category": "Learning Platform",
     "featured": false,
     "repo": "shlokkokk/osint-academy",
-    "liveUrl": null,
+    "liveUrl": "https://shlokkokk.github.io/osint-academy/",
     "description": "Interactive OSINT learning platform with a real-time Google dork generator, comprehensive reconnaissance study guides, and categorized tool references.",
     "tech": ["HTML5", "CSS3", "JavaScript"]
   },
@@ -282,7 +282,7 @@
     "repo": "shlokkokk/OSINT-Directory",
     "liveUrl": null,
     "description": "Curated intelligence toolkit with powerful category navigation and keyword search for security professionals and researchers.",
-    "tech": ["HTML5", "CSS3", "JavaScript"]
+    "tech": ["React", "TypeScript", "Tailwind CSS", "Vite"]
   },
   {
     "slug": "keylogger",

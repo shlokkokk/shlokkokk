@@ -223,7 +223,7 @@
 <br>
 <a href="https://github.com/shlokkokk/PRAXIS" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/praxis-code.svg" height="26" /></a>
 &nbsp;&nbsp;
-<a href="https://praxis-finance.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/praxis-demo.svg" height="26" /></a>
+<a href="https://praxis-hub.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/praxis-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- Interceptor -->
@@ -236,12 +236,16 @@
 <a href="https://github.com/shlokkokk/Sentinel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/sentinel.svg" width="800" alt="Sentinel" /></a>
 <br>
 <a href="https://github.com/shlokkokk/Sentinel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/sentinel-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://hack-baorda-web.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/sentinel-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- ZeroRisk Sentinel -->
 <a href="https://github.com/shlokkokk/zerorisk-sentinel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/zerorisk-sentinel.svg" width="800" alt="ZeroRisk Sentinel" /></a>
 <br>
 <a href="https://github.com/shlokkokk/zerorisk-sentinel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/zerorisk-sentinel-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://zerorisk-sentinel.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/zerorisk-sentinel-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- Cura AI -->
@@ -254,6 +258,8 @@
 <a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean.svg" width="800" alt="SwipeClean" /></a>
 <br>
 <a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://swipeclean.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- Periscope -->
@@ -266,6 +272,8 @@
 <a href="https://github.com/shlokkokk/ShellStack" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/shellstack.svg" width="800" alt="ShellStack" /></a>
 <br>
 <a href="https://github.com/shlokkokk/ShellStack" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/shellstack-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://shell-stack.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/shellstack-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- VitaLink -->
@@ -296,6 +304,8 @@
 <a href="https://github.com/shlokkokk/cyberGuard" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard.svg" width="800" alt="cyberGuard" /></a>
 <br>
 <a href="https://github.com/shlokkokk/cyberGuard" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://shlokkokk.github.io/cyberGuard/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- MailGuard -->
@@ -314,6 +324,8 @@
 <a href="https://github.com/shlokkokk/osint-academy" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-academy.svg" width="800" alt="OSINT Academy" /></a>
 <br>
 <a href="https://github.com/shlokkokk/osint-academy" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-academy-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://shlokkokk.github.io/osint-academy/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-academy-demo.svg" height="26" /></a>
 <br><br>
 
 <!-- OSINT-Directory -->

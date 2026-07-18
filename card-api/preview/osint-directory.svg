@@ -58,9 +58,10 @@
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
 
   <!-- Tech tags -->
-  <g><rect x="28" y="163" width="47" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="51.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">HTML5</text></g>
-  <g><rect x="81" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="101.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">CSS3</text></g>
-  <g><rect x="127.4" y="163" width="80" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="167.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">JavaScript</text></g>
+  <g><rect x="28" y="163" width="47" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="51.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">React</text></g>
+  <g><rect x="81" y="163" width="80" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="121" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">TypeScript</text></g>
+  <g><rect x="167" y="163" width="93.19999999999999" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="213.6" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Tailwind CSS</text></g>
+  <g><rect x="266.2" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="286.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Vite</text></g>
 
   <!-- Source repo name at bottom right -->
   <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/OSINT-DIRECTORY</text>
