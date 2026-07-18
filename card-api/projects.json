@@ -60,17 +60,17 @@
     "tech": ["Kotlin", "Jetpack Compose", "Room", "BiometricPrompt", "KeyStore"]
   },
   {
-    "slug": "sentinel",
-    "name": "Sentinel",
+    "slug": "chronicle",
+    "name": "Chronicle",
     "icon": "typescript",
     "iconColor": "#3178C6",
     "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "AI Incident Response",
+    "category": "AI Ops Platform",
     "featured": false,
-    "repo": "shlokkokk/Sentinel",
-    "liveUrl": "https://hack-baorda-web.vercel.app",
+    "repo": "shlokkokk/HackBaorda",
+    "liveUrl": "https://chronicle-io.vercel.app",
     "description": "AI-driven incident response and operational memory platform. Groups system logs via signature-based deduplication, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states including CPU load, memory metrics, listener ports, and local container health.",
     "tech": ["Next.js 14", "TypeScript", "Express", "Supabase", "pgvector", "Groq"]
   },
