@@ -233,9 +233,9 @@
 <br><br>
 
 <!-- Chronicle -->
-<a href="https://github.com/shlokkokk/HackBaorda" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle.svg" width="800" alt="Chronicle" /></a>
+<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle.svg" width="800" alt="Chronicle" /></a>
 <br>
-<a href="https://github.com/shlokkokk/HackBaorda" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-code.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-code.svg" height="26" /></a>
 &nbsp;&nbsp;
 <a href="https://chronicle-io.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-demo.svg" height="26" /></a>
 <br><br>

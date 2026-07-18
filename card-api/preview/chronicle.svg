@@ -68,6 +68,6 @@
   <g><rect x="411.8" y="163" width="40.4" height="17" rx="8.5" fill="#00ff88" fill-opacity="0.08" stroke="#00ff88" stroke-width="0.5" stroke-opacity="0.35"/><text x="432" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="600">Groq</text></g>
 
   <!-- Source repo name at bottom right -->
-  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/HACKBAORDA</text>
+  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#00ff88" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/CHRONICLE</text>
   <text x="772" y="190" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
 </svg>

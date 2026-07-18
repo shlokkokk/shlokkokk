@@ -69,7 +69,7 @@
     "statusColor": "#00ff88",
     "category": "AI Ops Platform",
     "featured": false,
-    "repo": "shlokkokk/HackBaorda",
+    "repo": "shlokkokk/Chronicle",
     "liveUrl": "https://chronicle-io.vercel.app",
     "description": "AI-driven incident response and operational memory platform. Groups system logs via signature-based deduplication, indexes resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host states including CPU load, memory metrics, listener ports, and local container health.",
     "tech": ["Next.js 14", "TypeScript", "Express", "Supabase", "pgvector", "Groq"]
