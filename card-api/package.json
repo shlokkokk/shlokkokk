@@ -1,0 +1,13 @@
+{
+  "name": "shlok-card-api",
+  "version": "1.0.0",
+  "description": "SVG project card generator API for GitHub profile README",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^39.0.0"
+  }
+}

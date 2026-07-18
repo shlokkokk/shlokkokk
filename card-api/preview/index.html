@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Preview — shlokkokk</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0f; font-family: 'Segoe UI', sans-serif; padding: 40px 20px; }
+  h1 { color: #00ff88; font-family: monospace; margin-bottom: 8px; }
+  .subtitle { color: #4b5563; font-size: 13px; margin-bottom: 40px; font-family: monospace; }
+  .section-title { color: #9ca3af; font-family: monospace; font-size: 12px; letter-spacing: 3px; margin: 32px 0 16px; border-bottom: 1px solid #1e1e24; padding-bottom: 8px; }
+  .card-stack { display: flex; flex-direction: column; gap: 12px; max-width: 820px; margin: 0 auto; }
+  .card-wrap { cursor: pointer; transition: opacity 0.2s; }
+  .card-wrap:hover { opacity: 0.9; }
+  .card-wrap img { width: 100%; display: block; border-radius: 12px; }
+</style>
+</head>
+<body>
+<div style="max-width: 820px; margin: 0 auto;">
+  <h1>$ ls -la project_cards/</h1>
+  <div class="subtitle">local preview — 20 cards generated</div>
+
+  <div class="section-title">★ FEATURED PROJECTS</div>
+  <div class="card-stack">
+    <div class="card-wrap"><img src="oculus.svg" alt="Oculus" /></div>
+    <div class="card-wrap"><img src="kavach.svg" alt="KAVACH" /></div>
+    <div class="card-wrap"><img src="praxis.svg" alt="PRAXIS" /></div>
+    <div class="card-wrap"><img src="interceptor.svg" alt="Interceptor" /></div>
+  </div>
+
+  <div class="section-title">◆ ALL PROJECTS</div>
+  <div class="card-stack">
+    <div class="card-wrap"><img src="sentinel.svg" alt="Sentinel" /></div>
+    <div class="card-wrap"><img src="zerorisk-sentinel.svg" alt="ZeroRisk Sentinel" /></div>
+    <div class="card-wrap"><img src="swipeclean.svg" alt="SwipeClean" /></div>
+    <div class="card-wrap"><img src="periscope.svg" alt="Periscope" /></div>
+    <div class="card-wrap"><img src="cura-ai.svg" alt="Cura AI" /></div>
+    <div class="card-wrap"><img src="vitalink.svg" alt="VitaLink" /></div>
+    <div class="card-wrap"><img src="shellstack.svg" alt="ShellStack" /></div>
+    <div class="card-wrap"><img src="cyberforge-atlas.svg" alt="CyberForge-Atlas" /></div>
+    <div class="card-wrap"><img src="open-ports-scanner.svg" alt="Port Reaper" /></div>
+    <div class="card-wrap"><img src="reconmaster.svg" alt="ReconMaster" /></div>
+    <div class="card-wrap"><img src="cyberguard.svg" alt="cyberGuard" /></div>
+    <div class="card-wrap"><img src="mailguard.svg" alt="MailGuard" /></div>
+    <div class="card-wrap"><img src="discord-askmebot.svg" alt="AskMeBot" /></div>
+    <div class="card-wrap"><img src="osint-academy.svg" alt="OSINT Academy" /></div>
+    <div class="card-wrap"><img src="osint-directory.svg" alt="OSINT-Directory" /></div>
+    <div class="card-wrap"><img src="keylogger.svg" alt="Keylogger" /></div>
+  </div>
+</div>
+</body>
+</html>

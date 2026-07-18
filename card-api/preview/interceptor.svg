@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-Interceptor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-Interceptor" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-Interceptor">
+      <rect width="800" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-Interceptor)"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Left accent stripe -->
+  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#00f0ff" opacity="0.95" filter="url(#glow-Interceptor)"/>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 25) scale(0.625)"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0007.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0007.5511-.4482.9997-.9993.9997M17.184 10.077c-.091-.1544-.1988-.3003-.3193-.4348l2.1055-3.6487c.1105-.1921.0475-.4376-.1445-.5482-.1921-.1105-.4376-.0475-.5482.1445l-2.1328 3.6937C15.2078 8.7705 13.7082 8.2374 12 8.2374c-1.7082 0-3.2078.5331-4.1547 1.3691L5.7125 5.9128C5.6019 5.7207 5.3564 5.6578 5.1643 5.7683c-.1921.1105-.255.356-.1445.5482l2.1055 3.6487c-.1205.1345-.2283.2804-.3193.4348C6.4293 10.8078 6.228 11.6975 6.228 12.6375h11.5443c0-.9399-.2013-1.8297-.5879-2.5609" fill="#3DDC84" opacity="0.85"/></g>
+
+  <!-- Name -->
+  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">Interceptor</text>
+
+  <!-- Status badge -->
+  <rect x="666.5" y="20" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.45"/>
+  <circle cx="678.5" cy="31" r="2.8" fill="#00ff88" filter="url(#glow-Interceptor)"/>
+  <text x="688.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
+
+  <!-- Description -->
+  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Android notification vault with hardware-backed biometric locking and rule-based suppression.</text>
+  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app</text>
+  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists</text>
+  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">them in a Room database &#x2014; all behind a biometric and credential authentication gate. A</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="54.8" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Kotlin</text></g>
+  <g><rect x="87.6" y="163" width="113" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="144.1" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Jetpack Compose</text></g>
+  <g><rect x="206.6" y="163" width="40.4" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="226.79999999999998" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Room</text></g>
+  <g><rect x="253" y="163" width="113" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="309.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">BiometricPrompt</text></g>
+  <g><rect x="372" y="163" width="66.8" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="405.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">KeyStore</text></g>
+
+  <!-- Source link -->
+  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#00f0ff" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
+  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/Interceptor</text>
+</svg>

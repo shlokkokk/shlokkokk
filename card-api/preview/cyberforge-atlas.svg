@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-CyberForge-Atlas" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-CyberForge-Atlas" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-CyberForge-Atlas">
+      <rect width="800" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-CyberForge-Atlas)"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Left accent stripe -->
+  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#00f0ff" opacity="0.95" filter="url(#glow-CyberForge-Atlas)"/>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 25) scale(0.625)"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm.267 4.5l3.266 6.5H8.467l3.8-6.5zm-7.8 7.5h15l-7.5 7.5-7.5-7.5z" fill="#557C94" opacity="0.85"/></g>
+
+  <!-- Name -->
+  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">CyberForge-Atlas</text>
+
+  <!-- Status badge -->
+  <rect x="653.5" y="20" width="118.5" height="22" rx="11" fill="#00f0ff" fill-opacity="0.12" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.45"/>
+  <circle cx="665.5" cy="31" r="2.8" fill="#00f0ff" filter="url(#glow-CyberForge-Atlas)"/>
+  <text x="675.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00f0ff" letter-spacing="1.1">OFFLINE AVAIL</text>
+
+  <!-- Description -->
+  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Unified, self-contained offensive intelligence knowledge matrix for fast offensive security</text>
+  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">research and tool reference.</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="66.8" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="61.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Markdown</text></g>
+  <g><rect x="100.8" y="163" width="33.8" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="117.69999999999999" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Web</text></g>
+  <g><rect x="140.6" y="163" width="80" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="180.6" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">JavaScript</text></g>
+
+  <!-- Source link -->
+  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#00f0ff" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
+  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/CyberForge-Atlas</text>
+</svg>

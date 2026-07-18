@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-PRAXIS" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b829dd" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-PRAXIS" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-PRAXIS">
+      <rect width="800" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-PRAXIS)"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#b829dd" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Left accent stripe -->
+  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#b829dd" opacity="0.95" filter="url(#glow-PRAXIS)"/>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 25) scale(0.625)"><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z" fill="#3178C6" opacity="0.85"/></g>
+
+  <!-- Name -->
+  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">PRAXIS</text>
+
+  <!-- Status badge -->
+  <rect x="712" y="20" width="60" height="22" rx="11" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="0.75" stroke-opacity="0.45"/>
+  <circle cx="724" cy="31" r="2.8" fill="#f59e0b" filter="url(#glow-PRAXIS)"/>
+  <text x="734" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#f59e0b" letter-spacing="1.1">LIVE</text>
+
+  <!-- Description -->
+  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">AI-native financial simulator where you build a Financial Twin and navigate real-world financial</text>
+  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">crossroads. At every decision node, a Multi-Agent AI Council of three specialized agents &#x2014; The</text>
+  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Conservator, The Grower, The Behaviorist &#x2014; independently analyze your scenario then debate each</text>
+  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">other in a three-phase protocol: independent analysis, cross-examination, and synthesis with a</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="66.8" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="61.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">React 19</text></g>
+  <g><rect x="100.8" y="163" width="80" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="140.8" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">TypeScript</text></g>
+  <g><rect x="186.8" y="163" width="40.4" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="207" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Vite</text></g>
+  <g><rect x="233.20000000000002" y="163" width="66.8" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="266.6" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Three.js</text></g>
+  <g><rect x="306" y="163" width="40.4" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="326.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Groq</text></g>
+  <g><rect x="352.4" y="163" width="73.4" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="389.09999999999997" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Llama 3.3</text></g>
+
+  <!-- Source link -->
+  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#b829dd" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
+  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/PRAXIS</text>
+</svg>

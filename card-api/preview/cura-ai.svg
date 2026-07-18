@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-Cura AI" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-Cura AI" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-Cura AI">
+      <rect width="800" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-Cura AI)"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Left accent stripe -->
+  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#00f0ff" opacity="0.95" filter="url(#glow-Cura AI)"/>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 25) scale(0.625)"><path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082 c0.570,0.329,0.924,0.944,0.924,1.603v10.15c0,0.659-0.354,1.275-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.104,0.703,3.104,1.269c0,0.980-0.786,1.399-2.635,1.399 c-2.316,0-2.818-0.582-2.978-1.225c-0.032-0.13-0.149-0.219-0.286-0.219h-1.131c-0.076,0-0.146,0.029-0.196,0.083 c-0.051,0.054-0.076,0.125-0.073,0.199c0.215,2.047,1.616,2.977,4.653,2.977C17.448,16.962,19.099,15.887,19.099,13.993z" fill="#339933" opacity="0.85"/></g>
+
+  <!-- Name -->
+  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">Cura AI</text>
+
+  <!-- Status badge -->
+  <rect x="666.5" y="20" width="105.5" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.45"/>
+  <circle cx="678.5" cy="31" r="2.8" fill="#00ff88" filter="url(#glow-Cura AI)"/>
+  <text x="688.5" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">OPERATIONAL</text>
+
+  <!-- Description -->
+  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Interactive patient simulation and clinical grading platform. The frameworkless Node.js backend</text>
+  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">routes through a multi-model AI waterfall &#x2014; Gemini, Groq, OpenAI, NVIDIA, Ollama &#x2014; with</text>
+  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">scrypt-hashed credential management and optional Supabase persistence. Evaluates diagnosis</text>
+  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">submissions against a structured rubric with keyword-mapped offline fallback dialogue and</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="58.099999999999994" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Node.js</text></g>
+  <g><rect x="94.19999999999999" y="163" width="47" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="117.69999999999999" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">React</text></g>
+  <g><rect x="147.2" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="174" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Gemini</text></g>
+  <g><rect x="206.79999999999998" y="163" width="40.4" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="226.99999999999997" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Groq</text></g>
+  <g><rect x="253.2" y="163" width="66.8" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="286.59999999999997" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">Supabase</text></g>
+  <g><rect x="326" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.35"/><text x="352.8" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#00f0ff" letter-spacing="0.5" font-weight="500">scrypt</text></g>
+
+  <!-- Source link -->
+  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#00f0ff" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
+  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/cura-ai</text>
+</svg>

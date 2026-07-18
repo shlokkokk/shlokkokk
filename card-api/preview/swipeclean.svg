@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg-SwipeClean" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b829dd" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-SwipeClean" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-SwipeClean">
+      <rect width="800" height="200" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#0d0d14"/>
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-SwipeClean)"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#b829dd" stroke-width="0.75" stroke-opacity="0.2"/>
+
+  <!-- Left accent stripe -->
+  <rect x="0" y="10" width="3" height="180" rx="1.5" fill="#b829dd" opacity="0.95" filter="url(#glow-SwipeClean)"/>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 25) scale(0.625)"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-.29 2.011c.163-.006.327-.006.49 0 3.18.088 6.07 1.549 8.04 3.88L12 11.76 3.76 5.891C5.73 3.56 8.62 2.099 11.71 2.011zM2.011 12.29C2.1 9.11 3.56 6.22 5.89 4.25L11.76 12 5.891 20.24C3.56 18.27 2.099 15.38 2.011 12.29zm9.7 9.7c-3.18-.088-6.07-1.549-8.04-3.88L12 12.24l8.24 5.87C18.27 20.44 15.38 21.9 12.29 21.99c-.163.006-.327.006-.49 0h.001-.091z" fill="#47848F" opacity="0.85"/></g>
+
+  <!-- Name -->
+  <text x="51" y="41" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9" letter-spacing="0.3">SwipeClean</text>
+
+  <!-- Status badge -->
+  <rect x="699" y="20" width="73" height="22" rx="11" fill="#b829dd" fill-opacity="0.12" stroke="#b829dd" stroke-width="0.75" stroke-opacity="0.45"/>
+  <circle cx="711" cy="31" r="2.8" fill="#b829dd" filter="url(#glow-SwipeClean)"/>
+  <text x="721" y="34.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#b829dd" letter-spacing="1.1">ACTIVE</text>
+
+  <!-- Description -->
+  <text x="28" y="76" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">Gamified desktop cleanup engine built on Electron and React 19. Features a Tinder-style swipe</text>
+  <text x="28" y="95" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">interface for rapid folder triage, Live Stack HUD tracking decisions in real time, a</text>
+  <text x="28" y="114" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">physics-based Safe-Undo buffer, PDF thumbnail previews via pdf2pic, and a SQLite-backed session</text>
+  <text x="28" y="133" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#8b9ab0" letter-spacing="0.05">database.</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e2433" stroke-width="0.75"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="66.8" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="61.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Electron</text></g>
+  <g><rect x="100.8" y="163" width="66.8" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="134.2" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">React 19</text></g>
+  <g><rect x="173.6" y="163" width="80" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="213.6" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">TypeScript</text></g>
+  <g><rect x="259.6" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="286.40000000000003" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">SQLite</text></g>
+  <g><rect x="319.2" y="163" width="99.8" height="17" rx="8.5" fill="#b829dd" fill-opacity="0.08" stroke="#b829dd" stroke-width="0.5" stroke-opacity="0.35"/><text x="369.09999999999997" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#b829dd" letter-spacing="0.5" font-weight="500">Framer Motion</text></g>
+
+  <!-- Source link -->
+  <text x="772" y="175" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="10" fill="#b829dd" letter-spacing="0.8" font-weight="600">[ SOURCE ]</text>
+  <text x="772" y="191" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#374151">github.com/shlokkokk/SwipeClean</text>
+</svg>
