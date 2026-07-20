@@ -206,10 +206,18 @@
 
 <div align="center">
 
-<!-- Oculus -->
-<a href="https://github.com/shlokkokk/Oculus" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/oculus.svg" width="800" alt="Oculus" /></a>
+<!-- Chronicle -->
+<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle.svg" width="800" alt="Chronicle" /></a>
 <br>
-<a href="https://github.com/shlokkokk/Oculus" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/oculus-code.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-code.svg" height="26" /></a>
+&nbsp;&nbsp;
+<a href="https://hack-baorda-web.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-demo.svg" height="26" /></a>
+<br><br>
+
+<!-- Watchtower -->
+<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower.svg" width="800" alt="Watchtower" /></a>
+<br>
+<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower-code.svg" height="26" /></a>
 <br><br>
 
 <!-- KAVACH -->
@@ -226,18 +234,10 @@
 <a href="https://praxis-hub.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/praxis-demo.svg" height="26" /></a>
 <br><br>
 
-<!-- Interceptor -->
-<a href="https://github.com/shlokkokk/Interceptor" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/interceptor.svg" width="800" alt="Interceptor" /></a>
+<!-- Oculus -->
+<a href="https://github.com/shlokkokk/Oculus" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/oculus.svg" width="800" alt="Oculus" /></a>
 <br>
-<a href="https://github.com/shlokkokk/Interceptor" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/interceptor-code.svg" height="26" /></a>
-<br><br>
-
-<!-- Chronicle -->
-<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle.svg" width="800" alt="Chronicle" /></a>
-<br>
-<a href="https://github.com/shlokkokk/Chronicle" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-code.svg" height="26" /></a>
-&nbsp;&nbsp;
-<a href="https://chronicle-io.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-demo.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/Oculus" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/oculus-code.svg" height="26" /></a>
 <br><br>
 
 <!-- ZeroRisk Sentinel -->
@@ -248,24 +248,12 @@
 <a href="https://zerorisk-sentinel.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/zerorisk-sentinel-demo.svg" height="26" /></a>
 <br><br>
 
-<!-- Cura AI -->
-<a href="https://github.com/shlokkokk/cura-ai" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cura-ai.svg" width="800" alt="Cura AI" /></a>
-<br>
-<a href="https://github.com/shlokkokk/cura-ai" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cura-ai-code.svg" height="26" /></a>
-<br><br>
-
 <!-- SwipeClean -->
 <a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean.svg" width="800" alt="SwipeClean" /></a>
 <br>
 <a href="https://github.com/shlokkokk/SwipeClean" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean-code.svg" height="26" /></a>
 &nbsp;&nbsp;
 <a href="https://swipeclean.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/swipeclean-demo.svg" height="26" /></a>
-<br><br>
-
-<!-- Periscope -->
-<a href="https://github.com/shlokkokk/Periscope" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/periscope.svg" width="800" alt="Periscope" /></a>
-<br>
-<a href="https://github.com/shlokkokk/Periscope" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/periscope-code.svg" height="26" /></a>
 <br><br>
 
 <!-- ShellStack -->
@@ -276,28 +264,28 @@
 <a href="https://shell-stack.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/shellstack-demo.svg" height="26" /></a>
 <br><br>
 
+<!-- Interceptor -->
+<a href="https://github.com/shlokkokk/Interceptor" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/interceptor.svg" width="800" alt="Interceptor" /></a>
+<br>
+<a href="https://github.com/shlokkokk/Interceptor" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/interceptor-code.svg" height="26" /></a>
+<br><br>
+
+<!-- Cura AI -->
+<a href="https://github.com/shlokkokk/cura-ai" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cura-ai.svg" width="800" alt="Cura AI" /></a>
+<br>
+<a href="https://github.com/shlokkokk/cura-ai" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cura-ai-code.svg" height="26" /></a>
+<br><br>
+
 <!-- VitaLink -->
 <a href="https://github.com/shlokkokk/VitaLink" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/vitalink.svg" width="800" alt="VitaLink" /></a>
 <br>
 <a href="https://github.com/shlokkokk/VitaLink" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/vitalink-code.svg" height="26" /></a>
 <br><br>
 
-<!-- CyberForge-Atlas -->
-<a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberforge-atlas.svg" width="800" alt="CyberForge-Atlas" /></a>
+<!-- Periscope -->
+<a href="https://github.com/shlokkokk/Periscope" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/periscope.svg" width="800" alt="Periscope" /></a>
 <br>
-<a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberforge-atlas-code.svg" height="26" /></a>
-<br><br>
-
-<!-- Port Reaper -->
-<a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/open-ports-scanner.svg" width="800" alt="Port Reaper" /></a>
-<br>
-<a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/open-ports-scanner-code.svg" height="26" /></a>
-<br><br>
-
-<!-- ReconMaster -->
-<a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/reconmaster.svg" width="800" alt="ReconMaster" /></a>
-<br>
-<a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/reconmaster-code.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/Periscope" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/periscope-code.svg" height="26" /></a>
 <br><br>
 
 <!-- cyberGuard -->
@@ -308,16 +296,34 @@
 <a href="https://shlokkokk.github.io/cyberGuard/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-demo.svg" height="26" /></a>
 <br><br>
 
+<!-- CyberForge-Atlas -->
+<a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberforge-atlas.svg" width="800" alt="CyberForge-Atlas" /></a>
+<br>
+<a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberforge-atlas-code.svg" height="26" /></a>
+<br><br>
+
+<!-- OSINT-Directory -->
+<a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-directory.svg" width="800" alt="OSINT-Directory" /></a>
+<br>
+<a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-directory-code.svg" height="26" /></a>
+<br><br>
+
+<!-- Port Reaper -->
+<a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/open-ports-scanner.svg" width="800" alt="Port Reaper" /></a>
+<br>
+<a href="https://github.com/shlokkokk/open-ports-scanner" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/open-ports-scanner-code.svg" height="26" /></a>
+<br><br>
+
 <!-- MailGuard -->
 <a href="https://github.com/shlokkokk/mailguard-email-security" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/mailguard.svg" width="800" alt="MailGuard" /></a>
 <br>
 <a href="https://github.com/shlokkokk/mailguard-email-security" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/mailguard-code.svg" height="26" /></a>
 <br><br>
 
-<!-- AskMeBot -->
-<a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/discord-askmebot.svg" width="800" alt="AskMeBot" /></a>
+<!-- ReconMaster -->
+<a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/reconmaster.svg" width="800" alt="ReconMaster" /></a>
 <br>
-<a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/discord-askmebot-code.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/ReconMaster" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/reconmaster-code.svg" height="26" /></a>
 <br><br>
 
 <!-- OSINT Academy -->
@@ -328,10 +334,10 @@
 <a href="https://shlokkokk.github.io/osint-academy/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-academy-demo.svg" height="26" /></a>
 <br><br>
 
-<!-- OSINT-Directory -->
-<a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-directory.svg" width="800" alt="OSINT-Directory" /></a>
+<!-- AskMeBot -->
+<a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/discord-askmebot.svg" width="800" alt="AskMeBot" /></a>
 <br>
-<a href="https://github.com/shlokkokk/OSINT-Directory" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/osint-directory-code.svg" height="26" /></a>
+<a href="https://github.com/shlokkokk/discord-AskMeBot" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/discord-askmebot-code.svg" height="26" /></a>
 <br><br>
 
 <!-- Keylogger -->

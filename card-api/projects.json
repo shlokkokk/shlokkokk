@@ -15,6 +15,21 @@
     "tech": ["Python", "FastAPI", "React", "Docker", "Nuclei", "ffuf"]
   },
   {
+    "slug": "watchtower",
+    "name": "Watchtower",
+    "icon": "react",
+    "iconColor": "#61DAFB",
+    "accent": "#00f0ff",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "GitHub Intelligence",
+    "featured": true,
+    "repo": "shlokkokk/Watchtower",
+    "liveUrl": null,
+    "description": "Self-hostable, self-updating GitHub portfolio command center and autonomous 24/7 alert engine. Tracks your entire repository ecosystem dynamically via serverless REST API proxies (zero secrets in bundle). Calculates 24-hour star velocity, portfolio health scores (0-100), trending spikes, and dead repos. Features 14-day rolling clone & traffic analytics, multi-platform launch ROI studio, and 24/7 background telemetry checks firing Discord rich embeds and Telegram Markdown alerts.",
+    "tech": ["React 18", "Vite", "Vercel", "Node.js", "GitHub API", "Discord", "Telegram"]
+  },
+  {
     "slug": "kavach",
     "name": "KAVACH",
     "icon": "react",
