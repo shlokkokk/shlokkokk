@@ -2,14 +2,6 @@
 
 declare(strict_types=1);
 
-// Add fallback to GITHUB_TOKEN1 for easier self-hosting.
-if (!isset($_ENV["TOKEN"]) && isset($_ENV["GITHUB_TOKEN1"])) {
-    $_ENV["TOKEN"] = $_ENV["GITHUB_TOKEN1"];
-}
-if (!isset($_SERVER["TOKEN"]) && isset($_SERVER["GITHUB_TOKEN1"])) {
-    $_SERVER["TOKEN"] = $_SERVER["GITHUB_TOKEN1"];
-}
-
 // load functions
 require_once dirname(__DIR__, 1) . "/vendor/autoload.php";
 require_once "stats.php";
@@ -20,6 +12,19 @@ require_once "generator.php";
 // load .env
 $dotenv = \Dotenv\Dotenv::createImmutable(dirname(__DIR__, 1));
 $dotenv->safeLoad();
+
+// Resolve TOKEN from GITHUB_TOKEN1, getenv(), $_SERVER, or $_ENV
+$token = $_ENV["TOKEN"] 
+    ?? $_SERVER["TOKEN"] 
+    ?? (getenv("TOKEN") ?: null) 
+    ?? $_ENV["GITHUB_TOKEN1"] 
+    ?? $_SERVER["GITHUB_TOKEN1"] 
+    ?? (getenv("GITHUB_TOKEN1") ?: null);
+
+if ($token) {
+    $_ENV["TOKEN"] = (string)$token;
+    $_SERVER["TOKEN"] = (string)$token;
+}
 
 // if environment variables are not loaded, display error
 if (!isset($_ENV["TOKEN"])) {
