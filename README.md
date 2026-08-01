@@ -422,8 +422,7 @@
 |  Currently ......... Probably debugging at 2am                  |
 |                                                                 |
 |  shlok@life:~$ fortune | cowsay                                 |
-|  "Cool motive. Still murder." -- Jake Peralta                   |
-|  (me reviewing someone's spaghetti code)                        |
+|  "Still figuring it out. Having fun anyway."                    |
 +-----------------------------------------------------------------+
 ```
 

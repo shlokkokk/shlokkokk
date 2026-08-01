@@ -1,0 +1,68 @@
+name: Auto-Generate Project Cards
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'card-api/projects.json'
+      - 'card-api/api/**'
+      - 'card-api/preview.js'
+      - 'card-api/package.json'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🔍 Validate projects.json Syntax
+        run: |
+          node -e "
+            try {
+              const data = JSON.parse(require('fs').readFileSync('./card-api/projects.json', 'utf8'));
+              if (!Array.isArray(data)) throw new Error('projects.json root must be an array');
+              console.log('✅ projects.json is valid JSON with ' + data.length + ' projects.');
+            } catch (err) {
+              console.error('❌ Invalid projects.json file:', err.message);
+              process.exit(1);
+            }
+          "
+
+      - name: 🎨 Generate SVG Card Previews
+        run: |
+          cd card-api
+          node preview.js
+
+      - name: 🚀 Commit and Push SVG Updates (if changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes in card-api/preview directory
+          if git status --porcelain | grep -q 'card-api/preview/'; then
+            echo "✨ New or updated SVG card previews detected. Committing..."
+            git add card-api/preview/
+            git pull --rebase origin main
+            git commit -m "auto: regenerate card preview SVGs [skip ci]"
+            git push origin main
+          else
+            echo "⚡ No changes detected in SVG previews. Skipping commit."
+          fi

@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev",
+    "preview": "node preview.js",
     "deploy": "vercel --prod"
   },
   "devDependencies": {
