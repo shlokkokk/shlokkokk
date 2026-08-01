@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="28" viewBox="0 0 135 28">
+  <defs>
+    <filter id="glow-Watchtower-code" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect x="0.5" y="0.5" width="134" height="27" rx="6" fill="#0c0d12" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.3"/>
+  <rect x="2" y="2" width="131" height="24" rx="4" fill="#00f0ff" fill-opacity="0.02" />
+
+  <!-- Corner tech accents -->
+  <path d="M 5,4 L 2,4 L 2,7" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 130,4 L 133,4 L 133,7" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 5,24 L 2,24 L 2,21" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 130,24 L 133,24 L 133,21" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <circle cx="15" cy="14" r="2" fill="#00f0ff" filter="url(#glow-Watchtower-code)" opacity="0.8"/>
+  <text x="74.5" y="17.5" text-anchor="middle" font-family="'Courier New', 'Segoe UI', monospace" font-size="8.5" font-weight="900" fill="#f1f5f9" letter-spacing="1.2" opacity="0.85">VIEW CODE</text>
+</svg>
