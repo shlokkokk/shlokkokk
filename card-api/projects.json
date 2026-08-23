@@ -12,7 +12,14 @@
     "repo": "shlokkokk/Oculus",
     "liveUrl": null,
     "description": "Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard offensive tools — ProjectDiscovery stack, ffuf, nuclei, dalfox — into a concurrent, multi-phase execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a FastAPI + React dashboard with real-time streaming, session checkpointing, and push notifications.",
-    "tech": ["Python", "FastAPI", "React", "Docker", "Nuclei", "ffuf"]
+    "tech": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Docker",
+      "Nuclei",
+      "ffuf"
+    ]
   },
   {
     "slug": "watchtower",
@@ -27,7 +34,15 @@
     "repo": "shlokkokk/Watchtower",
     "liveUrl": null,
     "description": "Self-hostable, self-updating GitHub portfolio command center and autonomous 24/7 alert engine. Tracks your entire repository ecosystem dynamically via serverless REST API proxies (zero secrets in bundle). Calculates 24-hour star velocity, portfolio health scores (0-100), trending spikes, and dead repos. Features 14-day rolling clone & traffic analytics, multi-platform launch ROI studio, and 24/7 background telemetry checks firing Discord rich embeds and Telegram Markdown alerts.",
-    "tech": ["React 18", "Vite", "Vercel", "Node.js", "GitHub API", "Discord", "Telegram"]
+    "tech": [
+      "React 18",
+      "Vite",
+      "Vercel",
+      "Node.js",
+      "GitHub API",
+      "Discord",
+      "Telegram"
+    ]
   },
   {
     "slug": "kavach",
@@ -42,7 +57,14 @@
     "repo": "shlokkokk/kavach",
     "liveUrl": null,
     "description": "Multi-modal cyber fraud defense platform that breaks the modern attack chain at every stage simultaneously. Three real-time AI shields: Voice Shield analyzes 9 spectral features via librosa to detect deepfake audio; SIM Guard streams live WebSocket carrier telemetry via IPQualityScore to detect SIM-swap fraud; Job Shield runs a multi-layer forensic pipeline querying VirusTotal 75+ engines, Google Safe Browsing, URLHaus, AbuseIPDB, and SecurityTrails. Dual-LLM forensics via NVIDIA NIM and Groq LLaMA 3.3 70B.",
-    "tech": ["React 19", "Node.js", "FastAPI", "NVIDIA NIM", "Groq", "librosa"]
+    "tech": [
+      "React 19",
+      "Node.js",
+      "FastAPI",
+      "NVIDIA NIM",
+      "Groq",
+      "librosa"
+    ]
   },
   {
     "slug": "praxis",
@@ -57,7 +79,14 @@
     "repo": "shlokkokk/PRAXIS",
     "liveUrl": "https://praxis-hub.vercel.app",
     "description": "AI-native financial simulator where you build a Financial Twin and navigate real-world crossroads. At every decision node, a Multi-Agent AI Council of three specialized agents — The Conservator, The Grower, The Behaviorist — independently analyze your scenario then debate each other across three phases: independent analysis, cross-examination, and synthesis with a confidence score. Every choice cascades through a 10-year projection and a 3D Financial Galaxy in Three.js with orbital physics tied to real-world asset volatility.",
-    "tech": ["React 19", "TypeScript", "Vite", "Three.js", "Groq", "Llama 3.3"]
+    "tech": [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Three.js",
+      "Groq",
+      "Llama 3.3"
+    ]
   },
   {
     "slug": "interceptor",
@@ -72,7 +101,13 @@
     "repo": "shlokkokk/Interceptor",
     "liveUrl": null,
     "description": "Android notification vault with hardware-backed biometric locking and rule-based suppression. Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists them in a Room database — all behind a biometric and credential authentication gate. A ConcurrentHashMap action cache enables quick-reply passthroughs. Rule builders create suppression schedules by active foreground package and time window.",
-    "tech": ["Kotlin", "Jetpack Compose", "Room", "BiometricPrompt", "KeyStore"]
+    "tech": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Room",
+      "BiometricPrompt",
+      "KeyStore"
+    ]
   },
   {
     "slug": "chronicle",
@@ -87,7 +122,14 @@
     "repo": "shlokkokk/Chronicle",
     "liveUrl": "https://chronicle-io.vercel.app",
     "description": "AI-native incident response and operational memory platform built for automated alert lifecycle management. Groups raw production system logs via signature-based deduplication algorithms, indexes incident resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host telemetry including CPU load, memory metrics, listening ports, and local container health.",
-    "tech": ["Next.js 14", "TypeScript", "Express", "Supabase", "pgvector", "Groq"]
+    "tech": [
+      "Next.js 14",
+      "TypeScript",
+      "Express",
+      "Supabase",
+      "pgvector",
+      "Groq"
+    ]
   },
   {
     "slug": "zerorisk-sentinel",
@@ -102,7 +144,15 @@
     "repo": "shlokkokk/zerorisk-sentinel",
     "liveUrl": "https://zerorisk-sentinel.vercel.app/",
     "description": "AI-powered hybrid security platform that orchestrates real-time threat intelligence and vulnerability analysis. Features a high-speed Python Flask backend that runs static binary inspection, APK Android permission forensics, and signature-based YARA scanning. Integrates Llama 3.3 70B via Groq to translate dense forensic reports into plain-English explanations. Includes interactive cybersecurity data visualizations using ECharts and automated HTML report generation.",
-    "tech": ["JavaScript", "HTML5", "Python", "Flask", "YARA", "Groq", "ECharts"]
+    "tech": [
+      "JavaScript",
+      "HTML5",
+      "Python",
+      "Flask",
+      "YARA",
+      "Groq",
+      "ECharts"
+    ]
   },
   {
     "slug": "swipeclean",
@@ -117,7 +167,13 @@
     "repo": "shlokkokk/SwipeClean",
     "liveUrl": "https://swipeclean.vercel.app/",
     "description": "A gamified file management and desktop organization engine built on React 19, TypeScript, and Electron. Features an interactive Tinder-style card swiping UI for rapid folder triage, a real-time Live Stack HUD for tracking pending actions, a physics-based Safe-Undo cache to prevent accidental deletions, and automated PDF/image thumbnail extraction via pdf2pic. Persists operations locally with a SQLite session database.",
-    "tech": ["Electron", "React 19", "TypeScript", "SQLite", "Framer Motion"]
+    "tech": [
+      "Electron",
+      "React 19",
+      "TypeScript",
+      "SQLite",
+      "Framer Motion"
+    ]
   },
   {
     "slug": "periscope",
@@ -132,7 +188,13 @@
     "repo": "shlokkokk/Periscope",
     "liveUrl": null,
     "description": "Advanced local port telemetry and network security diagnostics client for Windows. Monitors active TCP/UDP connections in real time, flags newly opened sockets, and applies local heuristics to detect suspicious process behavior. Runs asynchronous digital signature verification of binaries using a background PowerShell Authenticode worker, resolves external remote IPs to WHOIS geolocation maps, and streams Groq Llama 3.3 token diagnostics directly into a CustomTkinter GUI. Bundles into a standalone 25MB executable.",
-    "tech": ["Python", "CustomTkinter", "psutil", "Groq", "PyInstaller"]
+    "tech": [
+      "Python",
+      "CustomTkinter",
+      "psutil",
+      "Groq",
+      "PyInstaller"
+    ]
   },
   {
     "slug": "cura-ai",
@@ -147,7 +209,14 @@
     "repo": "shlokkokk/cura-ai",
     "liveUrl": null,
     "description": "AI-native virtual patient simulator built for clinical training. Implements a frameworkless Node.js backend routing conversations through a multi-model AI waterfall (Gemini, Groq, OpenAI, NVIDIA NIM) with secure scrypt-hashed user authentication and Supabase persistence. Evaluates student diagnostic reasoning, history-taking, and check-ups against structured medical rubrics, featuring a local keyword-mapped dialogue backup and faculty performance analytics dashboards.",
-    "tech": ["Node.js", "React", "Gemini", "Groq", "Supabase", "scrypt"]
+    "tech": [
+      "Node.js",
+      "React",
+      "Gemini",
+      "Groq",
+      "Supabase",
+      "scrypt"
+    ]
   },
   {
     "slug": "vitalink",
@@ -162,7 +231,12 @@
     "repo": "shlokkokk/VitaLink",
     "liveUrl": null,
     "description": "An empathetic AI chronic care companion designed around UN SDG 3 (Good Health). Combines a premium obsidian glassmorphism UI with local state management for treatment logs and caregiver alerts. Implements multi-language localization (English, Hindi, Spanish) and interfaces with custom OpenAI-compatible endpoints secured via in-memory encryption, falling back to a local rule-based clinical response engine during network drops.",
-    "tech": ["React", "Vite", "JavaScript", "AI APIs"]
+    "tech": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "AI APIs"
+    ]
   },
   {
     "slug": "shellstack",
@@ -177,7 +251,13 @@
     "repo": "shlokkokk/ShellStack",
     "liveUrl": "https://shell-stack.vercel.app/",
     "description": "Immersive, terminal-inspired cybersecurity encyclopedia and offensive security workspace built with React, TypeScript, and Tailwind CSS. Unifies 280+ Kali Linux tools, 1,000+ commands, and 800+ flag references into interactive, parameterized command builders that generate live terminal strings. Features a complete study module covering 20 CEH v13 topics and a dense command cheat sheet console.",
-    "tech": ["React", "TypeScript", "Vite", "Tailwind CSS", "CEH v13"]
+    "tech": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "CEH v13"
+    ]
   },
   {
     "slug": "cyberforge-atlas",
@@ -192,7 +272,11 @@
     "repo": "shlokkokk/CyberForge-Atlas",
     "liveUrl": null,
     "description": "A high-performance offensive intelligence matrix designed for air-gapped or restricted security environments. Aggregates and indices data from popular security repositories (such as PayloadsAllTheThings) into a lightning-fast offline search vault. Uses a custom React incremental rendering engine to ensure 0ms latency when browsing hundreds of credential-fingerprinting commands, SaaS exploitation vectors, and cloud escalation techniques.",
-    "tech": ["Markdown", "Web", "JavaScript"]
+    "tech": [
+      "Markdown",
+      "Web",
+      "JavaScript"
+    ]
   },
   {
     "slug": "open-ports-scanner",
@@ -207,7 +291,13 @@
     "repo": "shlokkokk/open-ports-scanner",
     "liveUrl": null,
     "description": "High-speed asynchronous network scanner and security auditor built with Python, Flask, and Docker. Performs full-range TCP/UDP scans (1-65535) utilizing an async execution loop for maximum throughput. Gathers service banners to identify server versions, calculates vulnerability risk scores (Low to Critical) for exposed ports, and renders findings in a cyberpunk terminal dashboard with automated PDF report generation.",
-    "tech": ["Python", "Flask", "HTML5", "asyncio", "Docker"]
+    "tech": [
+      "Python",
+      "Flask",
+      "HTML5",
+      "asyncio",
+      "Docker"
+    ]
   },
   {
     "slug": "reconmaster",
@@ -222,7 +312,11 @@
     "repo": "shlokkokk/ReconMaster",
     "liveUrl": null,
     "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools — including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei — into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
-    "tech": ["Bash", "Python", "Kali Linux"]
+    "tech": [
+      "Bash",
+      "Python",
+      "Kali Linux"
+    ]
   },
   {
     "slug": "cyberguard",
@@ -237,7 +331,78 @@
     "repo": "shlokkokk/cyberGuard",
     "liveUrl": "https://shlokkokk.github.io/cyberGuard/",
     "description": "Award-winning client-side password security and encryption workspace (Webgathon 2025 Second Runner-Up). Implements real-time password strength scoring, crack-time estimations, and leak verification using a client-side blacklist of 5,000+ breached passwords. Features a local password manager vault using AES-256 encryption, custom obfuscations, data export utilities, and a cybersecurity dashboard styled in responsive cyberpunk neon glassmorphism.",
-    "tech": ["HTML5", "CSS3", "JavaScript", "ECharts", "Web Crypto API"]
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ECharts",
+      "Web Crypto API"
+    ]
+  },
+  {
+    "slug": "project-babel",
+    "name": "Project Babel",
+    "icon": "typescript",
+    "iconColor": "#3178C6",
+    "accent": "#b829dd",
+    "status": "HIGH PERFORMANCE",
+    "statusColor": "#00ff88",
+    "category": "OSINT Wordlist Engine",
+    "featured": false,
+    "repo": "shlokkokk/project-babel",
+    "liveUrl": null,
+    "description": "High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React 19. Translates target intelligence into hundreds of thousands of targeted password permutations in milliseconds using a 27-engine orchestrator executing 100% within local client memory. Computes real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and John the Ripper rule-compliant formats.",
+    "tech": [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "OSINT",
+      "Hashcat",
+      "JtR"
+    ]
+  },
+  {
+    "slug": "opsec-hardening-suite",
+    "name": "OPSEC Hardening Suite",
+    "icon": "linux",
+    "iconColor": "#FCC624",
+    "accent": "#00ff88",
+    "status": "IMMORTAL MODE",
+    "statusColor": "#00ff88",
+    "category": "Linux Security",
+    "featured": false,
+    "repo": "shlokkokk/opsec-hardening-suite",
+    "liveUrl": null,
+    "description": "Comprehensive Linux operational security and anti-forensics automation suite neutralizing 47 distinct attack vectors. Enforces system-wide transparent Tor routing with automated 10-second circuit rotations, hardware MAC and DMI UUID spoofing, kernel parameter sysctl hardening, automated secure RAM wiping (sdmem), and a 60-second forensic log purge daemon.",
+    "tech": [
+      "Bash",
+      "Linux Kernel",
+      "Tor",
+      "iptables",
+      "Anti-Forensics",
+      "sysctl"
+    ]
+  },
+  {
+    "slug": "claude-pinger",
+    "name": "Claude Pinger",
+    "icon": "android",
+    "iconColor": "#3DDC84",
+    "accent": "#f59e0b",
+    "status": "AUTONOMOUS",
+    "statusColor": "#00ff88",
+    "category": "Cloud & Android",
+    "featured": false,
+    "repo": "shlokkokk/claude-pinger",
+    "liveUrl": null,
+    "description": "Serverless Cloudflare Worker scheduler and native Android telemetry companion (ClaudePulse) engineered to maintain uninterrupted Claude.ai 5-hour rolling limits. Features dual-account staggered cron jobs with a +2 minute safe buffer, headless Puppeteer bot evasion to bypass Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack Compose home-screen PulseWidget.",
+    "tech": [
+      "Cloudflare Workers",
+      "Puppeteer",
+      "Kotlin",
+      "Jetpack Compose",
+      "Android"
+    ]
   },
   {
     "slug": "mailguard",
@@ -252,7 +417,11 @@
     "repo": "shlokkokk/mailguard-email-security",
     "liveUrl": null,
     "description": "An explainable, rule-based email forensics and threat-detection dashboard. Analyzes raw email body content to calculate threat scores across multiple attack vectors: phishing links, financial scam keywords, spam characteristics, and social engineering urgency cues. Built on a modular, ML-ready architecture featuring locally persisted sensitivity controls and detailed visual threat-intelligence statistics.",
-    "tech": ["Node.js", "JavaScript", "HTML5"]
+    "tech": [
+      "Node.js",
+      "JavaScript",
+      "HTML5"
+    ]
   },
   {
     "slug": "discord-askmebot",
@@ -267,7 +436,11 @@
     "repo": "shlokkokk/discord-AskMeBot",
     "liveUrl": null,
     "description": "Lightweight, feature-rich Discord assistant bot built with Python and Discord.py. Interfaces with OpenRouter AI models to enable conversational memory across the last 5 interactions. Implements native slash commands (including `/ask`, `/joke`, `/write`, `/fact`) for custom response generation, `/image` to trigger AI image synthesis, and `/meme` to pull popular reddit media feeds directly into servers.",
-    "tech": ["Python", "Discord.py", "AI APIs"]
+    "tech": [
+      "Python",
+      "Discord.py",
+      "AI APIs"
+    ]
   },
   {
     "slug": "osint-academy",
@@ -282,7 +455,11 @@
     "repo": "shlokkokk/osint-academy",
     "liveUrl": "https://shlokkokk.github.io/osint-academy/",
     "description": "A cyber-themed educational platform and reconnaissance toolkit. Features an interactive Google Dork Generator that automatically structures search filters to locate leaked documents, email credentials, social profiles, and phone numbers. Includes a comprehensive OSINT study guide covering social media intelligence, network recon, and dark web monitoring, styled with responsive custom cursor animations.",
-    "tech": ["HTML5", "CSS3", "JavaScript"]
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ]
   },
   {
     "slug": "osint-directory",
@@ -297,7 +474,12 @@
     "repo": "shlokkokk/OSINT-Directory",
     "liveUrl": null,
     "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
-    "tech": ["React", "TypeScript", "Tailwind CSS", "Vite"]
+    "tech": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite"
+    ]
   },
   {
     "slug": "keylogger",
@@ -312,6 +494,10 @@
     "repo": "shlokkokk/keylogger",
     "liveUrl": null,
     "description": "Stealthy educational keyboard listener developed in Python for cybersecurity awareness and research. Captures hardware keystrokes and system key events utilizing the `pynput` listener. Aggregates data in a background thread and uses SMTP protocol wrappers to exfiltrate logs securely via scheduled SSL email transmissions to a configured recipient.",
-    "tech": ["Python", "pynput", "SMTP"]
+    "tech": [
+      "Python",
+      "pynput",
+      "SMTP"
+    ]
   }
 ]

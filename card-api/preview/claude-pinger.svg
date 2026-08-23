@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <!-- Dot pattern for tech background -->
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1e293b" opacity="0.35" />
+    </pattern>
+    <linearGradient id="bg-Claude Pinger" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#0d0d14" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#0d0d14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-Claude Pinger" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base dark layer -->
+  <rect width="800" height="200" rx="12" ry="12" fill="#090a0f"/>
+
+  <!-- Tech dot grid background pattern -->
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#dot-grid)"/>
+
+  <!-- Left accent linear gradient glow -->
+  <rect width="800" height="200" rx="12" ry="12" fill="url(#bg-Claude Pinger)"/>
+
+  <!-- Tech corner brackets for absolute stunning cyber-look -->
+  <path d="M 12,20 L 12,12 L 20,12" stroke="#f59e0b" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,12 L 788,12 L 788,20" stroke="#f59e0b" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 12,180 L 12,188 L 20,188" stroke="#f59e0b" stroke-width="1.2" fill="none" opacity="0.4"/>
+  <path d="M 780,188 L 788,188 L 788,180" stroke="#f59e0b" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+  <!-- Border -->
+  <rect width="800" height="200" rx="12" ry="12" fill="none" stroke="#f59e0b" stroke-width="0.75" stroke-opacity="0.25"/>
+
+  <!-- Left accent stripe with heavy blur glow -->
+  <rect x="0" y="14" width="3" height="172" rx="1.5" fill="#f59e0b" opacity="0.9" filter="url(#glow-Claude Pinger)"/>
+
+  <!-- Category metadata tag above the title -->
+  <text x="51" y="22" font-family="'Courier New', monospace" font-size="8.5" font-weight="900" fill="#f59e0b" letter-spacing="1.8" opacity="0.6">// CLOUD &AMP; ANDROID</text>
+
+  <!-- Tech icon -->
+  <g transform="translate(28, 28) scale(0.625)"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0007.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0007.5511-.4482.9997-.9993.9997M17.184 10.077c-.091-.1544-.1988-.3003-.3193-.4348l2.1055-3.6487c.1105-.1921.0475-.4376-.1445-.5482-.1921-.1105-.4376-.0475-.5482.1445l-2.1328 3.6937C15.2078 8.7705 13.7082 8.2374 12 8.2374c-1.7082 0-3.2078.5331-4.1547 1.3691L5.7125 5.9128C5.6019 5.7207 5.3564 5.6578 5.1643 5.7683c-.1921.1105-.255.356-.1445.5482l2.1055 3.6487c-.1205.1345-.2283.2804-.3193.4348C6.4293 10.8078 6.228 11.6975 6.228 12.6375h11.5443c0-.9399-.2013-1.8297-.5879-2.5609" fill="#3DDC84" opacity="0.85"/></g>
+
+  <!-- Project Name -->
+  <text x="51" y="44" font-family="'Segoe UI','Inter','SF Pro Display',-apple-system,sans-serif" font-size="17" font-weight="800" fill="#f8fafc" letter-spacing="0.4">Claude Pinger</text>
+
+  <!-- Status badge -->
+  <rect x="673" y="23" width="99" height="22" rx="11" fill="#00ff88" fill-opacity="0.12" stroke="#00ff88" stroke-width="0.75" stroke-opacity="0.4"/>
+  <circle cx="685" cy="34" r="2.8" fill="#00ff88" filter="url(#glow-Claude Pinger)"/>
+  <text x="695" y="37.5" font-family="'Segoe UI','Inter','Courier New',monospace" font-size="9" font-weight="700" fill="#00ff88" letter-spacing="1.1">AUTONOMOUS</text>
+
+  <!-- Description -->
+  <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Serverless Cloudflare Worker scheduler and native Android telemetry companion (ClaudePulse)</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">engineered to maintain uninterrupted Claude.ai 5-hour rolling limits. Features dual-account</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">staggered cron jobs with a +2 minute safe buffer, headless Puppeteer bot evasion to bypass</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack Compose home-screen</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
+
+  <!-- Tech tags -->
+  <g><rect x="28" y="163" width="132.8" height="17" rx="8.5" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.35"/><text x="94.4" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="600">Cloudflare Workers</text></g>
+  <g><rect x="166.8" y="163" width="73.4" height="17" rx="8.5" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.35"/><text x="203.5" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="600">Puppeteer</text></g>
+  <g><rect x="246.20000000000002" y="163" width="53.599999999999994" height="17" rx="8.5" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.35"/><text x="273" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="600">Kotlin</text></g>
+  <g><rect x="305.8" y="163" width="113" height="17" rx="8.5" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.35"/><text x="362.3" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="600">Jetpack Compose</text></g>
+  <g><rect x="424.8" y="163" width="60.199999999999996" height="17" rx="8.5" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.35"/><text x="454.90000000000003" y="175" text-anchor="middle" font-family="'Segoe UI','Inter',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="600">Android</text></g>
+
+  <!-- Source repo name at bottom right -->
+  <text x="772" y="174" text-anchor="end" font-family="'Courier New','Segoe UI',monospace" font-size="9" fill="#f59e0b" letter-spacing="0.5" font-weight="700" opacity="0.8">SHLOKKOKK/CLAUDE-PINGER</text>
+  <text x="772" y="190" text-anchor="end" font-family="'Segoe UI','Inter',monospace" font-size="8.5" fill="#475569">system_active // src</text>
+</svg>

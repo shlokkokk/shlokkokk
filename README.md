@@ -296,6 +296,24 @@
 <a href="https://shlokkokk.github.io/cyberGuard/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-demo.svg" height="26" /></a>
 <br><br>
 
+<!-- Project Babel -->
+<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel.svg" width="800" alt="Project Babel" /></a>
+<br>
+<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel-code.svg" height="26" /></a>
+<br><br>
+
+<!-- OPSEC Hardening Suite -->
+<a href="https://github.com/shlokkokk/opsec-hardening-suite" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/opsec-hardening-suite.svg" width="800" alt="OPSEC Hardening Suite" /></a>
+<br>
+<a href="https://github.com/shlokkokk/opsec-hardening-suite" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/opsec-hardening-suite-code.svg" height="26" /></a>
+<br><br>
+
+<!-- Claude Pinger -->
+<a href="https://github.com/shlokkokk/claude-pinger" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/claude-pinger.svg" width="800" alt="Claude Pinger" /></a>
+<br>
+<a href="https://github.com/shlokkokk/claude-pinger" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/claude-pinger-code.svg" height="26" /></a>
+<br><br>
+
 <!-- CyberForge-Atlas -->
 <a href="https://github.com/shlokkokk/CyberForge-Atlas" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberforge-atlas.svg" width="800" alt="CyberForge-Atlas" /></a>
 <br>
