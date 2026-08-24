@@ -1,14 +1,9 @@
 <!-- "Carpe Diem. Seize the day, boys. Make your lives extraordinary." -->
 <!-- SNAPSHOT: pre-project-redesign -->
 
-<!-- Animated Header Banner -->
+<!-- Terminal Neofetch Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00f0ff,100:b829dd&height=250&section=header&text=Shlok&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Full-Stack%20Engineering%20in%20Progress&descSize=20&descAlignY=55" />
-</div>
-
-<!-- Typing Animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=Learning+to+Hack.+Hacking+to+Learn.;IT+Student+%7C+Cybersecurity+Enthusiast;Carpe+Diem.+Seize+the+Day.;Welcome+to+my+Digital+Fortress+%F0%9F%8F%B0" alt="Typing Animation" />
+  <img alt="Shlok Shah Terminal Header" src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/assets/dark.svg" width="100%">
 </div>
 
 <br>
