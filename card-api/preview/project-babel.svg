@@ -52,9 +52,9 @@
 
   <!-- Description -->
   <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">19. Translates target intelligence into hundreds of thousands of targeted password permutations in</text>
-  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">milliseconds using a 27-engine orchestrator executing 100% within local client memory. Computes</text>
-  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">19. Ingests over 120 target intelligence data points across 15 profiling stages to generate hundreds</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">of thousands of targeted permutations in milliseconds using a 27-engine orchestrator executing 100%</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">in-memory (V8 engine). Computes real-time Shannon Entropy, estimates multi-GPU crack times, and</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

@@ -264,6 +264,12 @@
 <a href="https://shell-stack.vercel.app/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/shellstack-demo.svg" height="26" /></a>
 <br><br>
 
+<!-- Project Babel -->
+<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel.svg" width="800" alt="Project Babel" /></a>
+<br>
+<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel-code.svg" height="26" /></a>
+<br><br>
+
 <!-- Interceptor -->
 <a href="https://github.com/shlokkokk/Interceptor" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/interceptor.svg" width="800" alt="Interceptor" /></a>
 <br>
@@ -294,12 +300,6 @@
 <a href="https://github.com/shlokkokk/cyberGuard" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-code.svg" height="26" /></a>
 &nbsp;&nbsp;
 <a href="https://shlokkokk.github.io/cyberGuard/" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/cyberguard-demo.svg" height="26" /></a>
-<br><br>
-
-<!-- Project Babel -->
-<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel.svg" width="800" alt="Project Babel" /></a>
-<br>
-<a href="https://github.com/shlokkokk/project-babel" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/project-babel-code.svg" height="26" /></a>
 <br><br>
 
 <!-- OPSEC Hardening Suite -->

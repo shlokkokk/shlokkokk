@@ -260,6 +260,28 @@
     ]
   },
   {
+    "slug": "project-babel",
+    "name": "Project Babel",
+    "icon": "typescript",
+    "iconColor": "#3178C6",
+    "accent": "#b829dd",
+    "status": "HIGH PERFORMANCE",
+    "statusColor": "#00ff88",
+    "category": "OSINT Wordlist Engine",
+    "featured": true,
+    "repo": "shlokkokk/project-babel",
+    "liveUrl": null,
+    "description": "High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React 19. Ingests over 120 target intelligence data points across 15 profiling stages to generate hundreds of thousands of targeted permutations in milliseconds using a 27-engine orchestrator executing 100% in-memory (V8 engine). Computes real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and John the Ripper rule-compliant formats.",
+    "tech": [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "OSINT",
+      "Hashcat",
+      "JtR"
+    ]
+  },
+  {
     "slug": "cyberforge-atlas",
     "name": "CyberForge-Atlas",
     "icon": "kalilinux",
@@ -340,28 +362,6 @@
     ]
   },
   {
-    "slug": "project-babel",
-    "name": "Project Babel",
-    "icon": "typescript",
-    "iconColor": "#3178C6",
-    "accent": "#b829dd",
-    "status": "HIGH PERFORMANCE",
-    "statusColor": "#00ff88",
-    "category": "OSINT Wordlist Engine",
-    "featured": false,
-    "repo": "shlokkokk/project-babel",
-    "liveUrl": null,
-    "description": "High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React 19. Translates target intelligence into hundreds of thousands of targeted password permutations in milliseconds using a 27-engine orchestrator executing 100% within local client memory. Computes real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and John the Ripper rule-compliant formats.",
-    "tech": [
-      "Next.js 15",
-      "React 19",
-      "TypeScript",
-      "OSINT",
-      "Hashcat",
-      "JtR"
-    ]
-  },
-  {
     "slug": "opsec-hardening-suite",
     "name": "OPSEC Hardening Suite",
     "icon": "linux",
@@ -373,7 +373,7 @@
     "featured": false,
     "repo": "shlokkokk/opsec-hardening-suite",
     "liveUrl": null,
-    "description": "Comprehensive Linux operational security and anti-forensics automation suite neutralizing 47 distinct attack vectors. Enforces system-wide transparent Tor routing with automated 10-second circuit rotations, hardware MAC and DMI UUID spoofing, kernel parameter sysctl hardening, automated secure RAM wiping (sdmem), and a 60-second forensic log purge daemon.",
+    "description": "Comprehensive Linux operational security and anti-forensics automation suite neutralizing 47 distinct attack vectors. Enforces system-wide transparent Tor routing with automated 10-second circuit rotations, hardware MAC and DMI UUID spoofing, kernel parameter sysctl hardening, automated secure RAM wiping (sdmem), an automated audit engine (status_check.sh), and a single-command recovery pipeline (reversal.sh).",
     "tech": [
       "Bash",
       "Linux Kernel",
@@ -395,7 +395,7 @@
     "featured": false,
     "repo": "shlokkokk/claude-pinger",
     "liveUrl": null,
-    "description": "Serverless Cloudflare Worker scheduler and native Android telemetry companion (ClaudePulse) engineered to maintain uninterrupted Claude.ai 5-hour rolling limits. Features dual-account staggered cron jobs with a +2 minute safe buffer, headless Puppeteer bot evasion to bypass Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack Compose home-screen PulseWidget.",
+    "description": "Serverless Cloudflare Worker scheduler and native Android telemetry companion (ClaudePulse) engineered to maintain uninterrupted Claude.ai 5-hour rolling limits. Features dual-account staggered cron jobs with a +2 minute safe buffer, Free-Tier 5-cron compression, headless Puppeteer bot evasion to bypass Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack Compose home-screen PulseWidget.",
     "tech": [
       "Cloudflare Workers",
       "Puppeteer",

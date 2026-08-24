@@ -53,8 +53,8 @@
   <!-- Description -->
   <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Serverless Cloudflare Worker scheduler and native Android telemetry companion (ClaudePulse)</text>
   <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">engineered to maintain uninterrupted Claude.ai 5-hour rolling limits. Features dual-account</text>
-  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">staggered cron jobs with a +2 minute safe buffer, headless Puppeteer bot evasion to bypass</text>
-  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack Compose home-screen</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">staggered cron jobs with a +2 minute safe buffer, Free-Tier 5-cron compression, headless Puppeteer</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">bot evasion to bypass Cloudflare Turnstile, ultra-low token prompt design, and an Android Jetpack</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>

@@ -52,7 +52,7 @@
 
   <!-- Description -->
   <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">offensive tools â€” ProjectDiscovery stack, ffuf, nuclei, dalfox â€” into a concurrent, multi-phase</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">offensive tools &#x2014; ProjectDiscovery stack, ffuf, nuclei, dalfox &#x2014; into a concurrent, multi-phase</text>
   <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure</text>
   <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a</text>
 

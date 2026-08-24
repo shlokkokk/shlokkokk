@@ -52,7 +52,7 @@
 
   <!-- Description -->
   <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">security tools â€” including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei â€” into a unified</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">security tools &#x2014; including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei &#x2014; into a unified</text>
   <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS</text>
   <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">resolution to port scanning, WAF detection, and vulnerability template execution, exporting all</text>
 
