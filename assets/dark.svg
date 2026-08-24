@@ -120,21 +120,21 @@
     <text x="0" y="312.00" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.50s;">=%%%%%%%%%%%%@@@@% @.  .:---=+-=-==++=+**++++**#%#%%%%###%%%%%@@@@@%%%%%%%%%@+@@%=---=++++++**+**** </text>
     <text x="0" y="317.20" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.52s;">=%%%%%%%@@@@@@@@  ## .------+======+===**#**#%%@@@@%***###%%%%@%@@@%%%%%%%%%@+%@@@@@@*+=+****++**** </text>
     <text x="0" y="322.40" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.54s;">=%%%%@@@@@@@      @@  :--=--===---==---*##*****+++==++*#%%%%%%@%%%%%%%%@%%%#@ =#@=+*%@@@#*++-::-++* </text>
-    <text x="0" y="327.60" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.57s;">+@@@@@@      :-   #@+ .----:-==:-====--*%@%*+++*##@%***%@@@%##%%%%@%@@@%##%#@ **@-+==@@*+=-@@@#*-:: </text>
-    <text x="0" y="332.80" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.59s;">@@@@#+  ==# .--.. .@@= ::--=-=-.=*===-:=#@@#**###%%=.-#@@@%*+#@@%%%%%%%##%%%@ %-@+=.-@@--:.@@@@@@@@:</text>
-    <text x="0" y="338.00" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.62s;">    .+ .=+%...=-:  @@@-:--=-:-.:+#=:--.-%@@@%##%##=  #@@@%+-=%@@%%#%%%%%%%%@@ @.@*= -@+:--.:@%+##%%.</text>
-    <text x="0" y="343.20" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.64s;"> **#@# +=%-:.:*-:  @@@%==---=-.-**+. ..-%@@@@%##=:. -@@@@+::=%@@@@%%#%%%##*@. @-@#* .#=:--. @@=+*%%.</text>
-    <text x="0" y="348.40" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.66s;"> ==*% .@=# :.-#-.. *@@@*+++*++*#%##@*   +@@@%#*- :..@@@#**++*@@@@%##%#####*@ :#.%*@: =+-:.. @@++**#.</text>
-    <text x="0" y="353.60" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.69s;"> ==#@ +%+- ..:+-.. :@@==*+++=+*===+#@@- .@@@@@%+-:.#%: .=##@%%%#######****%@ @@#.=@#.:.-=:. +@*-+*# </text>
-    <text x="0" y="358.80" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.71s;"> =+%= %-* ::.:-- ::.@= .===--::...=*@@@=.*@@@@#=..=*---==+#%%#%%#####*##*#@  @#@ +@%== :#:.. @@==++ </text>
-    <text x="0" y="364.00" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.74s;"> +#@ :@-% -..-:-..: -@..==+-:-----=*#%@#=+@@%=---=++-.. .+*####***##****#@@ #*=@ =@@++..@=.: @@==++ </text>
-    <text x="0" y="369.20" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.76s;"> *@@ *-#- -..=::- :: @% ..-::-===+**#%#*+==++=====+=---::=++++++****+*#*%@  @-@@  @@#+. #*...*@==++ </text>
-    <text x="0" y="374.40" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.78s;"> #@: *-% :-. +:.-:-. -@+.::=++*********++=-=====+====----======+**+++***@ :@%=@#. %@%*. #%.:..@+-+* </text>
+    <text x="0" y="327.60" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.57s;">+@@@@@@      :-       .----:-==:-====--*%@%*+++*##@%***%@@@%##%%%%@%@@@%##%#@ **@-+==@@*+=-@@@#*-:: </text>
+    <text x="0" y="332.80" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.59s;">@@@@#+  ..   .--..  ..- ::--=-=-.=*===-:=#@@#**###%%=.-#@@@%*+#@@%%%%%%%##%%%@ %-@+=.-@@@@@@@@@@@@@@@@:</text>
+    <text x="0" y="338.00" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.62s;">    .+ .--....=-:  ..- -:--=-:-.:+#=:--.-%@@@%##%##=  #@@@%+-=%@@%%#%%%%%%%%@@ @.@*= -@@@@@@@@@@%+##%%.</text>
+    <text x="0" y="343.20" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.64s;">  ....  .--:..:*-:  ..- ==---=-.-**+. ..-%@@@@%##=:. -@@@@+::=%@@@@%%#%%%##*@. @-@#* .@@@@@@@@@@@=+*%%.</text>
+    <text x="0" y="348.40" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.66s;">  ..-.  ..- :.-#-.. ... -+++*++*#%##@*   +@@@%#*- :..@@@#**++*@@@@%##%#####*@ :#.%*@: =@@@@@@@@@@++**#.</text>
+    <text x="0" y="353.60" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.69s;">  ..-.  ..- ..:+-.. ... ..*+++=+*===+#@@- .@@@@@%+-:.#%: .=##@%%%#######****%@ @@#.=@#.:.@@@@@@+@*-+*# </text>
+    <text x="0" y="358.80" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.71s;">  ..-.  ..- ::.:-- ::..  .===--::...=*@@@=.*@@@@#=..=*---==+#%%#%%#####*##*#@  @#@ +@%== :#:.. @@==++ </text>
+    <text x="0" y="364.00" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.74s;">  ..-   ..- -..-:-..: ..  ==+-:-----=*#%@#=+@@%=---=++-.. .+*####***##****#@@ #*=@ =@@++..@=.: @@==++ </text>
+    <text x="0" y="369.20" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.76s;">  ..-   ..- -..=::- :: .. ..-::-===+**#%#*+==++=====+=---::=++++++****+*#*%@  @-@@  @@#+. #*...*@==++ </text>
+    <text x="0" y="374.40" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.78s;">  ...   ..- :-. +:.-:-. ... .::=++*********++=-=====+====----======+**+++***@ :@%=@#. %@%*. #%.:..@+-+* </text>
     <text x="0" y="379.60" class="ascii-art" style="animation: printItem 15.0s both infinite; animation-delay: 1.81s;">                       #                                                     .     .          -      </text>
   </g>
 
   <!-- Right: Clean Neofetch Info Column -->
-  <g transform="translate(329, 52)" class="term-text">
+  <g transform="translate(337, 52)" class="term-text">
     <!-- Header: - shlokkokk@github -->
     <g class="term-el" style="animation: printItem 15.0s both infinite; animation-delay: 0.15s;">
       <text x="0" y="26" class="header-title">- shlokkokk@github</text>

@@ -3,7 +3,7 @@
 
 <!-- Terminal Neofetch Header -->
 <div align="center">
-  <img alt="Shlok Shah Terminal Header" src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/assets/dark.svg" width="100%">
+  <img alt="Shlok Shah Terminal Header" src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/assets/dark.svg?v=2" width="100%">
 </div>
 
 <br>
