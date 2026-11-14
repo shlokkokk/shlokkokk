@@ -60,8 +60,8 @@ jobs:
           if git status --porcelain | grep -q 'card-api/preview/'; then
             echo "✨ New or updated SVG card previews detected. Committing..."
             git add card-api/preview/
-            git pull --rebase origin main
             git commit -m "auto: regenerate card preview SVGs [skip ci]"
+            git pull --rebase origin main
             git push origin main
           else
             echo "⚡ No changes detected in SVG previews. Skipping commit."
