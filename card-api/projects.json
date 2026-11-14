@@ -1,24 +1,69 @@
 [
   {
-    "slug": "oculus",
-    "name": "Oculus",
-    "icon": "python",
-    "iconColor": "#3776AB",
-    "accent": "#00f0ff",
+    "slug": "chronicle",
+    "name": "Chronicle",
+    "icon": "typescript",
+    "iconColor": "#3178C6",
+    "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "Recon Engine",
+    "category": "AI Ops Platform",
     "featured": true,
-    "repo": "shlokkokk/Oculus",
+    "repo": "shlokkokk/Chronicle",
+    "liveUrl": "https://hack-baorda-web.vercel.app",
+    "description": "AI-native incident response and operational memory platform built for automated alert lifecycle management. Groups raw production system logs via signature-based deduplication algorithms, indexes incident resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host telemetry including CPU load, memory metrics, listening ports, and local container health.",
+    "tech": [
+      "Next.js 14",
+      "TypeScript",
+      "Express",
+      "Supabase",
+      "pgvector",
+      "Groq"
+    ]
+  },
+  {
+    "slug": "kavach",
+    "name": "KAVACH",
+    "icon": "react",
+    "iconColor": "#61DAFB",
+    "accent": "#00ff88",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Cyber Defense",
+    "featured": true,
+    "repo": "shlokkokk/kavach",
     "liveUrl": null,
-    "description": "Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard offensive tools — ProjectDiscovery stack, ffuf, nuclei, dalfox — into a concurrent, multi-phase execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a FastAPI + React dashboard with real-time streaming, session checkpointing, and push notifications.",
+    "description": "Multi-modal cyber fraud defense platform that breaks the modern attack chain at every stage simultaneously. Three real-time AI shields: Voice Shield analyzes 9 spectral features via librosa to detect deepfake audio; SIM Guard streams live WebSocket carrier telemetry via IPQualityScore to detect SIM-swap fraud; Job Shield runs a multi-layer forensic pipeline querying VirusTotal 75+ engines, Google Safe Browsing, URLHaus, AbuseIPDB, and SecurityTrails. Dual-LLM forensics via NVIDIA NIM and Groq LLaMA 3.3 70B.",
+    "tech": [
+      "React 19",
+      "Node.js",
+      "FastAPI",
+      "NVIDIA NIM",
+      "Groq",
+      "librosa"
+    ]
+  },
+  {
+    "slug": "curiocut",
+    "name": "CurioCut",
+    "icon": "python",
+    "iconColor": "#3776AB",
+    "accent": "#a855f7",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Generative Media Pipeline",
+    "featured": true,
+    "repo": "shlokkokk/CurioCut",
+    "liveUrl": null,
+    "description": "Autonomous zero-cost generative short-form video production and multi-platform distribution engine. Firing across three scheduled daily cron slots, it autonomously harvests topics, writes dual-character dialogue scripts using LLM reasoning models, voices them with Kokoro ONNX TTS, dispatches headless 3D renders to remote Kaggle GPU clusters, and burns word-level kinetic subtitles via Faster-Whisper. Auto-publishes to YouTube Shorts and Instagram Reels with 24/7 edge comment/DM automation and live Discord telemetry.",
     "tech": [
       "Python",
-      "FastAPI",
-      "React",
-      "Docker",
-      "Nuclei",
-      "ffuf"
+      "Cloudflare",
+      "Kaggle GPU",
+      "Kokoro TTS",
+      "Whisper",
+      "YouTube API",
+      "Instagram API"
     ]
   },
   {
@@ -45,28 +90,6 @@
     ]
   },
   {
-    "slug": "kavach",
-    "name": "KAVACH",
-    "icon": "react",
-    "iconColor": "#61DAFB",
-    "accent": "#00ff88",
-    "status": "OPERATIONAL",
-    "statusColor": "#00ff88",
-    "category": "Cyber Defense",
-    "featured": true,
-    "repo": "shlokkokk/kavach",
-    "liveUrl": null,
-    "description": "Multi-modal cyber fraud defense platform that breaks the modern attack chain at every stage simultaneously. Three real-time AI shields: Voice Shield analyzes 9 spectral features via librosa to detect deepfake audio; SIM Guard streams live WebSocket carrier telemetry via IPQualityScore to detect SIM-swap fraud; Job Shield runs a multi-layer forensic pipeline querying VirusTotal 75+ engines, Google Safe Browsing, URLHaus, AbuseIPDB, and SecurityTrails. Dual-LLM forensics via NVIDIA NIM and Groq LLaMA 3.3 70B.",
-    "tech": [
-      "React 19",
-      "Node.js",
-      "FastAPI",
-      "NVIDIA NIM",
-      "Groq",
-      "librosa"
-    ]
-  },
-  {
     "slug": "praxis",
     "name": "PRAXIS",
     "icon": "typescript",
@@ -89,46 +112,25 @@
     ]
   },
   {
-    "slug": "interceptor",
-    "name": "Interceptor",
-    "icon": "android",
-    "iconColor": "#3DDC84",
+    "slug": "oculus",
+    "name": "Oculus",
+    "icon": "python",
+    "iconColor": "#3776AB",
     "accent": "#00f0ff",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "Android App",
+    "category": "Recon Engine",
     "featured": true,
-    "repo": "shlokkokk/Interceptor",
+    "repo": "shlokkokk/Oculus",
     "liveUrl": null,
-    "description": "Android notification vault with hardware-backed biometric locking and rule-based suppression. Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists them in a Room database — all behind a biometric and credential authentication gate. A ConcurrentHashMap action cache enables quick-reply passthroughs. Rule builders create suppression schedules by active foreground package and time window.",
+    "description": "Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard offensive tools — ProjectDiscovery stack, ffuf, nuclei, dalfox — into a concurrent, multi-phase execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a FastAPI + React dashboard with real-time streaming, session checkpointing, and push notifications.",
     "tech": [
-      "Kotlin",
-      "Jetpack Compose",
-      "Room",
-      "BiometricPrompt",
-      "KeyStore"
-    ]
-  },
-  {
-    "slug": "chronicle",
-    "name": "Chronicle",
-    "icon": "typescript",
-    "iconColor": "#3178C6",
-    "accent": "#00ff88",
-    "status": "OPERATIONAL",
-    "statusColor": "#00ff88",
-    "category": "AI Ops Platform",
-    "featured": false,
-    "repo": "shlokkokk/Chronicle",
-    "liveUrl": "https://chronicle-io.vercel.app",
-    "description": "AI-native incident response and operational memory platform built for automated alert lifecycle management. Groups raw production system logs via signature-based deduplication algorithms, indexes incident resolutions using conversational context mapping, queries vector databases for historical outage postmortems, and monitors active host telemetry including CPU load, memory metrics, listening ports, and local container health.",
-    "tech": [
-      "Next.js 14",
-      "TypeScript",
-      "Express",
-      "Supabase",
-      "pgvector",
-      "Groq"
+      "Python",
+      "FastAPI",
+      "React",
+      "Docker",
+      "Nuclei",
+      "ffuf"
     ]
   },
   {
@@ -140,7 +142,7 @@
     "status": "LIVE DEMO",
     "statusColor": "#00f0ff",
     "category": "Threat Intel",
-    "featured": false,
+    "featured": true,
     "repo": "shlokkokk/zerorisk-sentinel",
     "liveUrl": "https://zerorisk-sentinel.vercel.app/",
     "description": "AI-powered hybrid security platform that orchestrates real-time threat intelligence and vulnerability analysis. Features a high-speed Python Flask backend that runs static binary inspection, APK Android permission forensics, and signature-based YARA scanning. Integrates Llama 3.3 70B via Groq to translate dense forensic reports into plain-English explanations. Includes interactive cybersecurity data visualizations using ECharts and automated HTML report generation.",
@@ -176,24 +178,67 @@
     ]
   },
   {
-    "slug": "periscope",
-    "name": "Periscope",
-    "icon": "python",
-    "iconColor": "#3776AB",
+    "slug": "shellstack",
+    "name": "ShellStack",
+    "icon": "react",
+    "iconColor": "#61DAFB",
     "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "Network Monitor",
+    "category": "Offensive Toolkit",
     "featured": false,
-    "repo": "shlokkokk/Periscope",
-    "liveUrl": null,
-    "description": "Advanced local port telemetry and network security diagnostics client for Windows. Monitors active TCP/UDP connections in real time, flags newly opened sockets, and applies local heuristics to detect suspicious process behavior. Runs asynchronous digital signature verification of binaries using a background PowerShell Authenticode worker, resolves external remote IPs to WHOIS geolocation maps, and streams Groq Llama 3.3 token diagnostics directly into a CustomTkinter GUI. Bundles into a standalone 25MB executable.",
+    "repo": "shlokkokk/ShellStack",
+    "liveUrl": "https://shell-stack.vercel.app/",
+    "description": "Immersive, terminal-inspired cybersecurity encyclopedia and offensive security workspace built with React, TypeScript, and Tailwind CSS. Unifies 280+ Kali Linux tools, 1,000+ commands, and 800+ flag references into interactive, parameterized command builders that generate live terminal strings. Features a complete study module covering 20 CEH v13 topics and a dense command cheat sheet console.",
     "tech": [
-      "Python",
-      "CustomTkinter",
-      "psutil",
-      "Groq",
-      "PyInstaller"
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "CEH v13"
+    ]
+  },
+  {
+    "slug": "project-babel",
+    "name": "Project Babel",
+    "icon": "typescript",
+    "iconColor": "#3178C6",
+    "accent": "#b829dd",
+    "status": "HIGH PERFORMANCE",
+    "statusColor": "#00ff88",
+    "category": "OSINT Wordlist Engine",
+    "featured": false,
+    "repo": "shlokkokk/project-babel",
+    "liveUrl": null,
+    "description": "High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React 19. Ingests over 120 target intelligence data points across 15 profiling stages to generate hundreds of thousands of targeted permutations in milliseconds using a 27-engine orchestrator executing 100% in-memory (V8 engine). Computes real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and John the Ripper rule-compliant formats.",
+    "tech": [
+      "Next.js 15",
+      "React 19",
+      "TypeScript",
+      "OSINT",
+      "Hashcat",
+      "JtR"
+    ]
+  },
+  {
+    "slug": "interceptor",
+    "name": "Interceptor",
+    "icon": "android",
+    "iconColor": "#3DDC84",
+    "accent": "#00f0ff",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Android App",
+    "featured": false,
+    "repo": "shlokkokk/Interceptor",
+    "liveUrl": null,
+    "description": "Android notification vault with hardware-backed biometric locking and rule-based suppression. Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists them in a Room database — all behind a biometric and credential authentication gate. A ConcurrentHashMap action cache enables quick-reply passthroughs. Rule builders create suppression schedules by active foreground package and time window.",
+    "tech": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Room",
+      "BiometricPrompt",
+      "KeyStore"
     ]
   },
   {
@@ -239,105 +284,24 @@
     ]
   },
   {
-    "slug": "shellstack",
-    "name": "ShellStack",
-    "icon": "react",
-    "iconColor": "#61DAFB",
+    "slug": "periscope",
+    "name": "Periscope",
+    "icon": "python",
+    "iconColor": "#3776AB",
     "accent": "#00ff88",
     "status": "OPERATIONAL",
     "statusColor": "#00ff88",
-    "category": "Offensive Toolkit",
+    "category": "Network Monitor",
     "featured": false,
-    "repo": "shlokkokk/ShellStack",
-    "liveUrl": "https://shell-stack.vercel.app/",
-    "description": "Immersive, terminal-inspired cybersecurity encyclopedia and offensive security workspace built with React, TypeScript, and Tailwind CSS. Unifies 280+ Kali Linux tools, 1,000+ commands, and 800+ flag references into interactive, parameterized command builders that generate live terminal strings. Features a complete study module covering 20 CEH v13 topics and a dense command cheat sheet console.",
-    "tech": [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Tailwind CSS",
-      "CEH v13"
-    ]
-  },
-  {
-    "slug": "project-babel",
-    "name": "Project Babel",
-    "icon": "typescript",
-    "iconColor": "#3178C6",
-    "accent": "#b829dd",
-    "status": "HIGH PERFORMANCE",
-    "statusColor": "#00ff88",
-    "category": "OSINT Wordlist Engine",
-    "featured": true,
-    "repo": "shlokkokk/project-babel",
+    "repo": "shlokkokk/Periscope",
     "liveUrl": null,
-    "description": "High-performance OSINT wordlist generator and target profiling engine built on Next.js 15 and React 19. Ingests over 120 target intelligence data points across 15 profiling stages to generate hundreds of thousands of targeted permutations in milliseconds using a 27-engine orchestrator executing 100% in-memory (V8 engine). Computes real-time Shannon Entropy, estimates multi-GPU crack times, and exports directly to Hashcat and John the Ripper rule-compliant formats.",
-    "tech": [
-      "Next.js 15",
-      "React 19",
-      "TypeScript",
-      "OSINT",
-      "Hashcat",
-      "JtR"
-    ]
-  },
-  {
-    "slug": "cyberforge-atlas",
-    "name": "CyberForge-Atlas",
-    "icon": "kalilinux",
-    "iconColor": "#557C94",
-    "accent": "#00f0ff",
-    "status": "OFFLINE AVAIL",
-    "statusColor": "#00f0ff",
-    "category": "Knowledge Base",
-    "featured": false,
-    "repo": "shlokkokk/CyberForge-Atlas",
-    "liveUrl": null,
-    "description": "A high-performance offensive intelligence matrix designed for air-gapped or restricted security environments. Aggregates and indices data from popular security repositories (such as PayloadsAllTheThings) into a lightning-fast offline search vault. Uses a custom React incremental rendering engine to ensure 0ms latency when browsing hundreds of credential-fingerprinting commands, SaaS exploitation vectors, and cloud escalation techniques.",
-    "tech": [
-      "Markdown",
-      "Web",
-      "JavaScript"
-    ]
-  },
-  {
-    "slug": "open-ports-scanner",
-    "name": "Port Reaper",
-    "icon": "python",
-    "iconColor": "#3776AB",
-    "accent": "#ff4444",
-    "status": "HIGH SPEED",
-    "statusColor": "#ff0000",
-    "category": "Scanner",
-    "featured": false,
-    "repo": "shlokkokk/open-ports-scanner",
-    "liveUrl": null,
-    "description": "High-speed asynchronous network scanner and security auditor built with Python, Flask, and Docker. Performs full-range TCP/UDP scans (1-65535) utilizing an async execution loop for maximum throughput. Gathers service banners to identify server versions, calculates vulnerability risk scores (Low to Critical) for exposed ports, and renders findings in a cyberpunk terminal dashboard with automated PDF report generation.",
+    "description": "Advanced local port telemetry and network security diagnostics client for Windows. Monitors active TCP/UDP connections in real time, flags newly opened sockets, and applies local heuristics to detect suspicious process behavior. Runs asynchronous digital signature verification of binaries using a background PowerShell Authenticode worker, resolves external remote IPs to WHOIS geolocation maps, and streams Groq Llama 3.3 token diagnostics directly into a CustomTkinter GUI. Bundles into a standalone 25MB executable.",
     "tech": [
       "Python",
-      "Flask",
-      "HTML5",
-      "asyncio",
-      "Docker"
-    ]
-  },
-  {
-    "slug": "reconmaster",
-    "name": "ReconMaster",
-    "icon": "kalilinux",
-    "iconColor": "#557C94",
-    "accent": "#ffd700",
-    "status": "GUIDED WORKFLOW",
-    "statusColor": "#ffd700",
-    "category": "Recon",
-    "featured": false,
-    "repo": "shlokkokk/ReconMaster",
-    "liveUrl": null,
-    "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools — including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei — into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
-    "tech": [
-      "Bash",
-      "Python",
-      "Kali Linux"
+      "CustomTkinter",
+      "psutil",
+      "Groq",
+      "PyInstaller"
     ]
   },
   {
@@ -405,6 +369,66 @@
     ]
   },
   {
+    "slug": "cyberforge-atlas",
+    "name": "CyberForge-Atlas",
+    "icon": "kalilinux",
+    "iconColor": "#557C94",
+    "accent": "#00f0ff",
+    "status": "OFFLINE AVAIL",
+    "statusColor": "#00f0ff",
+    "category": "Knowledge Base",
+    "featured": false,
+    "repo": "shlokkokk/CyberForge-Atlas",
+    "liveUrl": null,
+    "description": "A high-performance offensive intelligence matrix designed for air-gapped or restricted security environments. Aggregates and indices data from popular security repositories (such as PayloadsAllTheThings) into a lightning-fast offline search vault. Uses a custom React incremental rendering engine to ensure 0ms latency when browsing hundreds of credential-fingerprinting commands, SaaS exploitation vectors, and cloud escalation techniques.",
+    "tech": [
+      "Markdown",
+      "Web",
+      "JavaScript"
+    ]
+  },
+  {
+    "slug": "osint-directory",
+    "name": "OSINT-Directory",
+    "icon": "github",
+    "iconColor": "#ffffff",
+    "accent": "#00ff88",
+    "status": "CURATED",
+    "statusColor": "#00ff88",
+    "category": "Resource Hub",
+    "featured": false,
+    "repo": "shlokkokk/OSINT-Directory",
+    "liveUrl": null,
+    "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite"
+    ]
+  },
+  {
+    "slug": "open-ports-scanner",
+    "name": "Port Reaper",
+    "icon": "python",
+    "iconColor": "#3776AB",
+    "accent": "#ff4444",
+    "status": "HIGH SPEED",
+    "statusColor": "#ff0000",
+    "category": "Scanner",
+    "featured": false,
+    "repo": "shlokkokk/open-ports-scanner",
+    "liveUrl": null,
+    "description": "High-speed asynchronous network scanner and security auditor built with Python, Flask, and Docker. Performs full-range TCP/UDP scans (1-65535) utilizing an async execution loop for maximum throughput. Gathers service banners to identify server versions, calculates vulnerability risk scores (Low to Critical) for exposed ports, and renders findings in a cyberpunk terminal dashboard with automated PDF report generation.",
+    "tech": [
+      "Python",
+      "Flask",
+      "HTML5",
+      "asyncio",
+      "Docker"
+    ]
+  },
+  {
     "slug": "mailguard",
     "name": "MailGuard",
     "icon": "nodedotjs",
@@ -424,22 +448,22 @@
     ]
   },
   {
-    "slug": "discord-askmebot",
-    "name": "AskMeBot",
-    "icon": "discord",
-    "iconColor": "#5865F2",
-    "accent": "#ff00ff",
-    "status": "AI ENABLED",
-    "statusColor": "#ff00ff",
-    "category": "Discord Bot",
+    "slug": "reconmaster",
+    "name": "ReconMaster",
+    "icon": "kalilinux",
+    "iconColor": "#557C94",
+    "accent": "#ffd700",
+    "status": "GUIDED WORKFLOW",
+    "statusColor": "#ffd700",
+    "category": "Recon",
     "featured": false,
-    "repo": "shlokkokk/discord-AskMeBot",
+    "repo": "shlokkokk/ReconMaster",
     "liveUrl": null,
-    "description": "Lightweight, feature-rich Discord assistant bot built with Python and Discord.py. Interfaces with OpenRouter AI models to enable conversational memory across the last 5 interactions. Implements native slash commands (including `/ask`, `/joke`, `/write`, `/fact`) for custom response generation, `/image` to trigger AI image synthesis, and `/meme` to pull popular reddit media feeds directly into servers.",
+    "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools — including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei — into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
     "tech": [
+      "Bash",
       "Python",
-      "Discord.py",
-      "AI APIs"
+      "Kali Linux"
     ]
   },
   {
@@ -462,23 +486,22 @@
     ]
   },
   {
-    "slug": "osint-directory",
-    "name": "OSINT-Directory",
-    "icon": "github",
-    "iconColor": "#ffffff",
-    "accent": "#00ff88",
-    "status": "CURATED",
-    "statusColor": "#00ff88",
-    "category": "Resource Hub",
+    "slug": "discord-askmebot",
+    "name": "AskMeBot",
+    "icon": "discord",
+    "iconColor": "#5865F2",
+    "accent": "#ff00ff",
+    "status": "AI ENABLED",
+    "statusColor": "#ff00ff",
+    "category": "Discord Bot",
     "featured": false,
-    "repo": "shlokkokk/OSINT-Directory",
+    "repo": "shlokkokk/discord-AskMeBot",
     "liveUrl": null,
-    "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
+    "description": "Lightweight, feature-rich Discord assistant bot built with Python and Discord.py. Interfaces with OpenRouter AI models to enable conversational memory across the last 5 interactions. Implements native slash commands (including `/ask`, `/joke`, `/write`, `/fact`) for custom response generation, `/image` to trigger AI image synthesis, and `/meme` to pull popular reddit media feeds directly into servers.",
     "tech": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Vite"
+      "Python",
+      "Discord.py",
+      "AI APIs"
     ]
   },
   {

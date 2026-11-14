@@ -209,16 +209,22 @@
 <a href="https://hack-baorda-web.vercel.app" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/chronicle-demo.svg" height="26" /></a>
 <br><br>
 
-<!-- Watchtower -->
-<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower.svg" width="800" alt="Watchtower" /></a>
-<br>
-<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower-code.svg" height="26" /></a>
-<br><br>
-
 <!-- KAVACH -->
 <a href="https://github.com/shlokkokk/kavach" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/kavach.svg" width="800" alt="KAVACH" /></a>
 <br>
 <a href="https://github.com/shlokkokk/kavach" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/kavach-code.svg" height="26" /></a>
+<br><br>
+
+<!-- CurioCut -->
+<a href="https://github.com/shlokkokk/CurioCut" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/curiocut.svg" width="800" alt="CurioCut" /></a>
+<br>
+<a href="https://github.com/shlokkokk/CurioCut" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/curiocut-code.svg" height="26" /></a>
+<br><br>
+
+<!-- Watchtower -->
+<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower.svg" width="800" alt="Watchtower" /></a>
+<br>
+<a href="https://github.com/shlokkokk/Watchtower" target="_blank"><img src="https://raw.githubusercontent.com/shlokkokk/shlokkokk/main/card-api/preview/watchtower-code.svg" height="26" /></a>
 <br><br>
 
 <!-- PRAXIS -->
@@ -384,6 +390,7 @@
 | 🏆 Achievement                                                           | 📅 Date  | 🔗 Verify                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🚀 **Certificate of Participation — Bharatiya Antariksh Hackathon 2026** (ISRO · Hack2skill) | Aug 2026 | <a href="https://certificate.hack2skill.com/verify/2026H2S06BAH-P27036" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
+| 🧬 **National Finalist — BIOTHON 2026** (Grand Finale · Bio-Hackathon)   | Jul 2026 | <a href="https://drive.google.com/file/d/1Xl6F5gU6n-g8m9F33-28Lskr_uFqX62j/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
 | 🛡️ **Certified LLM Security Expert (CLLMSE)** (Red Team Leaders)         | Jul 2026 | <a href="https://courses.redteamleaders.com/exam-completion/a88dd8cd3c2d98f4" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a>                                                                                                        |
 | 🤖 **Full MasterClass AI, RAG, Jailbreak Red Teaming 2026** (Udemy · Armaan Sidana) | Jul 2026 | <a href="https://ude.my/UC-44ce5321-76b5-44e7-92be-267c2084faf3" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a> |
 | 🧠 **What Is Generative AI?** (LinkedIn Learning · Microsoft)            | Jun 2026 | <a href="https://www.linkedin.com/learning/certificates/098319810ab84feb95f68475c3b771df7f39c66ffe5c2218845f902deb1be609?trk=share_certificate" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VERIFY-00ff88?style=flat-square&logo=gitbook&logoColor=black" /></a>                                     |
