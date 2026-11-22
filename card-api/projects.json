@@ -1,5 +1,28 @@
 [
   {
+    "slug": "mika",
+    "name": "Mika",
+    "icon": "android",
+    "iconColor": "#3DDC84",
+    "accent": "#6366f1",
+    "status": "OPEN SOURCE",
+    "statusColor": "#6366f1",
+    "category": "On-Device Android AI Agent",
+    "featured": true,
+    "repo": "wangzan101/Mika",
+    "liveUrl": "https://github.com/wangzan101/Mika/pulls?q=is%3Apr+author%3Ashlokkokk",
+    "codeLabel": "UPSTREAM",
+    "demoLabel": "VIEW PRS",
+    "description": "Core open-source contributor to an autonomous on-device Android AI agent executing multi-step workflows on isolated virtual displays without foreground UI interruption. Authored upstream PRs for dynamic API key pool auto-rotation on HTTP 429/401 errors, multi-model waterfall fallbacks, Cloudflare Workers AI edge presets, remote model discovery, and 13 global app knowledge profiles.",
+    "tech": [
+      "Android",
+      "Kotlin",
+      "AI Agents",
+      "Cloudflare AI",
+      "Resilience"
+    ]
+  },
+  {
     "slug": "chronicle",
     "name": "Chronicle",
     "icon": "typescript",
@@ -55,7 +78,7 @@
     "featured": true,
     "repo": "shlokkokk/CurioCut",
     "liveUrl": null,
-    "description": "Autonomous zero-cost generative short-form video production and multi-platform distribution engine. Firing across three scheduled daily cron slots, it autonomously harvests topics, writes dual-character dialogue scripts using LLM reasoning models, voices them with Kokoro ONNX TTS, dispatches headless 3D renders to remote Kaggle GPU clusters, and burns word-level kinetic subtitles via Faster-Whisper. Auto-publishes to YouTube Shorts and Instagram Reels with 24/7 edge comment/DM automation and live Discord telemetry.",
+    "description": "Autonomous zero-cost generative short-form video production and multi-platform distribution engine. Driven by configurable cron schedules and customizable content profiles, it autonomously harvests topics, writes dual-character dialogue scripts using LLM reasoning models, voices them with Kokoro ONNX TTS, dispatches headless 3D renders to remote Kaggle GPU clusters, and burns word-level kinetic subtitles via Faster-Whisper. Auto-publishes to YouTube Shorts and Instagram Reels with 24/7 edge comment/DM automation and live Discord telemetry.",
     "tech": [
       "Python",
       "Cloudflare",
@@ -101,7 +124,7 @@
     "featured": true,
     "repo": "shlokkokk/PRAXIS",
     "liveUrl": "https://praxis-hub.vercel.app",
-    "description": "AI-native financial simulator where you build a Financial Twin and navigate real-world crossroads. At every decision node, a Multi-Agent AI Council of three specialized agents — The Conservator, The Grower, The Behaviorist — independently analyze your scenario then debate each other across three phases: independent analysis, cross-examination, and synthesis with a confidence score. Every choice cascades through a 10-year projection and a 3D Financial Galaxy in Three.js with orbital physics tied to real-world asset volatility.",
+    "description": "AI-native financial simulator where you build a Financial Twin and navigate real-world crossroads. At every decision node, a Multi-Agent AI Council of three specialized agents â€” The Conservator, The Grower, The Behaviorist â€” independently analyze your scenario then debate each other across three phases: independent analysis, cross-examination, and synthesis with a confidence score. Every choice cascades through a 10-year projection and a 3D Financial Galaxy in Three.js with orbital physics tied to real-world asset volatility.",
     "tech": [
       "React 19",
       "TypeScript",
@@ -109,28 +132,6 @@
       "Three.js",
       "Groq",
       "Llama 3.3"
-    ]
-  },
-  {
-    "slug": "oculus",
-    "name": "Oculus",
-    "icon": "python",
-    "iconColor": "#3776AB",
-    "accent": "#00f0ff",
-    "status": "OPERATIONAL",
-    "statusColor": "#00ff88",
-    "category": "Recon Engine",
-    "featured": true,
-    "repo": "shlokkokk/Oculus",
-    "liveUrl": null,
-    "description": "Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard offensive tools — ProjectDiscovery stack, ffuf, nuclei, dalfox — into a concurrent, multi-phase execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a FastAPI + React dashboard with real-time streaming, session checkpointing, and push notifications.",
-    "tech": [
-      "Python",
-      "FastAPI",
-      "React",
-      "Docker",
-      "Nuclei",
-      "ffuf"
     ]
   },
   {
@@ -157,6 +158,50 @@
     ]
   },
   {
+    "slug": "oculus",
+    "name": "Oculus",
+    "icon": "python",
+    "iconColor": "#3776AB",
+    "accent": "#00f0ff",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Recon Engine",
+    "featured": true,
+    "repo": "shlokkokk/Oculus",
+    "liveUrl": null,
+    "description": "Automated attack-surface mapping and vulnerability orchestration engine. Chains 37 industry-standard offensive tools â€” ProjectDiscovery stack, ffuf, nuclei, dalfox â€” into a concurrent, multi-phase execution pipeline spanning the full pentest lifecycle: active and passive discovery, infrastructure mapping, parameter fuzzing, vulnerability scanning, and targeted exploitation. Managed via a FastAPI + React dashboard with real-time streaming, session checkpointing, and push notifications.",
+    "tech": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Docker",
+      "Nuclei",
+      "ffuf"
+    ]
+  },
+  {
+    "slug": "cura-ai",
+    "name": "Cura AI",
+    "icon": "nodedotjs",
+    "iconColor": "#339933",
+    "accent": "#00f0ff",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "MedTech AI",
+    "featured": false,
+    "repo": "shlokkokk/cura-ai",
+    "liveUrl": null,
+    "description": "AI-native virtual patient simulator built for clinical training. Implements a frameworkless Node.js backend routing conversations through a multi-model AI waterfall (Gemini, Groq, OpenAI, NVIDIA NIM) with secure scrypt-hashed user authentication and Supabase persistence. Evaluates student diagnostic reasoning, history-taking, and check-ups against structured medical rubrics, featuring a local keyword-mapped dialogue backup and faculty performance analytics dashboards.",
+    "tech": [
+      "Node.js",
+      "React",
+      "Gemini",
+      "Groq",
+      "Supabase",
+      "scrypt"
+    ]
+  },
+  {
     "slug": "swipeclean",
     "name": "SwipeClean",
     "icon": "electron",
@@ -175,6 +220,26 @@
       "TypeScript",
       "SQLite",
       "Framer Motion"
+    ]
+  },
+  {
+    "slug": "window-fx",
+    "name": "WindowFX Pro",
+    "icon": "github",
+    "iconColor": "#0078D6",
+    "accent": "#0078D6",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Win32 Systems Utility",
+    "featured": false,
+    "repo": "shlokkokk/window-fx",
+    "liveUrl": null,
+    "description": "Ultra-lightweight Windows desktop utility (<15MB RAM footprint, zero dependencies) interfacing directly with Win32 APIs (WS_EX_LAYERED, WS_EX_TRANSPARENT, WS_EX_TOPMOST) for granular window transparency, mouse click-through overlays, roll-up titlebar shading, borderless viewports, and DWM immersive dark styling.",
+    "tech": [
+      "AutoHotkey",
+      "Win32 API",
+      "DWM",
+      "Windows"
     ]
   },
   {
@@ -232,35 +297,13 @@
     "featured": false,
     "repo": "shlokkokk/Interceptor",
     "liveUrl": null,
-    "description": "Android notification vault with hardware-backed biometric locking and rule-based suppression. Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists them in a Room database — all behind a biometric and credential authentication gate. A ConcurrentHashMap action cache enables quick-reply passthroughs. Rule builders create suppression schedules by active foreground package and time window.",
+    "description": "Android notification vault with hardware-backed biometric locking and rule-based suppression. Built as a system NotificationListenerService in Kotlin, Interceptor silently captures target app notifications, encrypts them with AES via the Android KeyStore hardware-backed key, and persists them in a Room database â€” all behind a biometric and credential authentication gate. A ConcurrentHashMap action cache enables quick-reply passthroughs. Rule builders create suppression schedules by active foreground package and time window.",
     "tech": [
       "Kotlin",
       "Jetpack Compose",
       "Room",
       "BiometricPrompt",
       "KeyStore"
-    ]
-  },
-  {
-    "slug": "cura-ai",
-    "name": "Cura AI",
-    "icon": "nodedotjs",
-    "iconColor": "#339933",
-    "accent": "#00f0ff",
-    "status": "OPERATIONAL",
-    "statusColor": "#00ff88",
-    "category": "MedTech AI",
-    "featured": false,
-    "repo": "shlokkokk/cura-ai",
-    "liveUrl": null,
-    "description": "AI-native virtual patient simulator built for clinical training. Implements a frameworkless Node.js backend routing conversations through a multi-model AI waterfall (Gemini, Groq, OpenAI, NVIDIA NIM) with secure scrypt-hashed user authentication and Supabase persistence. Evaluates student diagnostic reasoning, history-taking, and check-ups against structured medical rubrics, featuring a local keyword-mapped dialogue backup and faculty performance analytics dashboards.",
-    "tech": [
-      "Node.js",
-      "React",
-      "Gemini",
-      "Groq",
-      "Supabase",
-      "scrypt"
     ]
   },
   {
@@ -281,6 +324,47 @@
       "Vite",
       "JavaScript",
       "AI APIs"
+    ]
+  },
+  {
+    "slug": "kaiv-site",
+    "name": "Kai-Vidhya",
+    "icon": "javascript",
+    "iconColor": "#F7DF1E",
+    "accent": "#F59E0B",
+    "status": "LIVE PRODUCTION",
+    "statusColor": "#00ff88",
+    "category": "Academic Portal Suite",
+    "featured": false,
+    "repo": "shlokkokk/KaiV-site",
+    "liveUrl": "https://kai-v-site.vercel.app",
+    "description": "Production multi-page web platform and portal suite for a premier commerce coaching institute in Vadodara. Features interactive CA/CS/CMA ranker performance analytics with Apache ECharts, student/teacher dashboard layouts, and a custom client-side guidance assistant.",
+    "tech": [
+      "JavaScript",
+      "Tailwind CSS",
+      "Anime.js",
+      "ECharts",
+      "Vercel"
+    ]
+  },
+  {
+    "slug": "freshbeatsbash",
+    "name": "Fresh Beats Bash",
+    "icon": "react",
+    "iconColor": "#61DAFB",
+    "accent": "#C8FF00",
+    "status": "LIVE PRODUCTION",
+    "statusColor": "#00ff88",
+    "category": "Event Experience Portal",
+    "featured": false,
+    "repo": "shlokkokk/freshbeatsbash",
+    "liveUrl": "https://freshbeatsbash.in",
+    "description": "Official live event portal developed for a 300+ attendee college festival and 20+ stage acts. Mobile-first architecture featuring an off-canvas Event Intel drawer, single-thumb floating dock, Lenis smooth scrolling, and sub-second load times engineered for congested venue cellular networks.",
+    "tech": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Lenis"
     ]
   },
   {
@@ -369,6 +453,27 @@
     ]
   },
   {
+    "slug": "karmaforge",
+    "name": "KarmaForge",
+    "icon": "python",
+    "iconColor": "#FF4500",
+    "accent": "#FF4500",
+    "status": "OPERATIONAL",
+    "statusColor": "#00ff88",
+    "category": "Autonomous Reddit Engine",
+    "featured": false,
+    "repo": "shlokkokk/Reddit",
+    "liveUrl": null,
+    "description": "Autonomous organic Reddit engagement engine engineered to build authentic comment karma across aged accounts. Scans 35+ rising feeds, scores submission velocity, uses linguistically calibrated persona modeling to match community tone, features a -2 auto-nuke downvote shield, and integrates a Discord approval bot.",
+    "tech": [
+      "Python",
+      "Gradio",
+      "Reddit API",
+      "NLP",
+      "WAL SQLite"
+    ]
+  },
+  {
     "slug": "cyberforge-atlas",
     "name": "CyberForge-Atlas",
     "icon": "kalilinux",
@@ -385,26 +490,6 @@
       "Markdown",
       "Web",
       "JavaScript"
-    ]
-  },
-  {
-    "slug": "osint-directory",
-    "name": "OSINT-Directory",
-    "icon": "github",
-    "iconColor": "#ffffff",
-    "accent": "#00ff88",
-    "status": "CURATED",
-    "statusColor": "#00ff88",
-    "category": "Resource Hub",
-    "featured": false,
-    "repo": "shlokkokk/OSINT-Directory",
-    "liveUrl": null,
-    "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
-    "tech": [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Vite"
     ]
   },
   {
@@ -429,25 +514,6 @@
     ]
   },
   {
-    "slug": "mailguard",
-    "name": "MailGuard",
-    "icon": "nodedotjs",
-    "iconColor": "#339933",
-    "accent": "#b829dd",
-    "status": "PRODUCTION",
-    "statusColor": "#b829dd",
-    "category": "Email Security",
-    "featured": false,
-    "repo": "shlokkokk/mailguard-email-security",
-    "liveUrl": null,
-    "description": "An explainable, rule-based email forensics and threat-detection dashboard. Analyzes raw email body content to calculate threat scores across multiple attack vectors: phishing links, financial scam keywords, spam characteristics, and social engineering urgency cues. Built on a modular, ML-ready architecture featuring locally persisted sensitivity controls and detailed visual threat-intelligence statistics.",
-    "tech": [
-      "Node.js",
-      "JavaScript",
-      "HTML5"
-    ]
-  },
-  {
     "slug": "reconmaster",
     "name": "ReconMaster",
     "icon": "kalilinux",
@@ -459,11 +525,31 @@
     "featured": false,
     "repo": "shlokkokk/ReconMaster",
     "liveUrl": null,
-    "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools — including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei — into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
+    "description": "A professional command-line reconnaissance orchestrator for Kali Linux. Chains 12+ industry-standard security tools â€” including Subfinder, Amass, Nmap, HTTPx, Katana, and Nuclei â€” into a unified execution framework. Automates the full discovery pipeline from subdomain enumeration and DNS resolution to port scanning, WAF detection, and vulnerability template execution, exporting all results into structured directories.",
     "tech": [
       "Bash",
       "Python",
       "Kali Linux"
+    ]
+  },
+  {
+    "slug": "osint-directory",
+    "name": "OSINT-Directory",
+    "icon": "github",
+    "iconColor": "#ffffff",
+    "accent": "#00ff88",
+    "status": "CURATED",
+    "statusColor": "#00ff88",
+    "category": "Resource Hub",
+    "featured": false,
+    "repo": "shlokkokk/OSINT-Directory",
+    "liveUrl": null,
+    "description": "A dense, searchable directory of Open Source Intelligence (OSINT) resources built on React, TypeScript, and Tailwind CSS. Organizes dozens of investigation tools by category (username search, geoint, email forensics, domain profiling). Provides lightning-fast client-side search indexing and a responsive, cybersecurity-themed UI to streamline research for investigators.",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite"
     ]
   },
   {
@@ -521,6 +607,25 @@
       "Python",
       "pynput",
       "SMTP"
+    ]
+  },
+  {
+    "slug": "mailguard",
+    "name": "MailGuard",
+    "icon": "nodedotjs",
+    "iconColor": "#339933",
+    "accent": "#b829dd",
+    "status": "PRODUCTION",
+    "statusColor": "#b829dd",
+    "category": "Email Security",
+    "featured": false,
+    "repo": "shlokkokk/mailguard-email-security",
+    "liveUrl": null,
+    "description": "An explainable, rule-based email forensics and threat-detection dashboard. Analyzes raw email body content to calculate threat scores across multiple attack vectors: phishing links, financial scam keywords, spam characteristics, and social engineering urgency cues. Built on a modular, ML-ready architecture featuring locally persisted sensitivity controls and detailed visual threat-intelligence statistics.",
+    "tech": [
+      "Node.js",
+      "JavaScript",
+      "HTML5"
     ]
   }
 ]

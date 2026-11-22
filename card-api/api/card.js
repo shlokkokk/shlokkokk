@@ -68,7 +68,7 @@ function generateButton(project, type) {
   const height = 28;
   const safeName = escapeXml(name);
   const isDemo = type === 'demo';
-  const label = isDemo ? 'LIVE DEMO' : 'VIEW CODE';
+  const label = isDemo ? (project.demoLabel || 'LIVE DEMO') : (project.codeLabel || 'VIEW CODE');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   <defs>

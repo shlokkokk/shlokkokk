@@ -52,9 +52,9 @@
 
   <!-- Description -->
   <text x="28" y="79" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Autonomous zero-cost generative short-form video production and multi-platform distribution engine.</text>
-  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Firing across three scheduled daily cron slots, it autonomously harvests topics, writes</text>
-  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">dual-character dialogue scripts using LLM reasoning models, voices them with Kokoro ONNX TTS,</text>
-  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">dispatches headless 3D renders to remote Kaggle GPU clusters, and burns word-level kinetic subtitles</text>
+  <text x="28" y="98" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">Driven by configurable cron schedules and customizable content profiles, it autonomously harvests</text>
+  <text x="28" y="117" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">topics, writes dual-character dialogue scripts using LLM reasoning models, voices them with Kokoro</text>
+  <text x="28" y="136" font-family="'Segoe UI','Inter',-apple-system,sans-serif" font-size="12" fill="#94a3b8" letter-spacing="0.05" opacity="0.9">ONNX TTS, dispatches headless 3D renders to remote Kaggle GPU clusters, and burns word-level kinetic</text>
 
   <!-- Divider -->
   <line x1="28" y1="154" x2="772" y2="154" stroke="#1e293b" stroke-width="0.75" opacity="0.5"/>
